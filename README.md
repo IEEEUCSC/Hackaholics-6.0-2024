@@ -1,4 +1,4 @@
-# Hackolics
+# Hackaholics_6.0
 
 ## Development
 
@@ -9,7 +9,7 @@
 1. Navigate to the frontend directory:
 
 ```bash
-cd frontend
+cd Frontend
 ```
 
 2. Install dependencies:
@@ -29,7 +29,7 @@ pnpm start
 1. Navigate to the backend directory:
 
 ```bash
-cd backend
+cd Backend
 ```
 
 2. Install dependencies:
