@@ -9,3 +9,6 @@
 #footerRights{
     color: #782A84!important;
 }
+#footerLogo{
+    cursor: pointer;
+}
