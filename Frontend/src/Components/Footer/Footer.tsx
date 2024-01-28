@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="text-xm text-cyan-950 mt-5 hover:text-red-100 text-center" id='footerRights'>
+        <p className="text-xm text-primary mt-5 hover:text-red-100 text-center">
           © {new Date().getFullYear()} IEEE- UCSC All rights reserved.
         </p>
       </div>
