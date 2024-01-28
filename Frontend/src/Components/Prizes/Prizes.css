@@ -1,6 +1,6 @@
 .prizeDiv{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background: linear-gradient(to bottom, #ffffff, #e0e1dd);
     display: flex;
     align-items: center;
@@ -102,3 +102,4 @@
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
     background: linear-gradient(to bottom, #ffffff, #e0e1dd);
 }
+
