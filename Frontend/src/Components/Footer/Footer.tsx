@@ -1,5 +1,5 @@
 import React from 'react';
-import ieeewiee from '../../Assets/Footer/ieee-wie.png';
+// import ieeewiee from '../../Assets/Footer/ieee-wie.png';
 import ucscwie from '../../Assets/Footer/wie-ucsc.png';
 
 const Footer = () => {
@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="text-xm text-cyan-950 mt-5 hover:text-red-100 text-center">
+        <p className="text-xm text-primary mt-5 hover:text-red-100 text-center">
           © {new Date().getFullYear()} IEEE- UCSC All rights reserved.
         </p>
       </div>
