@@ -1,5 +1,5 @@
 import React from 'react';
-import ieeewiee from '../../Assets/Footer/ieee-wie.png';
+// import ieeewiee from '../../Assets/Footer/ieee-wie.png';
 import ucscwie from '../../Assets/Footer/wie-ucsc.png';
 
 const Footer = () => {
