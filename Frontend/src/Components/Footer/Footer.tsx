@@ -1,6 +1,7 @@
 import React from 'react';
 // import ieeewiee from '../../Assets/Footer/ieee-wie.png';
 import ucscwie from '../../Assets/Footer/wie-ucsc.png';
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
               <img className="inline-block h-60 w-50 mt-1 ml-0.5 mr-0.5 rounded-full" src={ieeewiee} alt="wie-logo" />
             </div> */}
             <div className="flex items-center justify-center">
-              <img className="inline-block h-60 w-50 mt-1 ml-0.5 mr-0.5 rounded-full" src={ucscwie} alt="wie-logo" />
+              <img className="inline-block h-60 w-50 mt-1 ml-0.5 mr-0.5 rounded-full" src={ucscwie} alt="wie-logo" id='footerLogo'/>
             </div>
           </div>
 
