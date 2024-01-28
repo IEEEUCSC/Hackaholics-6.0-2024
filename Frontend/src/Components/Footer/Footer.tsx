@@ -21,27 +21,27 @@ const Footer = () => {
           <div className="flex flex-row justify-center my-4 space-x-12">
             <div>
               <a href="https://github.com/IEEEUCSC">
-                <div className="text-xl hover:text-violet-400 text-white text-center transition-transform transform hover:scale-110 capitalize hover:uppercase">Official WebSite</div>
+                <div className="text-xl hover:text-violet-400 text-white text-center transition-transform transform hover:scale-90 capitalize " id='footerLink'>Official WebSite</div>
               </a>
             </div>
             <div>
               <a href="https://github.com/IEEEUCSC">
-                <div className="text-xl hover:text-violet-400 text-white text-center transition-transform transform hover:scale-110 capitalize hover:uppercase">LinkedIn</div>
+                <div className="text-xl hover:text-violet-400 text-white text-center transition-transform transform hover:scale-90 capitalize "id='footerLink'>LinkedIn</div>
               </a>
             </div>
             <div>
               <a href="https://github.com/IEEEUCSC">
-                <div className="text-xl hover:text-violet-400 text-white text-center transition-transform transform hover:scale-110 capitalize hover:uppercase">Instagram</div>
+                <div className="text-xl hover:text-violet-400 text-white text-center transition-transform transform hover:scale-90 capitalize "id='footerLink'>Instagram</div>
               </a>
             </div>
             <div>
               <a href="https://github.com/IEEEUCSC">
-                <div className="text-xl text-slate-300 hover:text-indigo-300 text-white text-center capitalize hover:uppercase">FaceBook</div>
+                <div className="text-xl hover:text-violet-400 text-white text-center transition-transform transform hover:scale-90 capitalize "id='footerLink'>FaceBook</div>
               </a>
             </div>
           </div>
         </div>
-        <p className="text-xm text-cyan-950 mt-5 hover:text-red-100 text-center">
+        <p className="text-xm text-cyan-950 mt-5 hover:text-red-100 text-center" id='footerRights'>
           © {new Date().getFullYear()} IEEE- UCSC All rights reserved.
         </p>
       </div>
