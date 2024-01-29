@@ -1,3 +1,4 @@
+//@ts-ignore
 import { motion, useAnimation } from 'framer-motion';
 import { useEffect } from 'react';
 

@@ -5,12 +5,14 @@ import Navbar from './Components/NavBar/NavBar';
 import FAQ from './Components/FAQ/FAQ';
 import Sponsers from './Components/Sponsers/Sponsers';
 import Timeline from './Components/Timeline/Timeline';
+import Home from './Components/Home/Home';
 
 
 function App() {
   return (
     <div className="content">
       <Navbar />
+      <Home />
       <Sponsers />
       <Timeline/>
       <FAQ />
