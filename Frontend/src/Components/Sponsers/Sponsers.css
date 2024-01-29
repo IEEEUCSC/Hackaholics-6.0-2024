@@ -1,0 +1,41 @@
+.sponserDiv {
+  width: 100%;
+  height: 70vh;
+  background: linear-gradient(to bottom, #ffffff, #e0e1dd);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 150px;
+}
+
+.sponserHeading{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: #782A84;
+}
+
+.sponserContainor{
+    width: 85%;
+    height: 35vh;
+}
+.sponserComponentCarousel{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sponserComponent{
+    width: 16.67%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sponserComponent img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
