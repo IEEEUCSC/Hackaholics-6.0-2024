@@ -76,14 +76,14 @@
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 20px;
-    color: black;
+    color: white;
 }
 
 .prizeText{
     font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 20px;
-    color: black;
+    color: white;
 }
 .prizeHeading{
     font-size: 2.5rem;
@@ -98,7 +98,6 @@
     justify-content: center;
     flex-direction: column;
     padding: 25px;
-    background-color: white;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
-    background: linear-gradient(to bottom, #ffffff, #e0e1dd);
+    /* box-shadow: 0 0 10px 0 rgba(0,0,0,0.2); */
+    /* background: linear-gradient(to bottom, #ffffff, #e0e1dd); */
 }
