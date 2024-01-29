@@ -6,8 +6,8 @@ import Navbar from './Components/NavBar/NavBar';
 
 function App() {
   return (
-    <div className='content'>
-      <Navbar />
+   <div className='content'>
+    <Navbar />
     <Prizes />
     <Footer />
    </div>
