@@ -19,14 +19,14 @@
     width: 70%;
 }
 .expandedText{
-    color: white;
-}
-.expandedTextOdd{
     color: black;
 }
+.expandedTextOdd{
+    color: white;
+}
 .accordianHeadOdd{
-    color: black!important;
+    color: white!important;
 }
 .accordianHeadEven{
-    color: white;
+    color: black!important;
 }
