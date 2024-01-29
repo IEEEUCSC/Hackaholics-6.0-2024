@@ -1,10 +1,10 @@
-import React from 'react';
 import Footer from './Components/Footer/Footer';
 import Prizes from './Components/Prizes/Prizes';
 import './App.css';
 import Navbar from './Components/NavBar/NavBar';
 import FAQ from './Components/FAQ/FAQ';
 import Sponsers from './Components/Sponsers/Sponsers';
+import Timeline from './Components/Timeline/Timeline';
 
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
     <div className="content">
       <Navbar />
       <Sponsers />
+      <Timeline/>
       <FAQ />
       <Prizes />
       <Footer />
