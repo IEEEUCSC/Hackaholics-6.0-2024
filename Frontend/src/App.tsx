@@ -1,8 +1,8 @@
 import React from 'react';
 import Footer from './Components/Footer/Footer';
 import Prizes from './Components/Prizes/Prizes';
-import Navbar from './Components/NavBar/NavBar';
 import './App.css';
+import Navbar from './Components/NavBar/NavBar';
 
 function App() {
   return (
