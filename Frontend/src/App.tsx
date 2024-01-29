@@ -4,12 +4,14 @@ import Prizes from './Components/Prizes/Prizes';
 import './App.css';
 import Navbar from './Components/NavBar/NavBar';
 import FAQ from './Components/FAQ/FAQ';
+import Sponsers from './Components/Sponsers/Sponsers';
 
 
 function App() {
   return (
     <div className="content">
       <Navbar />
+      <Sponsers />
       <FAQ />
       <Prizes />
       <Footer />
