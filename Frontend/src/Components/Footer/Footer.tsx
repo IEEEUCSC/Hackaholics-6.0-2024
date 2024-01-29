@@ -22,17 +22,17 @@ const Footer = () => {
           <div className="flex flex-row justify-center space-x-20 mb-10 delay-[300ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0" data-taos-offset="400">
             <div className='box-borderbox-content w-20 pr-10'>
               <a href="https://github.com/IEEEUCSC">
-                <div className="text-xl hover:text-violet-400 text-white text-center transition-transform transform hover:scale-110 capitalize hover:uppercase">Official WebSite</div>
+                <div className="text-xl hover:text-violet-400 text-white text-center transition-transform transform hover:scale-100 capitalize hover:uppercase">WebSite</div>
               </a>
             </div>
             <div className='box-borderbox-content w-20 pr-10'>
               <a href="https://github.com/IEEEUCSC">
-                <div className="text-xl hover:text-violet-400 text-white text-center transition-transform transform hover:scale-110 capitalize hover:uppercase">LinkedIn</div>
+                <div className="text-xl hover:text-violet-400 text-white text-center transition-transform transform hover:scale-100 capitalize hover:uppercase">LinkedIn</div>
               </a>
             </div>
             <div className='box-borderbox-content w-20 pr-12'>
               <a href="https://github.com/IEEEUCSC">
-                <div className="text-xl hover:text-violet-400 text-white text-center transition-transform transform hover:scale-110 capitalize hover:uppercase">Instagram</div>
+                <div className="text-xl hover:text-violet-400 text-white text-center transition-transform transform hover:scale-100 capitalize hover:uppercase">Instagram</div>
               </a>
             </div>
             <div className='box-borderbox-content w-20 pr-10'>
