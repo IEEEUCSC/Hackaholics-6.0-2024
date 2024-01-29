@@ -1,0 +1,32 @@
+.faqHeading{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: white;
+}
+.faqDiv{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.faqContainor{
+    width: 70%;
+}
+.expandedText{
+    color: white;
+}
+.expandedTextOdd{
+    color: black;
+}
+.accordianHeadOdd{
+    color: black!important;
+}
+.accordianHeadEven{
+    color: white;
+}
