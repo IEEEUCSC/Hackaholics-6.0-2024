@@ -23,7 +23,7 @@ export default function Intro(){
                         
                 </div>
             <div className='Image'>
-                <img src={Image} alt="image" className='test'/>
+                <img src={Image} alt="Hackaholics 6.0 Introduction" className='test'/>
             </div>
         </div>
     
