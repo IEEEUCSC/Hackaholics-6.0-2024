@@ -10,8 +10,14 @@ module.exports = {
         secondary: '#18113A',
         tertiary: '#575254',
       },
+      fontFamily: {
+        'pfont': ['source-sans-pro'],
+        'sfont': ['raleway'],
+    },
+    letterSpacing: {
+      widestone: '.3em',
     },
   },
   plugins: [],
 }
-
+}
