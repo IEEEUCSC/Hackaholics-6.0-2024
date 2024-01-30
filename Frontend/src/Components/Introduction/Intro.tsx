@@ -1,5 +1,5 @@
 import './intro.scss'
-import Image from '../../Assets/test1.png'
+import Image from '../../Assets/Introduction/test1.png'
 import React from 'react';
 
 export default function Intro(){
