@@ -1,0 +1,53 @@
+.IntroHead{
+    color: White;
+    text-align: left;
+    text-transform: capitalize;
+    font-family:Source Sans Pro;
+    margin-inline-start: 50px;
+    margin-top: 80px;
+
+}
+
+body{
+    background-color:#782A84;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.Image{
+    margin-left:100px;
+    height:auto;
+    max-width: 100%;
+    margin-top: 200px;
+}
+
+.text{
+    margin-inline-start:100px;
+    float: left;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 50px;
+    color: White;
+}
+
+.Image{
+    float: right;
+    margin-inline-end: 50px;
+    margin-top: 20px;
+}
+
+.shape{
+    width:500px;
+    height:60px;
+    background-color: #f786da;
+    padding:20px ;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 25px;
+    border-style: double;
+    border-color: #ffffff;
+}
+
+
+
