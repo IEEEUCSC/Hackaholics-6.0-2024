@@ -5,22 +5,22 @@ const SponsersComponent = () => {
   return (
     <div className="sponserComponentCarousel">
       <div className="sponserComponent">
-        <img src={ucscwie}></img>
+        <img src={ucscwie} alt="UCSCWIE Logo"></img>
       </div>
       <div className="sponserComponent">
-        <img src={ucscwie}></img>
+        <img src={ucscwie} alt="UCSCWIE Logo"></img>
       </div>
       <div className="sponserComponent">
-        <img src={ucscwie}></img>
+        <img src={ucscwie} alt="UCSCWIE Logo"></img>
       </div>
       <div className="sponserComponent">
-        <img src={ucscwie}></img>
+        <img src={ucscwie} alt="UCSCWIE Logo"></img>
       </div>
       <div className="sponserComponent">
-        <img src={ucscwie}></img>
+        <img src={ucscwie} alt="UCSCWIE Logo"></img>
       </div>
       <div className="sponserComponent">
-        <img src={ucscwie}></img>
+        <img src={ucscwie} alt="UCSCWIE Logo"></img>
       </div>
     </div>
   );
