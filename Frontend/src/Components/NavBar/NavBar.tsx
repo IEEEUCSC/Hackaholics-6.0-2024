@@ -14,10 +14,10 @@ const Navbar: React.FC = () => {
 
     return (
         <div
-            className={`fixed top-0 w-screen bg-secondary z-10 ${isOpen ? "h-screen overflow-hidden" : ""
+            className={`fixed top-0 w-screen bg-secondary bg-opacity-90 z-10 ${isOpen ? "h-screen overflow-hidden" : ""
                 }`}
         >
-            <div className="flex flex-col md:flex-row justify-between items-right ml-0 md:ml-1 mr-1 md:mr-0 mb-0 px-2 md:px-9 py-3 md:py-5 place-items-start place-item">
+            <div className="flex flex-col md:flex-row justify-between items-right ml-0 md:ml-1 mr-1 md:mr-0 mb-0 px-2 md:px-9 py-3 md:py-5">
                 <div className="flex items-center">
                     <a href="https://github.com/IEEEUCSC" className="block md:hidden">
                         <img
@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
                     </div>
                 </div>
                 <div
-                    className={`md:flex flex-col md:flex-row md:space-y-0 space-y-2 text-xl bg-opacity-10 whitespace-nowrap ${isOpen ? "block bg-green-500" : "hidden"
+                    className={`md:flex flex-col md:flex-row md:space-y-0 space-y-2 text-xl bg-opacity-10 whitespace-nowrap ${isOpen ? "block border-2 border-gray-100 rounded-lg" : "hidden"
                         }`}
                 >
                     {[

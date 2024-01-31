@@ -6,8 +6,7 @@ import Home from './Components/Home/Home'
 import FAQ from './Components/FAQ/FAQ';
 import Sponsers from './Components/Sponsers/Sponsers';
 import Timeline from './Components/Timeline/Timeline';
-import Test from './Components/Footer/test';
-// import Test from './Components/Home/test' ;
+
 
 function App() {
   return (
@@ -19,8 +18,7 @@ function App() {
       <Timeline/>
       <FAQ /> 
       <Prizes />
-      <Test />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

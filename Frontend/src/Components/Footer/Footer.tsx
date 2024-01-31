@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
 
         <p className="text-xs md:text-sm text-primary mt-12 md:mt-4 mr-7 hover:text-red-100 text-center">
-          © {new Date().getFullYear()} IEEE- UCSC All rights reserved.
+          © {new Date().getFullYear()} IEEE - UCSC All rights reserved.
         </p>
       </div>
     </footer>
