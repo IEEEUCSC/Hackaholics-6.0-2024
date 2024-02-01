@@ -1,12 +1,13 @@
 .sponserDiv {
   width: 100%;
-  height: 70vh;
+  height: 50vh;
   background: linear-gradient(to bottom, #ffffff, #e0e1dd);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 150px;
+  padding-top: 50px;
+  /* padding-top: 150px; */
 }
 
 .sponserHeading{

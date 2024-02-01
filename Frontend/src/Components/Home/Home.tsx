@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
+//@ts-ignore
+import { motion, useAnimation } from 'framer-motion';
+import { useEffect } from 'react';
 
 const containerVariants = {
     hidden: { opacity: 0 },
