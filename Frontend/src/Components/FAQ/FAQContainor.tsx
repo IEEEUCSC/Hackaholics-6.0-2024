@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { styled } from '@mui/material/styles';
 import { ArrowForwardIosSharp } from '@mui/icons-material';
 import MuiAccordion, { AccordionProps } from '@mui/material/Accordion';
