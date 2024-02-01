@@ -7,6 +7,7 @@ import FAQ from './Components/FAQ/FAQ';
 import Sponsers from './Components/Sponsers/Sponsers';
 import Timeline from './Components/Timeline/Timeline';
 import Intro from './Components/Introduction/Intro';
+import ContactUs from './Components/ContactUs/ContactUs';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Timeline/>
       <FAQ /> 
       <Prizes />
+      <ContactUs />
       <Footer />
     </div>
   );
