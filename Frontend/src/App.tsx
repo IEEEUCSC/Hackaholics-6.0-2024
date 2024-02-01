@@ -6,7 +6,6 @@ import Home from './Components/Home/Home'
 import FAQ from './Components/FAQ/FAQ';
 import Sponsers from './Components/Sponsers/Sponsers';
 import Timeline from './Components/Timeline/Timeline';
-import Home from './Components/Home/Home';
 import Intro from './Components/Introduction/Intro';
 
 
