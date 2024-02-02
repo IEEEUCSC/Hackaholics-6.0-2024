@@ -3,7 +3,6 @@
     text-align: left;
     text-transform: capitalize;
     font-family:Source Sans Pro;
-    margin-inline-start: 50px;
     display: flex;
     align-items: center;
     justify-content:left;
@@ -11,9 +10,9 @@
 }
 .Intro{
     width: 100%;
-    height: 100vh;
-    background-color: #F5F5F5;
+    height: 60vh;
     padding-top: 50px;
+    background-color: #F5F5F5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +38,6 @@ body{
 }
 
 .text{
-    margin-inline-start:100px;
     float: left;
     text-align: justify;
     font-size: 20px;
@@ -50,7 +48,6 @@ body{
 
 .Image{
     float: right;
-    margin-inline-end: 50px;
 }
 
 .shape{
@@ -72,3 +69,33 @@ body{
 
 
 
+@media only screen and (max-width: 480px) {
+    .Intro{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .introDetailsAndImage{
+        flex-direction: column-reverse;
+    }
+    .text{
+        width: 70%;
+        font-size: 1rem;
+    }
+    .Image{
+        width: 90%;
+        margin: 0;
+    }
+    .faqImageContainor{
+        width: 100%;
+    }
+    .IntroHead{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .shape{
+        width: 85%;
+    }
+  }
