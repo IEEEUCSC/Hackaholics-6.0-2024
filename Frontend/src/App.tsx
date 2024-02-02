@@ -6,7 +6,7 @@ import './App.css';
 import Navbar from './Components/NavBar/NavBar';
 import Home from './Components/Home/Home';
 import FAQ from './Components/FAQ/FAQ';
-import Sponsers from './Components/Sponsers/Sponsers';
+// import Sponsers from './Components/Sponsers/Sponsers';
 import Timeline from './Components/Timeline/Timeline';
 import Intro from './Components/Introduction/Intro';
 import Registration from './Components/TeamRegistration/TeamRegi';
