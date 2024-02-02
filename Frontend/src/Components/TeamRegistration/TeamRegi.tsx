@@ -1,17 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import '../TeamRegistration/Registration.scss'
-import { Network, ResponseModel } from "../../Network";
+import { Network } from "../../Network";
 import Swal from 'sweetalert2';
 
-
 export default function Registration() {
-    const { register, handleSubmit,watch, formState: { errors }, reset } = useForm();
+    const { register, handleSubmit,watch, formState: { }, reset } = useForm();
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [teamMemberCount, setTeamMemberCount] = useState(2); // Default to 2 members
     const [teamMembers, setTeamMembers] = useState<any[]>(["member1", "member2"]);
 
-    const [slotsRemaining, setSlotsRemaining] = useState(0); 
+    // const [slotsRemaining, setSlotsRemaining] = useState(0); 
 
     // get from the form
     const [university, setUniversity] = useState("University of Colombo School of Computing");
@@ -85,7 +84,7 @@ if (teamMemberCount === 2) {
                             <div className="col-md-3 text-center">
                                 <div className="d-flex flex-column align-items-center">
 
-                                <a target="_blank">
+                                <a href="/" target="_blank">
                                     <button className="btn  btn-primary py-2 px-4 text-white">
                                         Delegate Book
                                     </button>

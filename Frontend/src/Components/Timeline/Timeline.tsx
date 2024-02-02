@@ -17,28 +17,28 @@ interface TimelineCardProps {
   position?: string;
 }
 
-const TimelineCard: React.FC<TimelineCardProps> = ({ timeline, position }) => (
-  <motion.div
-    initial={{ opacity: 0, y: 30 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true }}
-    transition={{ duration: 0.5 }}
-  >
-    <VerticalTimelineElement
-      contentArrowStyle={{ borderRight: "7px solid #782a84" }}
-      date={timeline.date}
-      iconStyle={{ background: timeline.iconBg }}
-      icon={<div></div>}
-      position={position}
-    >
-      <div>
-        <h3 className="text-white text-[24px] font-bold">{timeline.title}</h3>
-        <p className="text-secondary text-[16px] font-semibold"></p>
-      </div>
-      <ul className="mt-5 list-disc ml-5 space-y-2">{timeline.point}</ul>
-    </VerticalTimelineElement>
-  </motion.div>
-);
+// const TimelineCard: React.FC<TimelineCardProps> = ({ timeline, position }) => (
+//   <motion.div
+//     initial={{ opacity: 0, y: 30 }}
+//     whileInView={{ opacity: 1, y: 0 }}
+//     viewport={{ once: true }}
+//     transition={{ duration: 0.5 }}
+//   >
+//     <VerticalTimelineElement
+//       contentArrowStyle={{ borderRight: "7px solid #782a84" }}
+//       date={timeline.date}
+//       iconStyle={{ background: timeline.iconBg }}
+//       icon={<div></div>}
+//       position={position}
+//     >
+//       <div>
+//         <h3 className="text-white text-[24px] font-bold">{timeline.title}</h3>
+//         <p className="text-secondary text-[16px] font-semibold"></p>
+//       </div>
+//       <ul className="mt-5 list-disc ml-5 space-y-2">{timeline.point}</ul>
+//     </VerticalTimelineElement>
+//   </motion.div>
+// );
 
 const Timeline: React.FC = () => {
   let items = [

@@ -21,7 +21,7 @@ const FAQ = () => {
           <div
             className="faqImageContainor"
           >
-            <img src={img}></img>
+            <img src={img} alt="FAQ add"></img>
           </div>
           <FAQcomponent />
         </div>

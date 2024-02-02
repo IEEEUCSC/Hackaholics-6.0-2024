@@ -1,7 +1,6 @@
 export class Network {
     public static shared: Network = new Network();
     
-    constructor() {}
 
     public register(data: any): Promise<ResponseModel> {
         // return this.sendRequest('http://localhost:4011/api/register', 'POST', JSON.stringify(data));
