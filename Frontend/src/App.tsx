@@ -7,18 +7,23 @@ import FAQ from './Components/FAQ/FAQ';
 import Sponsers from './Components/Sponsers/Sponsers';
 import Timeline from './Components/Timeline/Timeline';
 
+import Particle from './Components/Particles/ParticleFile';
+
 
 function App() {
   return (
     <div className="content">
-      <Navbar />
-     
-      <Home />
+    
+    <Navbar />
+    <Particle />
+      {/* <Card /> */}
+      {/* <Navbar />
+      <Home />  
       <Sponsers />
       <Timeline/>
       <FAQ /> 
       <Prizes />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
