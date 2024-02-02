@@ -46,3 +46,24 @@
 .shape{
     border: 1px solid red;
 }
+
+@media only screen and (max-width: 480px) {
+    .faqDiv{
+        height: auto;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .divFaqAndImage{
+        flex-direction: column;
+    }
+    .shape{
+        width: 85%;
+    }
+    .FAQHead{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }

@@ -185,3 +185,8 @@
   /*# sourceMappingURL=Timeline.css.map */
 
   
+  @media only screen and (max-width: 480px) {
+    .timeline-4{
+      width: 100%;
+    }
+  }
