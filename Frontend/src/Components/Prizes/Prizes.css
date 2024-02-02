@@ -1,7 +1,7 @@
 .prizeDiv{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to bottom, #ffffff, #e0e1dd);
+    background: linear-gradient(to bottom, #18113A, #18113A);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,7 +89,7 @@
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 50px;
-    color: #782A84;
+    color: #ffffff;
 }
 
 .prizeDetailsContainor{

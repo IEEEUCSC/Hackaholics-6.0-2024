@@ -10,31 +10,21 @@ import Sponsers from './Components/Sponsers/Sponsers';
 import Timeline from './Components/Timeline/Timeline';
 import Intro from './Components/Introduction/Intro';
 import Registration from './Components/TeamRegistration/TeamRegi';
+import ContactUs from './Components/ContactUs/ContactUs';
+
 
 function App() {
   return (
-    <Router>
-      <div className="content">
-        <Navbar />
-        <Routes>
-          <Route path="/team" element={<Registration />} />
-          <Route
-            path="/*"
-            element={
-              <div>
-                <Home />
-                <Intro />
-                <Sponsers />
-                <Timeline />
-                <FAQ />
-                <Prizes />
-              </div>
-            }
-          />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <div className="content">
+      <Navbar />
+      <Home />
+      <Intro />
+      <Sponsers />
+      <Timeline/>
+      <FAQ /> 
+      <Prizes />
+      <Footer />
+    </div>
   );
 }
 
