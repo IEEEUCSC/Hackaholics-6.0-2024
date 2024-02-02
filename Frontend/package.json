@@ -24,6 +24,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.50.0",
     "react-router-dom": "^6.21.3",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "react-slideshow-image": "^4.3.0",
     "react-vertical-timeline-component": "^3.6.0",
@@ -59,6 +60,7 @@
   },
   "devDependencies": {
     "@types/aria-query": "^5.0.4",
+    "@types/react-router-hash-link": "^2.4.9",
     "@types/react-vertical-timeline-component": "^3.3.6",
     "tailwindcss": "^3.4.1"
   }
