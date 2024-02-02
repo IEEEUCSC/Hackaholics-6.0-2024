@@ -31,12 +31,9 @@ function App() {
         <Prizes />
         <ContactUs />
           </div>
-        } />
-
-      
+        } />     
       </Routes>
         </Router>
-
       <Footer />
     </div>
   );

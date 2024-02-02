@@ -1,6 +1,7 @@
 //@ts-ignore
 import { motion, useAnimation } from 'framer-motion';
 import { useEffect } from 'react';
+import "./Home.css";
 
 const containerVariants = {
     hidden: { opacity: 0 },
@@ -45,6 +46,7 @@ const Home = () => {
             initial="hidden"
             animate={controls}
             variants={containerVariants}
+            id='homeComponent'
         >
             <motion.div variants={textVariants}>
                 <div className="text-white font-sfont text-lg md:text-xl lg:text-2xl tracking-wide text-center hover:text-orange-100">
@@ -63,7 +65,7 @@ const Home = () => {
 
             <motion.div variants={textVariants}>
                 <div className="mt-2 md:mt-3 lg:mt-4">
-                    <h1 className="text-tertiary tracking-wide text-sm md:text-lg lg:text-2xl font-sfont text-center">
+                    <h1 className="text-white tracking-wide text-sm md:text-lg lg:text-2xl font-sfont text-center">
                         For the girls with innovative ideas
                     </h1>
                 </div>
@@ -78,7 +80,7 @@ const Home = () => {
                         >
                             <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg- opacity-[3%]"></span>
                             <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-purple-200 opacity-100 group-hover:-translate-x-8"></span>
-                            <span className="relative w-full text-left text-orange-100 transition-colors duration-200 ease-in-out group-hover:text-secondary tracking-wide font-bold">
+                            <span className="relative w-full text-left text-white-100 transition-colors duration-200 ease-in-out group-hover:text-secondary tracking-wide font-bold">
                                 Delegate Booklet
                             </span>
                             <span className="absolute inset-0 border-2 border-purple-100 rounded-full hover:font-bold tracking-wide"></span>
@@ -94,7 +96,7 @@ const Home = () => {
                         >
                             <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg- opacity-[3%]"></span>
                             <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-purple-200 opacity-100 group-hover:-translate-x-8"></span>
-                            <span className="relative w-full text-left text-orange-100 transition-colors duration-200 ease-in-out group-hover:text-secondary tracking-wide font-bold">
+                            <span className="relative w-full text-left text-white-100 transition-colors duration-200 ease-in-out group-hover:text-secondary tracking-wide font-bold">
                                 Register Now
                             </span>
                             <span className="absolute inset-0 border-2 border-purple-100 rounded-full hover:font-bold tracking-wide"></span>
