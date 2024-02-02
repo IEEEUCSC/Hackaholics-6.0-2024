@@ -3,7 +3,18 @@ import "./ContactUs.css";
 const ContactUs = () => {
   return (
     <div className="contactUsDiv">
-      <h1 className="contactUsHeading">Contact Us</h1>
+      <div className="contactUsHead">
+        <div
+          className="shape"
+          data-aos="zoom-in-right"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          <h1>
+            <span>Awards for Winners</span>
+          </h1>
+        </div>
+      </div>
       <div className="contactUsDivRow">
         <div className="contactUsColumn">
           <div className="ocPeopleImageDiv">
