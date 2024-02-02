@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
                         }`}
                 >
                     {[
-                        { label: "Home", link: "https://github.com/IEEEUCSC" },
+                        { label: "Home", link: "/" },
                         { label: "What is Hackaholics", link: "https://github.com/IEEEUCSC" },
                         { label: "Time Line", link: "https://github.com/IEEEUCSC" },
                         { label: "Prize", link: "https://github.com/IEEEUCSC" },
