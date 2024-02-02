@@ -1,85 +1,106 @@
-import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import TimelineDot from '@mui/lab/TimelineDot';
-import Typography from '@mui/material/Typography';
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from 'react-vertical-timeline-component';
 
 
-export default function CustomizedTimeline() {
+const CustomizedTimeline: React.FC = () => {
   return (
-    <Timeline position="alternate">
-      <TimelineItem>
-        <TimelineOppositeContent
-          sx={{ m: "auto 0" }}
-          align="right"
-          variant="body2"
-          color="white"
-        >
-          9:30 am
-        </TimelineOppositeContent>
-        <TimelineSeparator>
-          <TimelineConnector />
-          <TimelineDot>{/* <FastfoodIcon /> */}</TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <Typography variant="h6" component="span" color="white">
-            Eat
-          </Typography>
-          <Typography  color="white">Because you need strength</Typography>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineOppositeContent
-          sx={{ m: "auto 0" }}
-          variant="body2"
-          color="white"
-        >
-          10:00 am
-        </TimelineOppositeContent>
-        <TimelineSeparator>
-          <TimelineConnector />
-          <TimelineDot color="primary">{/* <LaptopMacIcon /> */}</TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <Typography variant="h6" component="span" color="white">
-            Code
-          </Typography>
-          <Typography color="white">Because it&apos;s awesome!</Typography>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineConnector />
-          <TimelineDot color="primary" variant="outlined">
-            {/* <HotelIcon /> */}
-          </TimelineDot>
-          <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <Typography variant="h6" component="span" color="white">
-            Sleep
-          </Typography>
-          <Typography  color="white">Because you need rest</Typography>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: "white" }} />
-          <TimelineDot color="secondary">{/* <RepeatIcon /> */}</TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: "12px", px: 2 }}>
-          <Typography variant="h6" component="span" color="white">
-            Repeat
-          </Typography>
-          <Typography color="white">Because this is the life you love!</Typography>
-        </TimelineContent>
-      </TimelineItem>
-    </Timeline>
+    <VerticalTimeline>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+        date="2011 - present"
+        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        // icon={<WorkIcon />}
+      >
+        <h3 className="vertical-timeline-element-title">Creative Director</h3>
+        <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+        <p>
+          Creative Direction, User Experience, Visual Design, Project
+          Management, Team Leading
+        </p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="2010 - 2011"
+        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        // icon={<WorkIcon />}
+      >
+        <h3 className="vertical-timeline-element-title">Art Director</h3>
+        <h4 className="vertical-timeline-element-subtitle">
+          San Francisco, CA
+        </h4>
+        <p>
+          Creative Direction, User Experience, Visual Design, SEO, Online
+          Marketing
+        </p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="2008 - 2010"
+        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        // icon={<WorkIcon />}
+      >
+        <h3 className="vertical-timeline-element-title">Web Designer</h3>
+        <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+        <p>User Experience, Visual Design</p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="2006 - 2008"
+        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        // icon={<WorkIcon />}
+      >
+        <h3 className="vertical-timeline-element-title">Web Designer</h3>
+        <h4 className="vertical-timeline-element-subtitle">
+          San Francisco, CA
+        </h4>
+        <p>User Experience, Visual Design</p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--education"
+        date="April 2013"
+        iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+        // icon={<SchoolIcon />}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Content Marketing for Web, Mobile and Social Media
+        </h3>
+        <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+        <p>Strategy, Social Media</p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--education"
+        date="November 2012"
+        iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+        // icon={<SchoolIcon />}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Agile Development Scrum Master
+        </h3>
+        <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+        <p>Creative Direction, User Experience, Visual Design</p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--education"
+        date="2002 - 2006"
+        iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+        // icon={<SchoolIcon />}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Bachelor of Science in Interactive Digital Media Visual Imaging
+        </h3>
+        <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+        <p>Creative Direction, Visual Design</p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+        // icon={<StarIcon />}
+      />
+    </VerticalTimeline>
   );
 }
+
+export default CustomizedTimeline;
