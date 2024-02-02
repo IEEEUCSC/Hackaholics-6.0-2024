@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b6921bb.css",
-    "main.js": "/static/js/main.774f864b.js",
+    "main.css": "/static/css/main.102a13e0.css",
+    "main.js": "/static/js/main.458c4612.js",
     "static/js/668.c45f489d.chunk.js": "/static/js/668.c45f489d.chunk.js",
     "static/media/astronut 5.png": "/static/media/astronut 5.5c65e9b6d27a213cc704.png",
     "static/media/astronut 1.png": "/static/media/astronut 1.2a53e035010728c26fe4.png",
     "static/media/wie-ucsc.png": "/static/media/wie-ucsc.786964085df71299e1f0.png",
     "static/media/as-lpgp.png": "/static/media/as-lpgp.86bde030f707bfbbbf21.png",
+    "static/media/NeueMachina-Regular.otf": "/static/media/NeueMachina-Regular.6c408aeebce449ab7d74.otf",
     "static/media/logo.png": "/static/media/logo.4d4f15f2566910abf167.png",
+    "static/media/Aquire-BW0ox.otf": "/static/media/Aquire-BW0ox.a37a828dd20a35dc68d2.otf",
+    "static/media/AquireBold-8Ma60.otf": "/static/media/AquireBold-8Ma60.cfc5ce07bacb3e5972c3.otf",
+    "static/media/AquireLight-YzE0o.otf": "/static/media/AquireLight-YzE0o.03035c58e93951e8d152.otf",
     "index.html": "/index.html",
-    "main.9b6921bb.css.map": "/static/css/main.9b6921bb.css.map",
-    "main.774f864b.js.map": "/static/js/main.774f864b.js.map",
+    "main.102a13e0.css.map": "/static/css/main.102a13e0.css.map",
+    "main.458c4612.js.map": "/static/js/main.458c4612.js.map",
     "668.c45f489d.chunk.js.map": "/static/js/668.c45f489d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b6921bb.css",
-    "static/js/main.774f864b.js"
+    "static/css/main.102a13e0.css",
+    "static/js/main.458c4612.js"
   ]
 }
