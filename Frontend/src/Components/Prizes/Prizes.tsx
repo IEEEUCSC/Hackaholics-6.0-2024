@@ -14,8 +14,8 @@ const Prizes = () => {
         </div>
         <div className="prizeColTwo">
           <div className="prizeDetailsContainor">
-            <h2 className="prizeTitle">1st Place</h2>
-            <h3 className="prizeText">Rs. 50,000</h3>
+            <h2 className="prizeTitle" id="prizeTitle">1st Place</h2>
+            <h3 className="prizeText" id="prizeText">Rs. 50,000</h3>
           </div>
         </div>
         <div className="prizeColThree">
