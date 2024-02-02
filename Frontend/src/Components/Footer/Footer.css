@@ -12,6 +12,9 @@
 #footerLogo {
   cursor: pointer;
 }
+#footerContainor{
+  background: linear-gradient(to bottom, #18113a, #18113a)!important;
+}
 
 @media only screen and (max-width: 480px) {
   #footerLinks {

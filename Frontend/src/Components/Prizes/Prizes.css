@@ -1,6 +1,6 @@
 .prizeDiv {
   width: 100%;
-  height: 100vh;
+  height: 83vh;
   background: linear-gradient(to bottom, #18113a, #18113a);
   display: flex;
   align-items: center;
@@ -16,9 +16,10 @@
 }
 .prizeColTwo {
   width: 30%;
-  height: 85%;
-  background-color: #f5f5f5;
-  color: black;
+  height: 70%;
+  /* background-color: #f5f5f5; */
+  background: linear-gradient(to bottom, #575254, #782a84);
+  color: white;
   margin: 20px;
   border-radius: 10px;
   transition-duration: 0.6s;
@@ -31,14 +32,13 @@
   background-position: center;
 }
 .prizeColTwo:hover {
-  height: 93%;
+  height: 80%;
   transition-duration: 0.6s;
 }
 .prizeColOne {
   width: 30%;
-  height: 85%;
-  background-color: #782a84;
-  margin: 20px;
+  height: 70%;
+  background: linear-gradient(to bottom, #575254, #782a84);  margin: 20px;
   border-radius: 10px;
   transition-duration: 0.6s;
   display: flex;
@@ -50,13 +50,13 @@
   background-position: center;
 }
 .prizeColOne:hover {
-  height: 93%;
+  height: 80%;
   transition-duration: 0.6s;
 }
 .prizeColThree {
   width: 30%;
-  height: 85%;
-  background-color: #782a84;
+  height: 70%;
+  background: linear-gradient(to bottom, #575254, #782a84);
   margin: 20px;
   border-radius: 10px;
   transition-duration: 0.6s;
@@ -69,7 +69,7 @@
   background-position: center;
 }
 .prizeColThree:hover {
-  height: 93%;
+  height: 80%;
   transition-duration: 0.6s;
 }
 .prizeTitle {
@@ -79,7 +79,7 @@
   color: white;
 }
 #prizeTitle {
-  color: black;
+  color: white;
 }
 .prizeText {
   font-size: 1.5rem;
@@ -88,7 +88,7 @@
   color: white;
 }
 #prizeText {
-  color: black;
+  color: white;
 }
 
 .prizeHeading {
