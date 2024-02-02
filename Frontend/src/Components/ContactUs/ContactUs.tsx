@@ -1,6 +1,6 @@
 import "./ContactUs.css";
 
-const FAQ = () => {
+const ContactUs = () => {
   return (
     <div className="contactUsDiv">
       <h1 className="contactUsHeading">Contact Us</h1>
@@ -109,4 +109,4 @@ const FAQ = () => {
     </div>
   );
 };
-export default FAQ;
+export default ContactUs;
