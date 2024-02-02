@@ -1,5 +1,5 @@
 // import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Footer from './Components/Footer/Footer';
 import Prizes from './Components/Prizes/Prizes';
 import './App.css';
@@ -11,12 +11,12 @@ import Timeline from './Components/Timeline/Timeline';
 import Intro from './Components/Introduction/Intro';
 import Registration from './Components/TeamRegistration/TeamRegi';
 import ContactUs from './Components/ContactUs/ContactUs';
+import "@fontsource/ibm-plex-mono"
 
 
 function App() {
   return (
     <div className="content">
-      <Router>
         <Navbar />       
       <Routes>
         <Route path="/team" element={<Registration />} />
@@ -33,7 +33,6 @@ function App() {
           </div>
         } />     
       </Routes>
-        </Router>
       <Footer />
     </div>
   );
