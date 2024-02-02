@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
         >
             <div className="flex flex-col lg:flex-row justify-between items-right ml-0 lg:ml-1 mr-1 md:mr-0 mb-0 px-2 md:px-9 py-3 md:py-5">
                 <div className="flex items-center">
-                    <a href="https://github.com/IEEEUCSC" className="block md:hidden">
+                    <a href="/" className="block md:hidden">
                         <img
                             className="relative inline-block h-20 ml-auto -mt-2"
                             src={mobileLogo}
@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
                         />
                     </a>
 
-                    <a href="https://github.com/IEEEUCSC" className="hidden md:block">
+                    <a href="/" className="hidden md:block">
                         <img
                             className="inline-block h-10 ml-2 mt-0 md:mr-10"
                             src={logo}
@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
                             className="relative rounded px-3 py-2 overflow-hidden group bg-secondary hover:bg-gradient-to-r hover:from-violet-700 hover:to-purple-900 text-white hover:ring-1 hover:ring-offset-1 hover:ring-white transition-all ease-out duration-500 md:align-middle md:items-center mx-auto"
                         >
                             <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-tertiary opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                            <span className="relative text-center">Register Now</span>
+                            <span className="relative text-center">Register</span>
                         </a>
                     )}
                 </div>
