@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8fd3847.css",
-    "main.js": "/static/js/main.bec67f46.js",
+    "main.css": "/static/css/main.fcf2f47f.css",
+    "main.js": "/static/js/main.f30756d0.js",
     "static/js/668.c45f489d.chunk.js": "/static/js/668.c45f489d.chunk.js",
     "static/media/astronut 5.png": "/static/media/astronut 5.5c65e9b6d27a213cc704.png",
     "static/media/astronut 1.png": "/static/media/astronut 1.2a53e035010728c26fe4.png",
@@ -19,12 +19,12 @@
     "static/media/ibm-plex-mono-cyrillic-ext-400-normal.woff": "/static/media/ibm-plex-mono-cyrillic-ext-400-normal.18dd695e5b1103c22279.woff",
     "static/media/ibm-plex-mono-vietnamese-400-normal.woff": "/static/media/ibm-plex-mono-vietnamese-400-normal.442fb799b2a313edbc10.woff",
     "index.html": "/index.html",
-    "main.e8fd3847.css.map": "/static/css/main.e8fd3847.css.map",
-    "main.bec67f46.js.map": "/static/js/main.bec67f46.js.map",
+    "main.fcf2f47f.css.map": "/static/css/main.fcf2f47f.css.map",
+    "main.f30756d0.js.map": "/static/js/main.f30756d0.js.map",
     "668.c45f489d.chunk.js.map": "/static/js/668.c45f489d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8fd3847.css",
-    "static/js/main.bec67f46.js"
+    "static/css/main.fcf2f47f.css",
+    "static/js/main.f30756d0.js"
   ]
 }
