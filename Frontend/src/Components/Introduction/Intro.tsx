@@ -13,13 +13,14 @@ export default function Intro() {
       </div>
       <div className="text">
         <p>
-          texttexttexttexttexttexttexttexttexttext
-          <br />
-          exttexttexttexttexttexttexttexttexttextt
-          <br />
-          texttexttexttexttexttexttexttexttexttext
-          <br />
-          texttexttexttexttexttexttexttexttexttext
+          Embark on a Journey of Empowerment and Innovation: Introducing
+          Hackaholics 6.0, the Premier Girls-Only Hackathon. A Confluence of
+          Brilliant Minds, this Event is a Platform for Women in Tech to
+          Showcase Their Skills, Ignite Creativity, and Forge Lasting
+          Connections. Join us in Fostering an Inclusive Space Where Ideas
+          Flourish, Innovation Prevails, and Women Lead the Way into the Future
+          of Technology. Together, Let's Shape the Next Frontier of Tech
+          Excellence
         </p>
       </div>
       <div className="Image">
