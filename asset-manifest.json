@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.bed9a73e.css",
-    "main.js": "/static/js/main.72b21547.js",
-    "static/js/668.1b006b9a.chunk.js": "/static/js/668.1b006b9a.chunk.js",
+    "main.css": "/static/css/main.9b6921bb.css",
+    "main.js": "/static/js/main.774f864b.js",
+    "static/js/668.c45f489d.chunk.js": "/static/js/668.c45f489d.chunk.js",
+    "static/media/astronut 5.png": "/static/media/astronut 5.5c65e9b6d27a213cc704.png",
+    "static/media/astronut 1.png": "/static/media/astronut 1.2a53e035010728c26fe4.png",
     "static/media/wie-ucsc.png": "/static/media/wie-ucsc.786964085df71299e1f0.png",
+    "static/media/as-lpgp.png": "/static/media/as-lpgp.86bde030f707bfbbbf21.png",
     "static/media/logo.png": "/static/media/logo.4d4f15f2566910abf167.png",
-    "static/media/test1.png": "/static/media/test1.e9d504e447183b764fbe.png",
     "index.html": "/index.html",
-    "main.bed9a73e.css.map": "/static/css/main.bed9a73e.css.map",
-    "main.72b21547.js.map": "/static/js/main.72b21547.js.map",
-    "668.1b006b9a.chunk.js.map": "/static/js/668.1b006b9a.chunk.js.map"
+    "main.9b6921bb.css.map": "/static/css/main.9b6921bb.css.map",
+    "main.774f864b.js.map": "/static/js/main.774f864b.js.map",
+    "668.c45f489d.chunk.js.map": "/static/js/668.c45f489d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bed9a73e.css",
-    "static/js/main.72b21547.js"
+    "static/css/main.9b6921bb.css",
+    "static/js/main.774f864b.js"
   ]
 }
