@@ -16,13 +16,27 @@ import ContactUs from './Components/ContactUs/ContactUs';
 function App() {
   return (
     <div className="content">
-      <Navbar />
-      <Home />
-      <Intro />
-      <Sponsers />
-      <Timeline/>
-      <FAQ /> 
-      <Prizes />
+      <Router>
+        <Navbar />       
+      <Routes>
+        <Route path="/team" element={<Registration />} />
+        
+        <Route path="/*" element={
+          <div>          
+            <Home />
+          <Intro />
+        <Sponsers />
+        <Timeline/>
+        <FAQ /> 
+        <Prizes />
+        <ContactUs />
+          </div>
+        } />
+
+      
+      </Routes>
+        </Router>
+
       <Footer />
     </div>
   );

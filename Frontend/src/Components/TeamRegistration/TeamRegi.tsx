@@ -28,15 +28,15 @@ export default function Registration() {
 
     useEffect(() => {
 if (teamMemberCount === 2) {   
-    setTeamMembers(["member1", "member2"]);
+    setTeamMembers(["member1"]);
 } else if (teamMemberCount === 3) {
-    setTeamMembers(["member1", "member2", "member3"]);
+    setTeamMembers(["member1", "member2"]);
 } 
 
     }, [teamMemberCount]);
 
     const onSubmit = async (data:any) => {
-        try {
+        try { 
             setIsSubmitting(true);
             let response = await Network.shared.register(data);
             Swal.fire({
@@ -47,9 +47,9 @@ if (teamMemberCount === 2) {
                 color: '#fff',
                 footer: '<a href="https://chat.whatsapp.com/LJ7CwK4eiRd3jkLntBfoj0" target="_blank"> Join our whatsapp group <br> <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"/></a>'
             });
-            // if (response.success) {
+            if (response.success) {
                 reset();
-            // }
+            }
         } catch (e) {
             console.log(e);
         } finally {
@@ -59,54 +59,46 @@ if (teamMemberCount === 2) {
 
 
     // get team count Network.shared.getTeamCount()
-    useEffect(() => {
-        const fetchData = async () => {
-            const result = await Network.shared.getTeamCount();
-            console.log(result);
-            setSlotsRemaining(result);
-        }
-        fetchData();
-    }
-    , []);
-
-
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         const result = await Network.shared.getTeamCount();
+    //         console.log(result);
+    //         setSlotsRemaining(result);
+    //     }
+    //     fetchData();
+    // }
+    // , []);
 
     return (
         <div className="site-section local-bootstrap reg-section">
 
             <div className="container">
-                {/* Link for Delegate book */}
-               
-
-                
-                </div>
-            <div className="container">
 
 
 
-                <h1 className='py-2'> Register for the MADHACK 3.0 hackathon</h1>
-
-
-                <div className="row py-4  justify-content-center">
+                <div className="row py-  justify-content-center">
                     <div className="col-md-12 aos-init aos-animate" data-aos="fade-up">
                         <div className="row form-group">
 
+                            <h1 className='row py-20' style={{ fontSize: '2rem', marginBottom: '2px' }}>Register for the HACKAHOLICS 6.0 hackathon</h1>
                             {/* display flex */}
-                            <div className="col-md-12 justify-content-center  
-                            d-flex flex-column align-items-center">
+                            <div className="col-md-3 text-center">
+                                <div className="d-flex flex-column align-items-center">
+
                                 <a target="_blank">
-                                    <button className="btn btn-primary py-2 px-4 text-white">
+                                    <button className="btn  btn-primary py-2 px-4 text-white">
                                         Delegate Book
                                     </button>
                                 </a>
                                 <div>
                                     <br></br>
                                 </div>
-                                <a  target="_blank">
+                                {/* <a  target="_blank">
                                     <button className="btn btn-primary py-2 px-4 text-red">
-                                        Registration close
+                                    Registration close
                                     </button>
-                                </a>
+                                </a> */}
+                                </div>
                             </div> 
                         </div>
                     </div>
@@ -117,17 +109,17 @@ if (teamMemberCount === 2) {
                     {slotsRemaining}
                 </span></h4> */}
 
-                <div className="row">
+                <div className="row" style={{ fontSize: '1.1rem' }}>
                     <div className="col-md-12 aos-init aos-animate" data-aos="fade-up">
                         {/* form disable if no slots remaining , add class to disable */}
                         {/* <form onSubmit={handleSubmit(onSubmit)}> */}
-                        <form onSubmit={handleSubmit(onSubmit)} > 
+                        <form onSubmit={handleSubmit(onSubmit)} className='form'> 
                         
 
                             {/* Team Information */}
                             <div className="row form-group">
                                 <div className="col-md-12">
-                                    <label htmlFor="team-name">Team Name</label>
+                                    <label htmlFor="team-name" className="form-label" style={{ fontSize: '1.5rem' }}>Team Name</label>
                                     <input type="text" id="team-name" className="form-control"
                                            {...register("teamName", { required: true })} />
                                 </div>
@@ -141,7 +133,7 @@ if (teamMemberCount === 2) {
 
                             <div className="row form-group">
                                 <div className="col-md-12">
-                                    <label htmlFor="university">University of study</label>
+                                    <label htmlFor="university" className="form-label" style={{ fontSize: '1.5rem' }}>University of study</label>
                                     <select id="university" className="form-control" defaultValue={"Other"} 
                                             {...register("university", {required: true})}>
                                         {/* <option value="" disabled selected>University *</option> */}
@@ -208,7 +200,7 @@ if (teamMemberCount === 2) {
                             {university === "Other" && (
                             <div className="row form-group">
                                 <div className="col-md-12">
-                                    <label htmlFor="other">University *</label>
+                                    <label htmlFor="other" className="form-label" style={{ fontSize: '1.5rem' }}>University *</label>
                                     <input type="text" id="other" className="form-control"
                                            {...register("other", { required: false })} />
                                 </div>
@@ -222,11 +214,11 @@ if (teamMemberCount === 2) {
                                 {/* Member */}
                                 
                                 <div className="col-md-12">
-                                    <label htmlFor="team-member-count">Number of Team Members</label>
+                                    <label htmlFor="team-member-count" className="form-label" style={{ fontSize: '1.5rem' }}>Number of Team Members</label>
                                     <select id="team-member-count" className="form-control"
                                             onChange={(e) => setTeamMemberCount(parseInt(e.target.value))}>
-                                        <option value={2}>3</option>
-                                        <option value={3}>4</option>
+                                        <option value={2}>2</option>
+                                        <option value={3}>3</option>
                                     </select>
                                 </div>
                             </div>
@@ -245,11 +237,11 @@ if (teamMemberCount === 2) {
                             )}
 
                             <div className="row form-group">
-                                <div className="col-md-12">
+                                <div className="col-md-12  text-center align-items-center" >
                                     <input type="submit"
                                            value={isSubmitting ? "Registering..." : "Register"}
                                            className={`btn btn-primary py-2 px-4 text-white ${isSubmitting ? 'btn-loading' : ''}`}
-                                           disabled={isSubmitting || slotsRemaining <= 0} />
+                                           disabled={isSubmitting} />
                                 </div>
                             </div>
                         </form>
@@ -264,9 +256,11 @@ if (teamMemberCount === 2) {
 function renderMemberFields(prefix:string, register:any) {
     return (
         <div className="row form-group">
+            <div style={{ fontSize: '1.5rem' }}>
             <h3>
                 {prefix === "leader" ? "Team Leader" : `Team Member ${prefix.replace("member", "")}`}
             </h3>
+            </div>
             <div className="col-md-6">
                 <label htmlFor={`${prefix}-name`}>Name</label>
                 <input type="text" id={`${prefix}-name`} className="form-control"
