@@ -25,7 +25,7 @@ function App() {
           <div>          
             <Home />
           <Intro />
-        <Sponsers />
+        {/* <Sponsers /> */}
         <Timeline/>
         <FAQ /> 
         <Prizes />
