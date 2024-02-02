@@ -1,9 +1,10 @@
-.site-section{
+.site-section {
   width: 100%;
   align-items: center;
   justify-content: center;
   display: flex;
-  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 .timeline-container {
   background-blend-mode: overlay;
@@ -209,19 +210,54 @@
   width: 70%;
 }
 
-.timelineHead{
+.timelineHead {
   display: flex;
   justify-content: right;
+  width: 96%;
 }
 
-.timeLineComponentContainor{
+.timeLineComponentContainor {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.timeLineContainorOuter{
+.timeLineContainorOuter {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .divFaqAndImage {
+    flex-direction: column;
+  }
+  .timeLineComponentContainor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .timeLineContainor {
+    width: 100%;
+  }
+  .timeLineContainor {
+    width: 80%;
+  }
+  #timeline {
+    width: 100%;
+    padding-top: 50px;
+  }
+  #timeline-4 {
+    width: 100%;
+  }
+  .timelineHead{
+    display: flex;
+    justify-content: center;
+  }
+  .shape{
+    width: 83%;
+  }
 }

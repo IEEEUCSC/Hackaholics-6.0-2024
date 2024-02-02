@@ -28,8 +28,8 @@ jobs:
         pnpm install
 
     - name: Build frontend with pnpm
-    #   env:
-    #     REACT_APP_BACKEND_URL: https://whale-app-h5o2s.ondigitalocean.app
+      env:
+        REACT_APP_BACKEND_URL: https://hackaholics-backend-2-am4r0msbi-udeesha-prabhashana-s-projects.vercel.app/
       run: |
         cd Frontend
         pnpm run build
