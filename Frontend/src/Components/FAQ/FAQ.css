@@ -40,3 +40,9 @@
     height: auto;
     margin: 50px;
 }
+.FAQHead{
+    width: 93%;
+}
+.shape{
+    border: 1px solid red;
+}

@@ -205,6 +205,23 @@
   background: linear-gradient(to left, #782a84, #575254);
 }
 
-#timeLineComponentContainor {
+.timeLineContainor {
   width: 70%;
+}
+
+.timelineHead{
+  display: flex;
+  justify-content: right;
+}
+
+.timeLineComponentContainor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.timeLineContainorOuter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
