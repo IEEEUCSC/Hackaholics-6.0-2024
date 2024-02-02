@@ -1,20 +1,20 @@
 import React from "react";
-import {
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+// import {
+//   VerticalTimelineElement,
+// } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import "./Timeline.scss";
 
-interface TimelineCardProps {
-  timeline: {
-    title: string;
-    date: string;
-    iconBg: string;
-    point?: string; // Assuming 'point' is a string, modify as needed
-  };
-  position?: string;
-}
+// interface TimelineCardProps {
+//   timeline: {
+//     title: string;
+//     date: string;
+//     iconBg: string;
+//     point?: string; // Assuming 'point' is a string, modify as needed
+//   };
+//   position?: string;
+// }
 
 // const TimelineCard: React.FC<TimelineCardProps> = ({ timeline, position }) => (
 //   <motion.div
