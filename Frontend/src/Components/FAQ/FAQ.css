@@ -30,3 +30,13 @@
 .accordianHeadEven{
     color: black!important;
 }
+.divFaqAndImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faqImageContainor{
+    width: 60%;
+    height: auto;
+    margin: 50px;
+}

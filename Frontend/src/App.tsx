@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <Home />
       <Intro />
-      <Sponsers />
+      {/* <Sponsers /> */}
       <Timeline/>
       <FAQ /> 
       <Prizes />
