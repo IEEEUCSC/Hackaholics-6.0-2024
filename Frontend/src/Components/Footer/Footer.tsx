@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white">
+    <footer className="bg-black text-white" id="footerContainor">
       <div className="container mx-auto sm-auto px-6 py-12 space-x-1">
         <div className="flex flex-col mt-1">
 {/* First Row */}
