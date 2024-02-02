@@ -4,6 +4,7 @@ import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import mobileLogo from "../../Assets/NavBar/as-lpgp.png";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -70,13 +71,10 @@ const Navbar: React.FC = () => {
 
                     {/* Conditionally render Register Now button for non-mobile screens */}
                     {!isOpen && (
-                        <a
-                            href="/team"
-                            className="relative rounded px-3 py-2 overflow-hidden group bg-secondary hover:bg-gradient-to-r hover:from-violet-700 hover:to-purple-900 text-white hover:ring-1 hover:ring-offset-1 hover:ring-white transition-all ease-out duration-500 md:align-middle md:items-center mx-auto"
-                        >
-                            <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-tertiary opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                            <span className="relative text-center">Register</span>
-                        </a>
+                    <HashLink smooth to="/team" className="relative rounded px-3 py-2 overflow-hidden group bg-secondary hover:bg-gradient-to-r hover:from-violet-700 hover:to-purple-900 text-white hover:ring-1 hover:ring-offset-1 hover:ring-white transition-all ease-out duration-500 md:align-middle md:items-center mx-auto">
+                        <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-tertiary opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+                        <span className="relative text-center">Register Now</span>
+                    </HashLink>
                     )}
                 </div>
             </div>

@@ -5,7 +5,7 @@ import { Network } from "../../Network";
 import Swal from 'sweetalert2';
 
 export default function Registration() {
-    const { register, handleSubmit,watch, formState: { }, reset } = useForm();
+    const { register, handleSubmit,watch, reset } = useForm();
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [teamMemberCount, setTeamMemberCount] = useState(2); // Default to 2 members
     const [teamMembers, setTeamMembers] = useState<any[]>(["member1", "member2"]);
