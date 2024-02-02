@@ -3,7 +3,7 @@ import "./ContactUs.css";
 const ContactUs = () => {
   return (
     <div className="contactUsDiv">
-      <h1 className="contactUsHeading">Contact Us</h1>
+      {/* <h1 className="contactUsHeading">Contact Us</h1> */}
       <div className="contactUsDivRow">
         <div className="contactUsColumn">
           <div className="ocPeopleImageDiv">

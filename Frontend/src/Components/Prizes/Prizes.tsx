@@ -4,7 +4,7 @@ import "./Prizes.css";
 const Prizes = () => {
   return (
     <div className="prizeDiv">
-      <h1 className="prizeHeading">Awards for Winners</h1>
+      {/* <h1 className="prizeHeading">Awards for Winners</h1> */}
       <div className="prizeRow">
         <div className="prizeColOne">
           <div className="prizeDetailsContainor">

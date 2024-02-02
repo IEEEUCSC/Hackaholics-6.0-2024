@@ -112,7 +112,7 @@ const Timeline: React.FC = () => {
           <div className={`card gradient-custom${index%2===0?'-4':''}`}>
             <div className="card-body p-4">
               <i className="fas fa-brain fa-2x mb-3"></i>
-              <h4 className="text-white">{event}</h4>
+              <b><h4 className="text-white">{event}</h4></b>
               <p className="small text-white mb-4">{state}</p>
               <p className="text-white">
                 {date}
