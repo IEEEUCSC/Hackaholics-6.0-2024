@@ -42,55 +42,31 @@ import "./Timeline.scss";
 const Timeline: React.FC = () => {
   let items = [
     {
-      date: "Jan 6th",
-      event: "Awareness Session",
+      date: "Feb 3rd",
+      event: "Scholarship Awareness Session",
       description: "",
       state: "Virtual",
     },
     {
-      date: "Jan 10th",
-      event: "Mobile App Designing Session",
-      description: "",
-      state: "Virtual",
-    },
-    {
-      date: "Feb 4th",
-      event: "Workshop - Flutter Session - Basics",
-      description: "",
-      state: "Onsite",
-    },
-    {
-      date: "Feb 5th",
-      event: "Open Initial Round Submissions",
+      date: "Feb 6th",
+      event: "Opening Registrations",
       description: "",
       state: "",
     },
     {
-      date: "Feb 11th",
-      event: "Workshop - Flutter Session - Advanced",
+      date: "Feb 15th",
+      event: "Closing Registrations",
       description: "",
       state: "Onsite",
     },
     {
-      date: "Feb 13th",
-      event: "Close Initial Round Submissions",
+      date: "Feb 22nd",
+      event: "Announcing Finalists",
       description: "",
       state: "",
     },
     {
-      date: "Feb 19th",
-      event: "Announcement of Finalists",
-      description: "",
-      state: "Virtual",
-    },
-    {
-      date: "Feb 24th",
-      event: "Final Hackathon",
-      description: "",
-      state: "Onsite",
-    },
-    {
-      date: "Feb 25th",
+      date: "Feb 22nd",
       event: "Final Hackathon & Award Ceremony",
       description: "",
       state: "Onsite",
@@ -132,9 +108,7 @@ const Timeline: React.FC = () => {
         <div className="timelineHead">
           <div
             className="shape"
-            data-aos="zoom-in-left"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
+            id="timeLineComponentShape"
           >
             <h1>
               <span>Hackaholics 6.0 Timeline</span>
