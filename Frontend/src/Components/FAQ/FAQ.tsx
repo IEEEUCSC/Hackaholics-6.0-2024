@@ -7,9 +7,6 @@ const FAQ = () => {
       <div className="FAQHead">
         <div
           className="shape"
-          data-aos="zoom-in-right"
-          data-aos-easing="linear"
-          data-aos-duration="1500"
         >
           <h1>
             <span>Frequently Asked Questions</span>

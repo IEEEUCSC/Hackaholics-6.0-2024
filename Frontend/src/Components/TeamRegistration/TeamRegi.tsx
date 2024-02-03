@@ -73,13 +73,20 @@ export default function Registration() {
                 className="row py-20"
                 style={{ fontSize: "2rem", marginBottom: "2px" }}
               >
-                Register your form for Hackaholics 6.0
+                Register your Team For Hackaholics 6.0
               </h1>
               {/* display flex */}
               <div className="col-md-3 text-center">
                 <div className="d-flex flex-column align-items-center">
                   <a href="/" target="_blank">
                     <button className="btn  btn-primary py-2 px-4 text-white">
+                      Delegate Book
+                    </button>
+                  </a>
+                  <div>
+                    <br></br>
+                  </div>
+                  {/* <a  target="_blank">
                       Delegate Book
                     </button>
                   </a>
@@ -318,6 +325,7 @@ function renderMemberFields(prefix: string, register: any) {
       </div>
       <div className="col-md-6">
         <label htmlFor={`${prefix}-name`}>Name</label>
+        <label htmlFor={`${prefix}-name`}>Name</label>
         <input
           type="text"
           id={`${prefix}-name`}
@@ -326,6 +334,7 @@ function renderMemberFields(prefix: string, register: any) {
         />
       </div>
       <div className="col-md-6">
+        <label htmlFor={`${prefix}-year`}>Year of Study</label>
         <label htmlFor={`${prefix}-year`}>Year of Study</label>
         <select
           id={`${prefix}-year`}
