@@ -18,7 +18,7 @@ const Prizes = () => {
           <div className="prizeDetailsContainor">
             <h2 className="prizeTitle">2nd Place</h2>
             <h3 className="prizeText">Rs. 20,000</h3>
-            <img src={img2}></img>
+            <img src={img2} alt="2nd palce"></img>
           </div>
         </div>
         <div className="prizeColTwo">
@@ -29,14 +29,14 @@ const Prizes = () => {
             <h3 className="prizeText" id="prizeText">
               Rs. 35,000
             </h3>
-            <img src={img1}></img>
+            <img src={img1} alt="1st place" ></img>
           </div>
         </div>
         <div className="prizeColThree">
           <div className="prizeDetailsContainor">
             <h2 className="prizeTitle">3rd Place</h2>
             <h3 className="prizeText">Rs. 15,000</h3>
-            <img src={img3}></img>
+            <img src={img3} alt="3rd place"></img>
           </div>
         </div>
       </div>
