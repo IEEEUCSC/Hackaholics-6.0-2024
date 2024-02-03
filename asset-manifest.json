@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fcf2f47f.css",
-    "main.js": "/static/js/main.a808d068.js",
+    "main.js": "/static/js/main.7c15660d.js",
     "static/js/668.c45f489d.chunk.js": "/static/js/668.c45f489d.chunk.js",
     "static/media/astronut 5.png": "/static/media/astronut 5.5c65e9b6d27a213cc704.png",
     "static/media/astronut 1.png": "/static/media/astronut 1.2a53e035010728c26fe4.png",
@@ -20,11 +20,11 @@
     "static/media/ibm-plex-mono-vietnamese-400-normal.woff": "/static/media/ibm-plex-mono-vietnamese-400-normal.442fb799b2a313edbc10.woff",
     "index.html": "/index.html",
     "main.fcf2f47f.css.map": "/static/css/main.fcf2f47f.css.map",
-    "main.a808d068.js.map": "/static/js/main.a808d068.js.map",
+    "main.7c15660d.js.map": "/static/js/main.7c15660d.js.map",
     "668.c45f489d.chunk.js.map": "/static/js/668.c45f489d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcf2f47f.css",
-    "static/js/main.a808d068.js"
+    "static/js/main.7c15660d.js"
   ]
 }
