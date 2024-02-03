@@ -1,13 +1,13 @@
-import React from "react";
 import "./Prizes.css";
+import img1 from "../../Assets/Prizes/1.png";
+import img2 from "../../Assets/Prizes/2.png";
+import img3 from "../../Assets/Prizes/3.png";
 
 const Prizes = () => {
   return (
     <div className="prizeDiv">
       <div className="prizeHead">
-        <div
-          className="shape"
-        >
+        <div className="shape">
           <h1>
             <span>Awards for Winners</span>
           </h1>
@@ -18,6 +18,7 @@ const Prizes = () => {
           <div className="prizeDetailsContainor">
             <h2 className="prizeTitle">2nd Place</h2>
             <h3 className="prizeText">Rs. 20,000</h3>
+            <img src={img2}></img>
           </div>
         </div>
         <div className="prizeColTwo">
@@ -28,12 +29,14 @@ const Prizes = () => {
             <h3 className="prizeText" id="prizeText">
               Rs. 35,000
             </h3>
+            <img src={img1}></img>
           </div>
         </div>
         <div className="prizeColThree">
           <div className="prizeDetailsContainor">
             <h2 className="prizeTitle">3rd Place</h2>
             <h3 className="prizeText">Rs. 15,000</h3>
+            <img src={img3}></img>
           </div>
         </div>
       </div>

@@ -105,8 +105,11 @@
   justify-content: center;
   flex-direction: column;
   padding: 25px;
-  /* box-shadow: 0 0 10px 0 rgba(0,0,0,0.2); */
-  /* background: linear-gradient(to bottom, #ffffff, #e0e1dd); */
+}
+.prizeDetailsContainor img{
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
 }
 .prizeHead {
   width: 93%;
