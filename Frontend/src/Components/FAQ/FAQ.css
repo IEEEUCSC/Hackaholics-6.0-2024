@@ -45,7 +45,7 @@
 }
 .shape {
   height: 45px!important;
-  background: linear-gradient(to right, #782a84, #575254);
+  background: linear-gradient(to right, #782a84, #782a84);
 }
 
 @media only screen and (max-width: 480px) {

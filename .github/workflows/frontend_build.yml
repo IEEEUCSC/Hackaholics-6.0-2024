@@ -29,7 +29,7 @@ jobs:
 
     - name: Build frontend with pnpm
       env:
-        REACT_APP_BACKEND_URL: https://hackaholics-backend-2.vercel.app
+        REACT_APP_BACKEND_URL: https://hackaholics-backend-new.onrender.com
       run: |
         cd Frontend
         pnpm run build

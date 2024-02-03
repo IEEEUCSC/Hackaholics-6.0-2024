@@ -19,7 +19,7 @@ export default function Intro() {
         <div className="text">
           <p>
             <b>Hackaholics 6.0</b> is an{" "}
-            <b>Inter-University Girls’ Only Hackathon</b>
+            <b>Inter-University Girls’ Only Hackathon </b>
             organized by the{" "}
             <b>IEEE WIE Student Branch Affinity Group of UCSC</b>, held for the
             sixth consecutive year. This <b>ideathon</b> empowers female
