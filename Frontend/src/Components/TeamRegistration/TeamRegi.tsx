@@ -71,11 +71,9 @@ export default function Registration() {
             <div className="row form-group">
               <h1
                 className="row py-20"
-                className="row py-20"
                 style={{ fontSize: "2rem", marginBottom: "2px" }}
               >
                 Register your Team For Hackaholics 6.0
-                Register your form for Hackaholics 6.0
               </h1>
               {/* display flex */}
               <div className="col-md-3 text-center">
@@ -332,7 +330,6 @@ function renderMemberFields(prefix: string, register: any) {
           type="text"
           id={`${prefix}-name`}
           className="form-control"
-          className="form-control"
           {...register(`${prefix}Name`, { required: true })}
         />
       </div>
@@ -341,7 +338,6 @@ function renderMemberFields(prefix: string, register: any) {
         <label htmlFor={`${prefix}-year`}>Year of Study</label>
         <select
           id={`${prefix}-year`}
-          className="form-control"
           className="form-control"
           {...register(`${prefix}Year`, { required: true })}
         >
@@ -357,7 +353,6 @@ function renderMemberFields(prefix: string, register: any) {
           type="tel"
           id={`${prefix}-whatsapp`}
           className="form-control"
-          className="form-control"
           {...register(`${prefix}Whatsapp`, { required: true })}
         />
       </div>
@@ -367,7 +362,6 @@ function renderMemberFields(prefix: string, register: any) {
           type="email"
           id={`${prefix}-email`}
           className="form-control"
-          className="form-control"
           {...register(`${prefix}Email`, { required: true })}
         />
       </div>
@@ -376,7 +370,6 @@ function renderMemberFields(prefix: string, register: any) {
         <input
           type="text"
           id={`${prefix}-nic`}
-          className="form-control"
           className="form-control"
           {...register(`${prefix}NIC`, { required: true })}
         />
