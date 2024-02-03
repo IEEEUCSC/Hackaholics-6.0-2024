@@ -1,4 +1,7 @@
 import "./ContactUs.css";
+import image1 from "../../Assets/Contact Us/Uthpalani Jayasinge.jpeg";
+import image2 from "../../Assets/Contact Us/oshani.jpeg";
+import image3 from "../../Assets/Contact Us/Dilanga Harshani.png";
 
 const ContactUs = () => {
   return (
@@ -6,9 +9,6 @@ const ContactUs = () => {
       <div className="contactUsHead">
         <div
           className="shape"
-          data-aos="zoom-in-right"
-          data-aos-easing="linear"
-          data-aos-duration="1500"
         >
           <h1>
             <span>Contact Us</span>
@@ -17,82 +17,82 @@ const ContactUs = () => {
       </div>
       <div className="contactUsDivRow">
         <div className="contactUsColumn">
-          <div className="ocPeopleImageDiv">
+          <div className="ocPeopleImageDiv1">
             <img
-              src="https://www.w3schools.com/howto/img_avatar.png"
+              src={image1}
               alt="Avatar"
               className="ocPeopleImage"
             />
           </div>
           <div className="nameDivContactUs">
-            <h6>Kasun Udara</h6>
+            <h6>Ms. Uthpalani Jayasinghe</h6>
           </div>
           <div className="roleDivContactUs">
-            <p>Program Team</p>
+            <p>Chairperson</p>
           </div>
           <div className="phoneNumberDiv">
             <p>
-              <i className="fas fa-phone-alt"></i> 077 123 4567
+              <i className="fas fa-phone-alt"></i> +94 76 336 1822
             </p>
           </div>
           <div className="emailDiv">
             <p>
-              <b className="fas fa-envelope">kasunu2001@gmail.com</b>
+              <b className="fas fa-envelope">uthpalani.jayasinghe@ieee.org</b>
             </p>
           </div>
         </div>
         <div className="contactUsColumn">
-          <div className="ocPeopleImageDiv">
+          <div className="ocPeopleImageDiv2">
             <img
-              src="https://www.w3schools.com/howto/img_avatar.png"
+              src={image2}
               alt="Avatar"
               className="ocPeopleImage"
             />
           </div>
           <div className="nameDivContactUs">
-            <h6>Kasun Udara</h6>
+            <h6>Ms. Oshani Wickramasinghe</h6>
           </div>
           <div className="roleDivContactUs">
-            <p>Program Team</p>
+            <p>Vice Chairperson</p>
           </div>
           <div className="phoneNumberDiv">
             <p>
-              <i className="fas fa-phone-alt"></i> 077 123 4567
+              <i className="fas fa-phone-alt"></i> +94 71 179 5560
             </p>
           </div>
           <div className="emailDiv">
             <p>
-              <b className="fas fa-envelope">kasunu2001@gmail.com</b>
+              <b className="fas fa-envelope">oewickramasingha@gmail.com</b>
             </p>
           </div>
         </div>
         <div className="contactUsColumn">
-          <div className="ocPeopleImageDiv">
+          <div className="ocPeopleImageDiv3">
             <img
-              src="https://www.w3schools.com/howto/img_avatar.png"
+              src={image3}
               alt="Avatar"
               className="ocPeopleImage"
             />
           </div>
           <div className="nameDivContactUs">
-            <h6>Kasun Udara</h6>
+            <h6>Ms. Dilanga Harshani</h6>
           </div>
           <div className="roleDivContactUs">
-            <p>Program Team</p>
+            <p>Secretary</p>
           </div>
           <div className="phoneNumberDiv">
             <p>
-              <i className="fas fa-phone-alt"></i> 077 123 4567
+              <i className="fas fa-phone-alt"></i> +94 70 1 665 087
             </p>
           </div>
           <div className="emailDiv">
             <p>
-              <b className="fas fa-envelope">kasunu2001@gmail.com</b>
+              <b className="fas fa-envelope">Email: aadilangaharshani@ieee.org</b>
             </p>
           </div>
         </div>
         <div className="contactUsColumn">
-          <div className="ocPeopleImageDiv">
+          <div className="ocPeopleImageDiv4">
             <img
               src="https://www.w3schools.com/howto/img_avatar.png"
               alt="Avatar"
@@ -100,19 +100,19 @@ const ContactUs = () => {
             />
           </div>
           <div className="nameDivContactUs">
-            <h6>Kasun Udara</h6>
+            <h6>Ms. Buddhi Yapa</h6>
           </div>
           <div className="roleDivContactUs">
-            <p>Program Team</p>
+            <p>Treasurer</p>
           </div>
           <div className="phoneNumberDiv">
             <p>
-              <i className="fas fa-phone-alt"></i> 077 123 4567
+              <i className="fas fa-phone-alt"></i> +94 76 684 8398
             </p>
           </div>
           <div className="emailDiv">
             <p>
-              <b className="fas fa-envelope">kasunu2001@gmail.com</b>
+              <b className="fas fa-envelope">buddhi_yapa@ieee.org</b>
             </p>
           </div>
         </div>
