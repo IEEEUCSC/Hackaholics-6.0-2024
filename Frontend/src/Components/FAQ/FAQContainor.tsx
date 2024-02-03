@@ -42,9 +42,9 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 
 // Define background colors for each accordion
 const accordionColors = {
-  panel1: '#575254',
+  panel1: '#18113A',
   panel2: '#ffffff',
-  panel3: '#575254',
+  panel3: '#18113A',
 };
 
 export default function CustomizedAccordions() {
