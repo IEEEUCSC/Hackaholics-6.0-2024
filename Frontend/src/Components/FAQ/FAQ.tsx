@@ -1,6 +1,6 @@
 import "./FAQ.css";
 import FAQcomponent from "./FAQContainor";
-import img from "../../Assets/Astronaut/astronut 5.png";
+import img from "../../Assets/Astronaut/astronut 8.png";
 const FAQ = () => {
   return (
     <div className="faqDiv">

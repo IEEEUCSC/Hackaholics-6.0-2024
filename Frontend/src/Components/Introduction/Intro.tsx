@@ -1,6 +1,7 @@
 import "./intro.scss";
 // import Image from "../../Assets/Introduction/wie-ucsc.png";
 import Image from "../../Assets/Astronaut/astronut 1.png";
+import Image2 from "../../Assets/Astronaut/astronut 5.png";
 
 export default function Intro() {
   return (
@@ -38,7 +39,7 @@ export default function Intro() {
       <div className="introDetailsAndImageTwo">
         <div className="Image">
           <img
-            src={Image}
+            src={Image2}
             alt="Hackaholics 6.0 Introduction"
             className="test"
           />

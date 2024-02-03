@@ -1,22 +1,25 @@
-@import '../TeamRegistration/variables';
+@import "../TeamRegistration/variables";
 
 .form-group .form-control {
-  color: #fff !important;
+  color: #782a84 !important;
   background: none;
-  border: 2px solid #fff;
+  border: 2px solid #782a84;
+  height: 50px;
+  border-radius: 7px;
 }
 
-.form-group .form-control:active, .form-group .form-control:focus {
+.form-group .form-control:active,
+.form-group .form-control:focus {
   background: none;
 }
 
 .row {
-  max-width: 800px;
+  max-width: 95%;
   margin: 0 auto;
 }
 
-.btn{
-  background-color: #782A84;
+.btn {
+  background-color: #782a84;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -33,36 +36,39 @@
 }
 
 .form-label {
-  margin-bottom: 5px; // Adjust spacing between label and input
+  margin-top: 5px;
+  margin-bottom: 10px; // Adjust spacing between label and input
   width: fit-content; // Allow label to take minimum required width
+  margin-top: 20px;
+  color: white;
 }
 
 .form-control {
   width: calc(100% - 20px); // Adjust the width calculation as needed
   margin-top: 5px; // Add margin to separate the input box from the label
+  margin-bottom: 30px;
 }
 
 .reg-section {
-  background-color: black; // Set the background color to black
+  background: linear-gradient(to bottom, #18113A, black);// Set the background color to black
   color: white; // Set the text color to white or any contrasting color
   padding: 20px; // Add padding to the form to create space between the content and the edges
 }
 
 .form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.form-group select option{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-size: 20px;
-    background-position: 95%;
-    background-color: rgba(6, 58, 149, 0.9);
+.form-group select option {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-size: 20px;
+  background-position: 95%;
+  background-color: #18113A;
 
-    padding-right: 30px;
+  padding-right: 30px;
 }
-
 
 /* Add this to your Registration.scss file */
 .btn-loading {
@@ -70,37 +76,37 @@
   pointer-events: none; /* Disable interactions while loading */
 
   &::after {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      border: 2px solid #fff;
-      border-top-color: transparent;
-      border-right-color: transparent;
-      border-radius: 50%;
-      width: 1em;
-      height: 1em;
-      animation: spin 1s linear infinite;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #fff;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    animation: spin 1s linear infinite;
   }
 }
 
 @keyframes spin {
-  to { transform: translate(-50%, -50%) rotate(360deg); }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 
-
 .slots-remaining-red {
-  color: #fff;
+  color: white;
   background-color: #dc3545 !important;
   border-color: #dc3545 !important;
   padding: 5px;
   border-radius: 5px;
-
 }
 
 .slots-remaining-green {
-  color: #fff;
+  color: white;
   background-color: #28a745 !important;
   border-color: #28a745 !important;
   padding: 5px;
@@ -126,7 +132,38 @@ $bg-ternary: #666666;
 $bg-accent: #979797;
 $text-color: #ffffff;
 $text-secondary: #abb1b4;
-$text-accent: #02A8E1;
+$text-accent: #02a8e1;
 
-$blue-grad-start: #54C5F7;
-$blue-grad-end: #02A8E1;
+$blue-grad-start: #54c5f7;
+$blue-grad-end: #02a8e1;
+
+.teamLeaderOrMember {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#form-control-id {
+  margin-top: 10px;
+}
+
+.leader-name {
+  margin-top: 20px;
+}
+.form-control-leder-or-member {
+  color: #782a84 !important;
+  background: none;
+  border: 2px solid #782a84;
+  height: 50px;
+  border-radius: 7px;
+  width: calc(100% - 20px); // Adjust the width calculation as needed
+  margin-top: 10px; // Add margin to separate the input box from the label
+  margin-bottom: 50px;
+}
+
+.registrationTopic{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.eventTitle{
+  color: #782a84 !important;
+}
