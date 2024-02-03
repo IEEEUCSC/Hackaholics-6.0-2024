@@ -4,7 +4,7 @@ import Image from "../../Assets/Astronaut/astronut 1.png";
 
 export default function Intro() {
   return (
-    <div className="Intro">
+    <div className="Intro" id={"intro"}>
       <div className="IntroHead">
         <div
           className="shape"

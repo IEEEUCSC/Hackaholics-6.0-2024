@@ -3,8 +3,8 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white">
-      <div className="container mx-auto sm-auto px-6 py-12 space-x-1">
+    <footer className="bg-secondary text-white bg-opacity-100">
+      <div className="container mx-auto sm-auto px-6 py-12 space-x-1" id={"footer"}>
         <div className="flex flex-col mt-1">
 {/* First Row */}
           <div className="flex justify-center gap-2">
@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="text-xm text-cyan-950 mt-5 hover:text-red-100 text-center" id='footerRights'>
+        <p className="text-xm text-cyan-950 mt-5 hover:text-tertiary text-center" id='footerRights'>
           © {new Date().getFullYear()} IEEE- UCSC All rights reserved.
         </p>
       </div>

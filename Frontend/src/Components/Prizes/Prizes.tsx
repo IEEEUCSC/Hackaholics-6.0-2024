@@ -3,7 +3,7 @@ import "./Prizes.css";
 
 const Prizes = () => {
   return (
-    <div className="prizeDiv">
+    <div className="prizeDiv" id ={"prize"}>
       <div className="prizeHead">
         <div
           className="shape"
