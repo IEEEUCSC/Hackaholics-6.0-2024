@@ -84,7 +84,7 @@ export default function Registration() {
                 className="row py-20 registrationTopic"
                 style={{ fontSize: "2rem", marginBottom: "2px" }}
               >
-                Register for the HACKAHOLICS 6.0
+                Register your Team for Hackathon
               </h1>
               {/* display flex */}
               <div className="col-md-3 text-center">
