@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import "../TeamRegistration/Registration.scss";
 import { Network } from "../../Network";
@@ -63,17 +63,6 @@ export default function Registration() {
     }
   };
 
-  // get team count Network.shared.getTeamCount()
-  // useEffect(() => {
-  //     const fetchData = async () => {
-  //         const result = await Network.shared.getTeamCount();
-  //         console.log(result);
-  //         setSlotsRemaining(result);
-  //     }
-  //     fetchData();
-  // }
-  // , []);
-
   return (
     <div className="site-section local-bootstrap reg-section">
       <div className="container">
@@ -82,15 +71,24 @@ export default function Registration() {
             <div className="row form-group">
               <h1
                 className="row py-20"
+                className="row py-20"
                 style={{ fontSize: "2rem", marginBottom: "2px" }}
               >
                 Register your Team For Hackaholics 6.0
+                Register your form for Hackaholics 6.0
               </h1>
               {/* display flex */}
               <div className="col-md-3 text-center">
                 <div className="d-flex flex-column align-items-center">
                   <a href="/" target="_blank">
                     <button className="btn  btn-primary py-2 px-4 text-white">
+                      Delegate Book
+                    </button>
+                  </a>
+                  <div>
+                    <br></br>
+                  </div>
+                  {/* <a  target="_blank">
                       Delegate Book
                     </button>
                   </a>
@@ -329,17 +327,21 @@ function renderMemberFields(prefix: string, register: any) {
       </div>
       <div className="col-md-6">
         <label htmlFor={`${prefix}-name`}>Name</label>
+        <label htmlFor={`${prefix}-name`}>Name</label>
         <input
           type="text"
           id={`${prefix}-name`}
+          className="form-control"
           className="form-control"
           {...register(`${prefix}Name`, { required: true })}
         />
       </div>
       <div className="col-md-6">
         <label htmlFor={`${prefix}-year`}>Year of Study</label>
+        <label htmlFor={`${prefix}-year`}>Year of Study</label>
         <select
           id={`${prefix}-year`}
+          className="form-control"
           className="form-control"
           {...register(`${prefix}Year`, { required: true })}
         >
@@ -355,6 +357,7 @@ function renderMemberFields(prefix: string, register: any) {
           type="tel"
           id={`${prefix}-whatsapp`}
           className="form-control"
+          className="form-control"
           {...register(`${prefix}Whatsapp`, { required: true })}
         />
       </div>
@@ -364,6 +367,7 @@ function renderMemberFields(prefix: string, register: any) {
           type="email"
           id={`${prefix}-email`}
           className="form-control"
+          className="form-control"
           {...register(`${prefix}Email`, { required: true })}
         />
       </div>
@@ -372,6 +376,7 @@ function renderMemberFields(prefix: string, register: any) {
         <input
           type="text"
           id={`${prefix}-nic`}
+          className="form-control"
           className="form-control"
           {...register(`${prefix}NIC`, { required: true })}
         />
