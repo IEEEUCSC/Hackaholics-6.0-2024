@@ -324,7 +324,7 @@ function renderMemberFields(prefix: string, register: any) {
         <h3 className="teamLeaderOrMember">
           {prefix === "leader"
             ? "Team Leader"
-            : `Team Member ${prefix.replace("member", "")}`}
+            : `Team Member 0${prefix.replace("member", "")}`}
         </h3>
       </div>
       <div className="col-md-6">
