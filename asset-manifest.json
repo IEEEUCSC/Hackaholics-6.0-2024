@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f162eee.css",
-    "main.js": "/static/js/main.b1afc038.js",
+    "main.css": "/static/css/main.338b8d8d.css",
+    "main.js": "/static/js/main.0e915be7.js",
     "static/js/860.ba47935a.chunk.js": "/static/js/860.ba47935a.chunk.js",
+    "static/media/3.png": "/static/media/3.aa16f9f7e6884b8e1b38.png",
+    "static/media/1.png": "/static/media/1.8efb2b9e8ad2a52e7c23.png",
+    "static/media/2.png": "/static/media/2.ca6e35a7de505b088034.png",
     "static/media/astronut 5.png": "/static/media/astronut 5.5c65e9b6d27a213cc704.png",
     "static/media/Dilanga Harshani.png": "/static/media/Dilanga Harshani.346cb289030fbd053ba9.png",
     "static/media/astronut 1.png": "/static/media/astronut 1.2a53e035010728c26fe4.png",
@@ -23,12 +26,12 @@
     "static/media/ibm-plex-mono-cyrillic-ext-400-normal.woff": "/static/media/ibm-plex-mono-cyrillic-ext-400-normal.18dd695e5b1103c22279.woff",
     "static/media/ibm-plex-mono-vietnamese-400-normal.woff": "/static/media/ibm-plex-mono-vietnamese-400-normal.442fb799b2a313edbc10.woff",
     "index.html": "/index.html",
-    "main.1f162eee.css.map": "/static/css/main.1f162eee.css.map",
-    "main.b1afc038.js.map": "/static/js/main.b1afc038.js.map",
+    "main.338b8d8d.css.map": "/static/css/main.338b8d8d.css.map",
+    "main.0e915be7.js.map": "/static/js/main.0e915be7.js.map",
     "860.ba47935a.chunk.js.map": "/static/js/860.ba47935a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f162eee.css",
-    "static/js/main.b1afc038.js"
+    "static/css/main.338b8d8d.css",
+    "static/js/main.0e915be7.js"
   ]
 }
