@@ -98,6 +98,95 @@ export default function Registration() {
                     <br></br>
                   </div>
                   {/* <a  target="_blank">
+=======
+    const { register, handleSubmit,watch, reset } = useForm();
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [teamMemberCount, setTeamMemberCount] = useState(2); // Default to 2 members
+    const [teamMembers, setTeamMembers] = useState<any[]>(["member1", "member2"]);
+
+    // const [slotsRemaining, setSlotsRemaining] = useState(0); 
+
+    // get from the form
+    const [university, setUniversity] = useState("University of Colombo School of Computing");
+
+    const watchFields = watch(); // You can also specify specific fields like watch(['field1', 'field2'])
+
+
+// when form state changes , update the university
+    useEffect(() => {
+        // console.log(watchFields.university);
+        // watchFields.university 
+        setUniversity(watchFields.university);
+    }, [watchFields]);
+
+    useEffect(() => {
+if (teamMemberCount === 2) {   
+    setTeamMembers(["member1"]);
+} else if (teamMemberCount === 3) {
+    setTeamMembers(["member1", "member2"]);
+} 
+
+    }, [teamMemberCount]);
+
+    const onSubmit = async (data:any) => {
+        try { 
+            setIsSubmitting(true);
+            let response = await Network.shared.register(data);
+            Swal.fire({
+                title: response.message,
+                icon: response.success ? 'success' : 'error',
+                confirmButtonText: 'Ok',
+                background: '#232631',
+                color: '#fff',
+                footer: '<a href="https://chat.whatsapp.com/LJ7CwK4eiRd3jkLntBfoj0" target="_blank"> Join our whatsapp group <br> <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"/></a>'
+            });
+            if (response.success) {
+                reset();
+            }
+        } catch (e) {
+            console.log(e);
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
+
+
+    // get team count Network.shared.getTeamCount()
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         const result = await Network.shared.getTeamCount();
+    //         console.log(result);
+    //         setSlotsRemaining(result);
+    //     }
+    //     fetchData();
+    // }
+    // , []);
+
+    return (
+        <div className="site-section local-bootstrap reg-section">
+
+            <div className="container">
+
+
+
+                <div className="row py-  justify-content-center">
+                    <div className="col-md-12 aos-init aos-animate" data-aos="fade-up">
+                        <div className="row form-group">
+
+                            <h1 className='row py-20' style={{ fontSize: '2rem', marginBottom: '2px' }}>Register for the HACKAHOLICS 6.0 hackathon</h1>
+                            {/* display flex */}
+                            <div className="col-md-3 text-center">
+                                <div className="d-flex flex-column align-items-center">
+
+                                <a href="/" target="_blank">
+                                    <button className="btn  btn-primary py-2 px-4 text-white">
+                                        Delegate Book
+                                    </button>
+                                </a>
+                                <div>
+                                    <br></br>
+                                </div>
+                                {/* <a  target="_blank">
                                     <button className="btn btn-primary py-2 px-4 text-red">
                                     Registration close
                                     </button>
