@@ -18,6 +18,7 @@ export class Network {
                 'Access-Control-Allow-Methods': 'POST, GET, OPTIONS, PUT, DELETE',               
             },
             body: body
+            
         });
 
         if (!response.ok) {
