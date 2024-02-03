@@ -9,7 +9,6 @@ export default function Registration() {
     register,
     handleSubmit,
     watch,
-    formState: {},
     reset,
   } = useForm();
   const [isSubmitting, setIsSubmitting] = useState(false);
