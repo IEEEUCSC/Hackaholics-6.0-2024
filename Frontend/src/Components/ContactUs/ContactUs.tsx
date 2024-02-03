@@ -11,7 +11,7 @@ const ContactUs = () => {
           data-aos-duration="1500"
         >
           <h1>
-            <span>Awards for Winners</span>
+            <span>Contact Us</span>
           </h1>
         </div>
       </div>
