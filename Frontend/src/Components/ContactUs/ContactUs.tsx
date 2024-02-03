@@ -7,9 +7,7 @@ const ContactUs = () => {
   return (
     <div className="contactUsDiv">
       <div className="contactUsHead">
-        <div
-          className="shape"
-        >
+        <div className="shape">
           <h1>
             <span>Contact Us</span>
           </h1>
@@ -18,14 +16,12 @@ const ContactUs = () => {
       <div className="contactUsDivRow">
         <div className="contactUsColumn">
           <div className="ocPeopleImageDiv1">
-            <img
-              src={image1}
-              alt="Avatar"
-              className="ocPeopleImage"
-            />
+            <img src={image1} alt="Avatar" className="ocPeopleImage" />
           </div>
           <div className="nameDivContactUs">
-            <h6>Ms. Uthpalani Jayasinghe</h6>
+            <p>
+              <b>Ms. Uthpalani Jayasinghe</b>
+            </p>
           </div>
           <div className="roleDivContactUs">
             <p>Chairperson</p>
@@ -43,14 +39,12 @@ const ContactUs = () => {
         </div>
         <div className="contactUsColumn">
           <div className="ocPeopleImageDiv2">
-            <img
-              src={image2}
-              alt="Avatar"
-              className="ocPeopleImage"
-            />
+            <img src={image2} alt="Avatar" className="ocPeopleImage" />
           </div>
           <div className="nameDivContactUs">
-            <h6>Ms. Oshani Wickramasinghe</h6>
+            <p>
+              <b>Ms. Oshani Wickramasinghe</b>
+            </p>
           </div>
           <div className="roleDivContactUs">
             <p>Vice Chairperson</p>
@@ -68,14 +62,12 @@ const ContactUs = () => {
         </div>
         <div className="contactUsColumn">
           <div className="ocPeopleImageDiv3">
-            <img
-              src={image3}
-              alt="Avatar"
-              className="ocPeopleImage"
-            />
+            <img src={image3} alt="Avatar" className="ocPeopleImage" />
           </div>
           <div className="nameDivContactUs">
-            <h6>Ms. Dilanga Harshani</h6>
+            <p>
+              <b>Ms. Dilanga Harshani</b>
+            </p>
           </div>
           <div className="roleDivContactUs">
             <p>Secretary</p>
@@ -87,7 +79,9 @@ const ContactUs = () => {
           </div>
           <div className="emailDiv">
             <p>
-              <b className="fas fa-envelope">Email: aadilangaharshani@ieee.org</b>
+              <b className="fas fa-envelope">
+                Email: aadilangaharshani@ieee.org
+              </b>
             </p>
           </div>
         </div>
@@ -100,7 +94,9 @@ const ContactUs = () => {
             />
           </div>
           <div className="nameDivContactUs">
-            <h6>Ms. Buddhi Yapa</h6>
+            <p>
+              <b>Ms. Buddhi Yapa</b>
+            </p>
           </div>
           <div className="roleDivContactUs">
             <p>Treasurer</p>
