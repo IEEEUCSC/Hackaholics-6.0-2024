@@ -29,8 +29,7 @@ jobs:
 
     - name: Build frontend with pnpm
       env:
-        REACT_APP_BACKEND_URL: https://hackaholics-backend-2-am4r0msbi-udeesha-prabhashana-s-projects.vercel.app
-      run: |
+        REACT_APP_BACKEND_URL: https://hackaholics-backend-2.vercel.app
         cd Frontend
         pnpm run build
 
