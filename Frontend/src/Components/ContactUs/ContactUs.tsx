@@ -32,7 +32,7 @@ const ContactUs = () => {
             </p>
           </div>
           <div className="emailDiv">
-            <p>
+            <p className="tracking-widest font-pfont">
               <b className="fas fa-envelope">uthpalani.jayasinghe@ieee.org</b>
             </p>
           </div>
@@ -55,13 +55,13 @@ const ContactUs = () => {
             </p>
           </div>
           <div className="emailDiv">
-            <p>
+          <p className="tracking-widest font-pfont">
               <b className="fas fa-envelope">oewickramasingha@gmail.com</b>
             </p>
           </div>
         </div>
         <div className="contactUsColumn">
-          <div className="ocPeopleImageDiv3">
+          <div className="ocPeopleImageDiv2">
             <img src={image3} alt="Avatar" className="ocPeopleImage" />
           </div>
           <div className="nameDivContactUs text-neutral-50 font-pfont tracking-wider text-xl">
@@ -78,9 +78,9 @@ const ContactUs = () => {
             </p>
           </div>
           <div className="emailDiv">
-            <p>
+          <p className="tracking-widest font-pfont">
               <b className="fas fa-envelope">
-                Email: aadilangaharshani@ieee.org
+                aadilangaharshani@ieee.org
               </b>
             </p>
           </div>
@@ -93,7 +93,7 @@ const ContactUs = () => {
               className="ocPeopleImage"
             />
           </div>
-          <div className="nameDivContactUs text-neutral-50 font-pfont tracking-widest text-xl">
+          <div className="nameDivContactUs text-neutral-50 font-pfont tracking-wider text-xl">
             <p>
               Ms. Buddhi Yapa
             </p>
