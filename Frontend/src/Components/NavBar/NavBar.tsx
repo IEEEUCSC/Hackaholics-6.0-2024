@@ -58,13 +58,13 @@ const Navbar: React.FC = () => {
                 >
                     {[
                         
-                        { label: "HOME", link: "" },
-                        { label: "INTRO", link: "" },
-                        { label: "TIMELINE", link: "" },
-                        { label: "FAQ", link: "" },
-                        { label: "PRIZES", link: "" },
-                        { label: "MEMORIES", link: "" },
-                        { label: "CONTACT US", link: "" },
+                        { label: "HOME", link: "/Frontend/src/Components/Home/Home.tsx" },
+                        { label: "INTRO", link: "#intro" },
+                        { label: "TIMELINE", link: "#timeline" },
+                        { label: "FAQ", link: "#faq" },
+                        { label: "PRIZES", link: "#prize" },
+                        { label: "MEMORIES", link: "#card" },
+                        { label: "CONTACT US", link: "#contactus" },
                         { label: "REGISTER NOW", link: ""},
                       
                     ].map((item, index) => (

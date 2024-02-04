@@ -3,7 +3,7 @@ import FAQcomponent from "./FAQContainor";
 import img from "../../Assets/Astronaut/astronut 8.png";
 const FAQ = () => {
   return (
-    <div className="faqDiv bg-secondary">
+    <div className="faqDiv bg-secondary" id="faq">
       <div className="FAQHead">
         <div
           className="shape"
