@@ -19,7 +19,25 @@ import "@fontsource/ibm-plex-mono"
 function App() {
   return (
     <div className="content">
-      
+        <Navbar />       
+      <Routes>
+        <Route path="/team" element={<Registration />} />
+        
+        <Route path="/*" element={
+          <div>     
+            <Particles />     
+            <Home />
+          <Intro />
+        {/* <Sponsers /> */}
+        <Timeline/>
+        <FAQ /> 
+        <Prizes />
+        <Card />
+       <ContactUs />
+          </div>
+        } />     
+      </Routes>
+
 
       <Footer />
     </div>
