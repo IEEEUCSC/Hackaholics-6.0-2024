@@ -5,8 +5,8 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import mobileLogo from "../../Assets/NavBar/as-lpgp.png";
 import { HashLink } from "react-router-hash-link";
-import { Link } from "react-scroll";
-import { ClassNames } from "@emotion/react";
+// import { Link } from "react-scroll";
+// import { ClassNames } from "@emotion/react";
 
 const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
