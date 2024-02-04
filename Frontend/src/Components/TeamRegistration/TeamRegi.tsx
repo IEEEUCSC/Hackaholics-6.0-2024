@@ -12,7 +12,7 @@ export default function Registration() {
     reset,
   } = useForm();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [teamMemberCount, setTeamMemberCount] = useState(2); // Default to 2 members
+  // const [teamMemberCount, setTeamMemberCount] = useState(2); // Default to 2 members
   const [teamMembers, setTeamMembers] = useState<any[]>(["member1", "member2"]);
 
   const [slotsRemaining, setSlotsRemaining] = useState(0);
@@ -31,13 +31,15 @@ export default function Registration() {
     setUniversity(watchFields.university);
   }, [watchFields]);
 
-  useEffect(() => {
-    if (teamMemberCount === 2) {
-      setTeamMembers(["member1"]);
-    } else if (teamMemberCount === 3) {
-      setTeamMembers(["member1", "member2"]);
-    }
-  }, [teamMemberCount]);
+  // useEffect(() => {
+  //   if (teamMemberCount === 2) {
+  //     setTeamMembers(["member1"]);
+  //   } else if (teamMemberCount === 3) {
+  //     setTeamMembers(["member1", "member2"]);
+  //   }
+  // }, [teamMemberCount]);
+
+  setTeamMembers(["member1", "member2"]);
 
   const onSubmit = async (data: any) => {
     try {
@@ -280,7 +282,7 @@ export default function Registration() {
                   >
                     Number of Team Members
                   </label>
-                  <select
+                  {/* <select
                     id="team-member-count"
                     className="form-control"
                     onChange={(e) =>
@@ -289,7 +291,7 @@ export default function Registration() {
                   >
                     <option value={2}>2</option>
                     <option value={3}>3</option>
-                  </select>
+                  </select> */}
                 </div>
               </div>
 
