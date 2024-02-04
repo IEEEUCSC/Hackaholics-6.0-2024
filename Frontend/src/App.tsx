@@ -1,40 +1,39 @@
 // import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Footer from './Components/Footer/Footer';
 import Prizes from './Components/Prizes/Prizes';
 import './App.css';
 import Navbar from './Components/NavBar/NavBar';
 import Home from './Components/Home/Home';
 import FAQ from './Components/FAQ/FAQ';
+// import Sponsers from './Components/Sponsers/Sponsers';
 import Timeline from './Components/Timeline/Timeline';
 import Intro from './Components/Introduction/Intro';
 import Registration from './Components/TeamRegistration/TeamRegi';
 import ContactUs from './Components/ContactUs/ContactUs';
-import Sponsers from './Components/Sponsers/Sponsers';
-import Card from './Components/Card/Card';
-import ParticleDesign from './Components/Particles/ParticleDesign';
+import "@fontsource/ibm-plex-mono"
 
 
 function App() {
   return (
     <div className="content">
-      <Navbar />
- 
-  
-          <div>
+        <Navbar />       
+      <Routes>
+        <Route path="/team" element={<Registration />} />
+        
+        <Route path="/*" element={
+          <div>          
             <Home />
-            <ParticleDesign />
-            <Intro />
-            <Timeline />
-            <FAQ />
-            <Prizes />
-            <Card />
-            <Sponsers />
-            <ContactUs />
+          <Intro />
+        {/* <Sponsers /> */}
+        <Timeline/>
+        <FAQ /> 
+        <Prizes />
+        <ContactUs />
           </div>
-
-
-
+        } />     
+      </Routes>
       <Footer />
     </div>
   );

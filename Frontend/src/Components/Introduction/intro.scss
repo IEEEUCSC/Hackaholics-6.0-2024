@@ -1,74 +1,109 @@
-.IntroHead{
-    color: #000000;
-    text-align: left;
-    text-transform: capitalize;
-    font-family:Source Sans Pro;
-    margin-inline-start: 50px;
-    display: flex;
-    align-items: center;
-    justify-content:left;
-    width: 93%;
+.IntroHead {
+  color: #000000;
+  text-align: left;
+  text-transform: capitalize;
+  font-family: Source Sans Pro;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 93%;
 }
-.Intro{
-    width: 100%;
-    height: 100vh;
-    background-color: #F5F5F5;
-    padding-top: 50px;
+.Intro {
+  width: 100%;
+  height: 120vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.introDetailsAndImageOne {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.introDetailsAndImageTwo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.Image {
+  width: 20%;
+  height: auto;
+  max-width: 100%;
+}
+
+.text {
+  float: left;
+  text-align: justify;
+  font-size: 20px;
+  color: #000000;
+  width: 55%;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.Image {
+  float: right;
+}
+
+.shape {
+  width: 20%;
+  height: 60px;
+  background-color: #782a84;
+  // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 25px;
+  border-style: double;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+@media only screen and (max-width: 480px) {
+  .Intro {
+    height: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-}
-.introDetailsAndImage{
+    padding-bottom: 50px;
+  }
+  .introDetailsAndImageOne {
+    flex-direction: column-reverse;
+  }
+  .introDetailsAndImageTwo {
+    flex-direction: column;
+  }
+  .text {
+    width: 70%;
+    font-size: 1rem;
+  }
+  .Image {
+    width: 90%;
+    margin: 0;
+  }
+  .faqImageContainor {
     width: 100%;
+  }
+  .IntroHead {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .shape {
+    width: 85%;
+  }
 }
-body{
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-}
-
-.Image{
-    width: 17%;
-    height:auto;
-    max-width: 100%;
-    margin-bottom: 100px;
-}
-
-.text{
-    margin-inline-start:100px;
-    float: left;
-    text-align: justify;
-    font-size: 20px;
-    color: #000000;
-    width: 45%;
-    font-family: 'Source Sans 3', sans-serif;
-}
-
-.Image{
-    float: right;
-    margin-inline-end: 50px;
-}
-
-.shape{
-    width:20%;
-    height:60px;
-    background-color: #782A84;
-    // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding:20px ;
-    text-align: center;
-    color: #ffffff;
-    border-radius: 25px;
-    border-style: double;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content:center;   
-    font-family: 'Source Sans 3', sans-serif; 
-}
-
-
-

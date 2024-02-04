@@ -4,6 +4,7 @@ import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import mobileLogo from "../../Assets/NavBar/as-lpgp.png";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,7 @@ const Navbar: React.FC = () => {
         >
             <div className="flex flex-col lg:flex-row justify-between items-right ml-0 lg:ml-1 mr-1 md:mr-0 mb-0 px-2 md:px-9 py-5 md:py-5">
                 <div className="flex items-center">
-                    <a href="https://github.com/IEEEUCSC" className="block md:hidden">
+                    <a href="/" className="block md:hidden">
                         <img
                             className="relative inline-block h-20 ml-auto -mt-2"
                             src={mobileLogo}

@@ -6,14 +6,17 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-bottom: 50px;
 }
+
 .contactUsHeading {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 600;
   margin-bottom: 50px;
-  color: #18113A;
+  color: #18113a;
 }
+
 .contactUsDivRow {
   height: 60%;
   width: 90%;
@@ -21,6 +24,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .contactUsColumn {
   width: 25%;
   height: 100%;
@@ -29,68 +33,153 @@
   justify-content: center;
   flex-direction: column;
 }
-.ocPeopleImageDiv {
+
+.ocPeopleImageDiv1 {
   width: 50%;
   height: auto;
   border-radius: 100%;
+  margin-bottom: 20px;
 }
-.ocPeopleImageDiv img {
+.ocPeopleImageDiv2 {
+  width: 50%;
+  height: auto;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.ocPeopleImageDiv3 {
+  width: 50%;
+  height: auto;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.ocPeopleImageDiv4 {
+  width: 50%;
+  height: auto;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.ocPeopleImageDiv1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.ocPeopleImageDiv2 img {
   width: 100%;
   height: auto;
   border-radius: 100%;
 }
+.ocPeopleImageDiv3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+.ocPeopleImageDiv4 img {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+
 .nameDivContactUs {
   width: 80%;
   height: 50px;
-  color: #18113A;
+  color: #18113a;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .nameDivContactUs h6 {
   text-align: center;
   font-size: 1.3rem;
-  color: #18113A;
+  color: #18113a;
 }
 
-.roleDivContactUs{
-    width: 80%;
-    color: #18113A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.roleDivContactUs p{
-    text-align: center;
-    font-size: 1.0rem;
-    color: #18113A;
-}
-.phoneNumberDiv{
-    width: 80%;
-    color: #18113A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.phoneNumberDiv p{
-    text-align: center;
-    font-size: 1.0rem;
-    color: #18113A;
+.roleDivContactUs {
+  width: 80%;
+  color: #18113a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.emailDiv{
-    width: 80%;
-    color: #18113A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.roleDivContactUs p {
+  text-align: center;
+  font-size: 1rem;
+  color: #18113a;
 }
-.emailDiv p{
-    text-align: center;
-    font-size: 1.0rem;
-    color: #18113A;
+
+.phoneNumberDiv {
+  width: 80%;
+  color: #18113a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.contactUsHead{
+
+.phoneNumberDiv p {
+  text-align: center;
+  font-size: 1rem;
+  color: #18113a;
+}
+
+.emailDiv {
+  width: 80%;
+  color: #18113a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailDiv p {
+  text-align: center;
+  font-size: 1rem;
+  color: #18113a;
+}
+
+.contactUsHead {
   width: 93%;
   margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contactUsColumn {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contactUsDiv {
+    height: auto;
+    padding-top: 50px;
+  }
+  .contactUsDivRow {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .contactUsColumn {
+    width: 100%;
+    margin-bottom: 20px;
+    height: auto;
+  }
+
+  .contactUsHeading {
+    font-size: 2rem;
+  }
+
+  .nameDivContactUs,
+  .roleDivContactUs,
+  .phoneNumberDiv,
+  .emailDiv {
+    width: 100%;
+  }
+  .contactUsHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .shape {
+    width: 85%;
+  }
 }

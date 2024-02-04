@@ -1,131 +1,173 @@
-.prizeDiv{
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(to bottom, #18113A, #18113A);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.prizeDiv {
+  width: 100%;
+  height: 83vh;
+  background: linear-gradient(to bottom, #18113a, #18113a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.prizeRow{
-    width: 75%;
-    height: 55vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.prizeRow {
+  width: 75%;
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.prizeColTwo{
-    width: 30%;
-    height: 85%;
-    background-color: #f5f5f5;
-    color: black;
-    margin: 20px;
-    border-radius: 10px;
-    transition-duration: 0.6s; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    cursor: pointer;
-    background-attachment: fixed;
-    background-position: center;
+.prizeColTwo {
+  width: 25%;
+  height: 60%;
+  /* background-color: #f5f5f5; */
+  background: linear-gradient(to bottom, #f5f5f5, #f5f5f5);
+  color: #18113a;
+  margin: 20px;
+  border-radius: 10px;
+  transition-duration: 0.6s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  background-attachment: fixed;
+  background-position: center;
 }
-.prizeColTwo:hover{
-    height: 93%;
-    transition-duration: 0.6s;
+.prizeColTwo:hover {
+  height: 65%;
+  transition-duration: 0.6s;
 }
-.prizeColOne{
-    width: 30%;
-    height: 85%;
-    background-color: #782A84;
-    margin: 20px;
-    border-radius: 10px;
-    transition-duration: 0.6s; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    cursor: pointer;
-    background-attachment: fixed;
-    background-position: center;
+.prizeColOne {
+  width: 25%;
+  height: 60%;
+  background: linear-gradient(to bottom, #f5f5f5, #f5f5f5);
+  margin: 20px;
+  border-radius: 10px;
+  transition-duration: 0.6s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  background-attachment: fixed;
+  background-position: center;
 }
-.prizeColOne:hover{
-    height: 93%;
-    transition-duration: 0.6s;
+.prizeColOne:hover {
+  height: 65%;
+  transition-duration: 0.6s;
 }
-.prizeColThree{
-    width: 30%;
-    height: 85%;
-    background-color: #782A84;
-    margin: 20px;
-    border-radius: 10px;
-    transition-duration: 0.6s; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    cursor: pointer;
-    background-attachment: fixed;
-    background-position: center;
+.prizeColThree {
+  width: 25%;
+  height: 60%;
+  background: linear-gradient(to bottom, #f5f5f5, #f5f5f5);
+  margin: 20px;
+  border-radius: 10px;
+  transition-duration: 0.6s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  background-attachment: fixed;
+  background-position: center;
 }
-.prizeColThree:hover{
-    height: 93%;
-    transition-duration: 0.6s;
+.prizeColThree:hover {
+  height: 65%;
+  transition-duration: 0.6s;
 }
-.prizeTitle{
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 20px;
-    color: white;
+.prizeTitle {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #18113a;
 }
-#prizeTitle{
-    color: black;
+#prizeTitle {
+  color: #18113a;
 }
-.prizeText{
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-bottom: 20px;
-    color: white;
+.prizeText {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #18113a;
 }
-#prizeText{
-    color: black;
-}
-
-.prizeHeading{
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 50px;
-    color: #ffffff;
+#prizeText {
+  color: #18113a;
 }
 
-.prizeDetailsContainor{
+.prizeHeading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+
+.prizeDetailsContainor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+}
+.prizeDetailsContainor img{
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
+}
+.prizeHead {
+  width: 93%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-bottom: 50px;
+}
+.shape {
+  width: 20%;
+  height: 45px;
+  background: linear-gradient(to right, #782a84,#575254);
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 25px;
+  border-style: double;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+@media only screen and (max-width: 480px) {
+  .prizeDiv {
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .prizeRow {
+    flex-direction: column;
+    height: auto;
+  }
+  .prizeColTwo {
+    width: 90%;
+    height: 40%;
+    margin: 10px;
+  }
+  .prizeColOne {
+    width: 90%;
+    height: 40%;
+    margin: 10px;
+  }
+  .prizeColThree {
+    width: 90%;
+    height: 40%;
+    margin: 10px;
+  }
+  .shape {
+    width: 85%;
+  }
+  .prizeHead {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    padding: 25px;
-    /* box-shadow: 0 0 10px 0 rgba(0,0,0,0.2); */
-    /* background: linear-gradient(to bottom, #ffffff, #e0e1dd); */
+  }
 }
-.prizeHead{
-    width: 93%;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    margin-bottom: 50px;
-}
-.shape{
-    width:20%;
-    height:60px;
-    background-color: #575254!important;
-    padding:20px ;
-    text-align: center;
-    color: #ffffff;
-    border-radius: 25px;
-    border-style: double;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content:center;   
-    font-family: 'Source Sans 3', sans-serif; 
+
+@media only screen and (max-width: 768px) {
 }

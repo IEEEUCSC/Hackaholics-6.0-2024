@@ -14,7 +14,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Set up Node.js
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v2
       with:
         node-version: '20'
 
@@ -28,8 +28,8 @@ jobs:
         pnpm install
 
     - name: Build frontend with pnpm
-    #   env:
-    #     REACT_APP_BACKEND_URL: https://whale-app-h5o2s.ondigitalocean.app
+      env:
+        REACT_APP_BACKEND_URL: https://hackaholics-backend-new.onrender.com
       run: |
         cd Frontend
         pnpm run build

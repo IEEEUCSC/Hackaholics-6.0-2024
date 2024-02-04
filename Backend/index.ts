@@ -7,7 +7,7 @@ import teamRoute from "./Routes/team";
 dotenv.config();
 
 const URL = process.env.MONGO || "mongodb://localhost:27017/";
-const ORIGIN = process.env.ORIGIN || "http://localhost:3000";
+const ORIGIN = process.env.ORIGIN || "https://hackaholics.ucscieee.lk";
 const PORT = process.env.PORT || 4000;
 
 const app: Express = express();
