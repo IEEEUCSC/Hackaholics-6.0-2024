@@ -28,21 +28,21 @@ export class Network {
         return await response.json();
     }
 
-    // public async getTeamCount(): Promise<number> {
-    //     const response = await fetch(process.env.REACT_APP_BACKEND_URL + '/api/team/count', {
-    //         method: 'GET',
-    //         headers: {
-    //             'Content-Type': 'application/json'
-    //         }
-    //     });
+    public async getTeamCount(): Promise<number> {
+        const response = await fetch(process.env.REACT_APP_BACKEND_URL + '/api/teamregi/count', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
 
-    //     if (!response.ok) {
-    //         throw new Error(response.statusText);
-    //     }
+        if (!response.ok) {
+            throw new Error(response.statusText);
+        }
 
-    //     const data = await response.json();
-    //     return data.teamCount;
-    // }
+        const data = await response.json();
+        return data.teamCount;
+    }
 }
 
 export class ResponseModel {
