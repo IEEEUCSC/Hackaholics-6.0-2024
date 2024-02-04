@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect, ReactElement } from 'react';
 import './Card.css'
 
+
 // Data
 import data from './data.json';
 // import { WidthFull } from '@mui/icons-material';
@@ -52,10 +53,16 @@ const Carousel: React.FC = (): ReactElement => {
   }, []);
 
   return (
-    <div className="carousel bg-white pt-10 pb-24">
-      <h2 className="relative text-5xl leading-8 font-semibold mb-16 mt-4 text-secondary tracking-widest font-sfont text-center hover:text-primary">
-        Hackaholics 5.0
-      </h2>
+    <div className="carousel bg-secondary pt-10 pb-24 p-2">
+      <div className="prizeHead">
+      <div
+          className="shape "
+        >
+          <h1 className="font-sfont font-semibold tracking-wider">
+            <span>Hackaholics 5.0</span>
+          </h1>
+        </div>
+      </div>
       <div className="relative overflow-hidden">
         <div className="flex justify-between absolute top left w-full h-full">
           <button

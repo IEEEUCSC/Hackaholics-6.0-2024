@@ -85,7 +85,7 @@ const Timeline: React.FC = () => {
         className={`timeline-4 ${index % 2 === 0 ? "left" : "right"}-4`}
         key={index}
       >
-        <div className={`card gradient-custom${index % 2 === 0 ? "-4" : ""}`}>
+        <div className={` opacity-90 rounded card gradient-custom${index % 2 === 0 ? "-4" : ""}`}>
           <div className="card-body p-4">
             <i className="fas fa-brain fa-2x mb-3"></i>
             <b>
@@ -110,7 +110,7 @@ const Timeline: React.FC = () => {
             className="shape"
             id="timeLineComponentShape"
           >
-            <h1>
+            <h1 className="font-sfont font-semibold tracking-wider">
               <span>Hackaholics 6.0 Timeline</span>
             </h1>
           </div>

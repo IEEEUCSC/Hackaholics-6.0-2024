@@ -48,13 +48,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 
-## FRAMER-MOTION INSTAL
-npm install framer-motion
-
-## MUI
-npm install @mui/lab @types/material-ui
-npm install @mui/icons-material
-npm install react-swipeable-views
-
-
 

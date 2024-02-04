@@ -3,12 +3,12 @@ import FAQcomponent from "./FAQContainor";
 import img from "../../Assets/Astronaut/astronut 8.png";
 const FAQ = () => {
   return (
-    <div className="faqDiv">
+    <div className="faqDiv bg-secondary">
       <div className="FAQHead">
         <div
           className="shape"
         >
-          <h1>
+          <h1 className="font-sfont font-semibold tracking-wider">
             <span>Frequently Asked Questions</span>
           </h1>
         </div>

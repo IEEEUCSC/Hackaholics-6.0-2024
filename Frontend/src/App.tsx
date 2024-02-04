@@ -22,7 +22,6 @@ function App() {
         <Navbar />       
       <Routes>
         <Route path="/team" element={<Registration />} />
-        
         <Route path="/*" element={
           <div>     
             <Particles />     
@@ -37,6 +36,8 @@ function App() {
           </div>
         } />     
       </Routes>
+
+
       <Footer />
     </div>
   );
