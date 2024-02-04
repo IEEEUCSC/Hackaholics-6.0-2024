@@ -15,7 +15,7 @@ export default function Registration() {
   const [teamMemberCount, setTeamMemberCount] = useState(2); // Default to 2 members
   const [teamMembers, setTeamMembers] = useState<any[]>(["member1", "member2"]);
 
-  // const [slotsRemaining, setSlotsRemaining] = useState(0);
+  const [slotsRemaining, setSlotsRemaining] = useState(0);
 
   // get from the form
   const [university, setUniversity] = useState(
@@ -43,6 +43,7 @@ export default function Registration() {
     try {
       setIsSubmitting(true);
       let response = await Network.shared.register(data);
+      console.log("response" + response);
       Swal.fire({
         title: response.message,
         icon: response.success ? "success" : "error",
@@ -50,7 +51,7 @@ export default function Registration() {
         background: "#232631",
         color: "#fff",
         footer:
-          '<a href="https://chat.whatsapp.com/LJ7CwK4eiRd3jkLntBfoj0" target="_blank"> Join our whatsapp group <br> <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"/></a>',
+          '<a href="" target="_blank"> Join our whatsapp group <br> <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"/></a>',
       });
       if (response.success) {
         reset();
@@ -61,6 +62,17 @@ export default function Registration() {
       setIsSubmitting(false);
     }
   };
+
+  // get team count Network.shared.getTeamCount()
+    useEffect(() => {
+        const fetchData = async () => {
+            const result = await Network.shared.getTeamCount();
+            console.log(result);
+            setSlotsRemaining(result);
+        }
+        fetchData();
+    }
+    , []);
 
   return (
     <div className="site-section local-bootstrap reg-section">
@@ -112,7 +124,7 @@ export default function Registration() {
           <div className="col-md-12 aos-init aos-animate" data-aos="fade-up">
             {/* form disable if no slots remaining , add class to disable */}
             {/* <form onSubmit={handleSubmit(onSubmit)}> */}
-            <form onSubmit={handleSubmit(onSubmit)} className="form">
+            <form onSubmit={handleSubmit(onSubmit)} className={slotsRemaining <= 0 ? "disable-form" : "form"}>
               {/* Team Information */}
               <div className="row form-group">
                 <div className="col-md-12">
@@ -299,7 +311,7 @@ export default function Registration() {
                     className={`btn btn-primary py-2 px-4 text-white ${
                       isSubmitting ? "btn-loading" : ""
                     }`}
-                    disabled={isSubmitting}
+                    disabled={isSubmitting || slotsRemaining <= 0}
                   />
                 </div>
               </div>
