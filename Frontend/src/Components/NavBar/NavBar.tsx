@@ -67,14 +67,13 @@ const Navbar: React.FC = () => {
                             </a>
                         )
                     ))}
+                    
+                    {/* Conditionally render Register Now button for non-mobile screens */}
                     {!isOpen && (
-                        <a
-                            href="/team"
-                            className="relative rounded pt-3  px-3 py-1 overflow-hidden group bg-secondary hover:bg-gradient-to-r hover:from-violet-700 hover:to-purple-900 text-white hover:ring-1 hover:ring-offset-1 hover:ring-white transition-all ease-out duration-500 md:align-middle md:items-center mx-auto"  // Add mt-2 to move the button up
-                        >
-                            <span className="absolute right-0 -pb-2 w-8 h-32 transition-all duration-1000 transform translate-x-12 bg-tertiary opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                            <span className="relative text-center p-2 pb-3 tracking-widest">Register Now</span>
-                        </a>
+                    <HashLink smooth to="/team" className="relative rounded px-3 py-2 overflow-hidden group bg-secondary hover:bg-gradient-to-r hover:from-violet-700 hover:to-purple-900 text-white hover:ring-1 hover:ring-offset-1 hover:ring-white transition-all ease-out duration-500 md:align-middle md:items-center mx-auto">
+                        <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-tertiary opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+                        <span className="relative text-center">Register Now</span>
+                    </HashLink>
 
                     )}
             </div>

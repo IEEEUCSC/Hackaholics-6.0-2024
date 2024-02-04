@@ -3,7 +3,7 @@ import './Card.css'
 
 // Data
 import data from './data.json';
-import { WidthFull } from '@mui/icons-material';
+// import { WidthFull } from '@mui/icons-material';
 
 const Carousel: React.FC = (): ReactElement => {
   const maxScrollWidth = useRef<number>(0);
