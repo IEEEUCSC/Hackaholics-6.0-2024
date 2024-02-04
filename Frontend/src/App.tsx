@@ -11,6 +11,8 @@ import Timeline from './Components/Timeline/Timeline';
 import Intro from './Components/Introduction/Intro';
 import Registration from './Components/TeamRegistration/TeamRegi';
 import ContactUs from './Components/ContactUs/ContactUs';
+import Card from './Components/Card/Card';
+import Particles from './Components/Particles/ParticleDesign';
 import "@fontsource/ibm-plex-mono"
 
 
@@ -22,14 +24,16 @@ function App() {
         <Route path="/team" element={<Registration />} />
         
         <Route path="/*" element={
-          <div>          
+          <div>     
+            <Particles />     
             <Home />
           <Intro />
         {/* <Sponsers /> */}
         <Timeline/>
         <FAQ /> 
         <Prizes />
-        <ContactUs />
+        <Card />
+       <ContactUs />
           </div>
         } />     
       </Routes>
