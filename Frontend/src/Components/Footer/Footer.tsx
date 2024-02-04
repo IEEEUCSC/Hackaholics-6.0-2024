@@ -1,4 +1,5 @@
 import ucscwie from '../../Assets/Footer/wie-ucsc.png';
+import ieeewiee from '../../Assets/Footer/ieee-wie.png';
 import "./Footer.css";
 
 const Footer = () => {
@@ -7,10 +8,10 @@ const Footer = () => {
       <div className="container mx-auto sm-auto px-6 py-12 space-x-1" id={"footer"}>
         <div className="flex flex-col mt-1">
 {/* First Row */}
-          <div className="flex justify-center gap-2">
-            {/* <div className="flex items-center justify-center">
+          <div className="flex justify-center">
+            <div className="flex items-center justify-center">
               <img className="inline-block h-60 w-50 mt-1 ml-0.5 mr-0.5 rounded-full" src={ieeewiee} alt="wie-logo" />
-            </div> */}
+            </div>
             <div className="flex items-center justify-center" id='footerLogoDiv'>
               <img className="inline-block h-60 w-50 mt-1 ml-0.5 mr-0.5 rounded-full" src={ucscwie} alt="wie-logo" />
             </div>

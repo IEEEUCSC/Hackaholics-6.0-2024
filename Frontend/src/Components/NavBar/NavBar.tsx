@@ -53,14 +53,14 @@ const Navbar: React.FC = () => {
                 >
                     {[
                         { label: "Home", link: "/#home" },
-                        { label: "Time Line", link: "/time" },
-                        { label: "Prizes", link: "/price" },
+                        { label: "Time Line", link: "/#time" },
+                        { label: "Prizes", link: "/#price" },
                         { label: "Register Now", link: "https://github.com/IEEEUCSC" },
                     ].map((item, index) => (
 
                         !(item.label === "Register Now" && !isOpen) && (
                             <a key={index} href={item.link} className="group relative md:mr-9">
-                                <div className="py-2 md:py-2 px-3 md:mt-2 z-30 indigo-950 text-white hover:text-purple-300 active:bg-indigo-600 active:text-white text-center">
+                                <div className="py-3 md:py-2 px-3 md:mt-2 z-30 indigo-950 text-white hover:text-purple-300 active:bg-indigo-600 active:text-white text-center">
                                     {item.label}
                                     <div className="absolute inset-x-0 bottom-0 h-0.5 bg-white transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 active:bg-indigo-600 active:text-white"></div>
                                 </div>
