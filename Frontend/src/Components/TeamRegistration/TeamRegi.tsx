@@ -43,6 +43,7 @@ export default function Registration() {
     try {
       setIsSubmitting(true);
       let response = await Network.shared.register(data);
+      console.log("response" + response);
       Swal.fire({
         title: response.message,
         icon: response.success ? "success" : "error",
