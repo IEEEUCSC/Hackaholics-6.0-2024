@@ -5,24 +5,24 @@ import Image2 from "../../Assets/Astronaut/astronut 5.png";
 
 export default function Intro() {
   return (
-    <div className="Intro" id={"intro"}>
+    <div className="Intro bg-secondary" id={"intro"}>
       <div className="IntroHead">
         <div
           className="shape"
         >
-          <h1>
+          <h1 className="font-sfont font-semibold tracking-wider">
             <span>What is Hackaholics 6.0 ?</span>
           </h1>
         </div>
       </div>
-      <div className="introDetailsAndImageOne">
+      <div className="introDetailsAndImageOne ">
         <div className="text">
-          <p>
-            <b>Hackaholics 6.0</b> is an{" "}
-            <b>Inter-University Girls’ Only Hackathon </b>
+          <p className="text-neutral-50 tracking-wider landing-2 font-pfont font-thin">
+            <b className="tracking-widest text-white">Hackaholics 6.0</b> is an{" "}
+            <b className="tracking-wider text-white">Inter-University Girls’ Only Hackathon </b>
             organized by the{" "}
-            <b>IEEE WIE Student Branch Affinity Group of UCSC</b>, held for the
-            sixth consecutive year. This <b>ideathon</b> empowers female
+            <b className="tracking-widest text-white">IEEE WIE Student Branch Affinity Group of UCSC</b>, held for the
+            sixth consecutive year. This <b className="tracking-widest text-white">ideathon</b> empowers female
             undergraduates to discuss and develop solutions to critical issues
             in our society through cooperation, collaboration, and coordination.
           </p>
@@ -44,17 +44,17 @@ export default function Intro() {
           />
         </div>
         <div className="text">
-          <p>
-            The event commences with a <b>virtual scholarship awareness session</b> for
-            undergraduates, followed by a <b>proposal submission phase</b> for <b>teams of
-            three students</b> from the <b>same university</b>, focusing on innovative
-            ideas within given topics. The <b>top 10 teams</b> are advancing to the
-            next round where they prepare <b>UI prototypes</b> and <b>presentations</b>. The
-            <b> physical competition on March 2nd, 2024</b>, involves <b>presenting
+        <p className="text-neutral-50 tracking-wider landing-2 font-pfont font-thin z-40">
+            The event commences with a <b className="tracking-widest text-white">virtual scholarship awareness session</b> for
+            undergraduates, followed by a <b className="tracking-widest text-white">proposal submission phase</b> for <b>teams of
+            three students</b> from the <b className="tracking-widest text-white">same university</b>, focusing on innovative
+            ideas within given topics. The <b className="tracking-widest text-white">top 10 teams</b> are advancing to the
+            next round where they prepare <b className="tracking-widest text-white">UI prototypes</b> and <b className="tracking-widest text-white">presentations</b>. The
+            <b className="tracking-widest text-white"> physical competition on March 2nd, 2024</b>, involves <b className="tracking-widest text-white">presenting
             proposed ideas</b>, with the top five teams selected based on various
-            criteria. These <b>finalists</b> then tackle a <b>scenario challenge</b> presented
-            by judges, and <b>winners</b> are determined by industry experts, receiving
-            <b> cash prizes</b>.
+            criteria. These <b className="tracking-widest text-white">finalists</b> then tackle a <b className="tracking-widest text-white">scenario challenge</b> presented
+            by judges, and <b className="tracking-widest text-white">winners</b> are determined by industry experts, receiving
+            <b className="tracking-widest text-white"> cash prizes</b>.
           </p>
         </div>
       </div>

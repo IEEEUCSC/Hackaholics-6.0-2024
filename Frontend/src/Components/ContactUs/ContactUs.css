@@ -92,12 +92,12 @@
 .nameDivContactUs h6 {
   text-align: center;
   font-size: 1.3rem;
-  color: #18113a;
+  color: white;
 }
 
 .roleDivContactUs {
   width: 80%;
-  color: #18113a;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,12 +106,12 @@
 .roleDivContactUs p {
   text-align: center;
   font-size: 1rem;
-  color: #18113a;
+  color: white;
 }
 
 .phoneNumberDiv {
   width: 80%;
-  color: #18113a;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,12 +120,12 @@
 .phoneNumberDiv p {
   text-align: center;
   font-size: 1rem;
-  color: #18113a;
+  color: white;
 }
 
 .emailDiv {
   width: 80%;
-  color: #18113a;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -134,7 +134,7 @@
 .emailDiv p {
   text-align: center;
   font-size: 1rem;
-  color: #18113a;
+  color: white;
 }
 
 .contactUsHead {

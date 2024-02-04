@@ -14,9 +14,6 @@ module.exports = {
         'pfont': ['source-sans-pro'],
         'sfont': ['raleway'],
     },
-    letterSpacing: {
-      widestone: '.3em',
-    },
   },
   plugins: [],
 }

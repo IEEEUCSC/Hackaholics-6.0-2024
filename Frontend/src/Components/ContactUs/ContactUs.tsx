@@ -5,25 +5,25 @@ import image3 from "../../Assets/Contact Us/Dilanga Harshani.png";
 
 const ContactUs = () => {
   return (
-    <div className="contactUsDiv">
+    <div className="contactUsDiv bg-secondary">
       <div className="contactUsHead">
         <div className="shape">
-          <h1>
+        <h1 className="font-sfont font-semibold tracking-wider">
             <span>Contact Us</span>
           </h1>
         </div>
       </div>
-      <div className="contactUsDivRow">
-        <div className="contactUsColumn">
+      <div className="contactUsDivRow text-neutral-100 font-pfont">
+        <div className="contactUsColumn ">
           <div className="ocPeopleImageDiv1">
             <img src={image1} alt="Avatar" className="ocPeopleImage" />
           </div>
-          <div className="nameDivContactUs">
+          <div className="nameDivContactUs text-neutral-50 font-pfont tracking-wide text-xl">
             <p>
-              <b>Ms. Uthpalani Jayasinghe</b>
+              Ms. Uthpalani Jayasinghe
             </p>
           </div>
-          <div className="roleDivContactUs">
+          <div className="roleDivContactU">
             <p>Chairperson</p>
           </div>
           <div className="phoneNumberDiv">
@@ -32,7 +32,7 @@ const ContactUs = () => {
             </p>
           </div>
           <div className="emailDiv">
-            <p>
+            <p className="tracking-widest font-pfont">
               <b className="fas fa-envelope">uthpalani.jayasinghe@ieee.org</b>
             </p>
           </div>
@@ -41,9 +41,9 @@ const ContactUs = () => {
           <div className="ocPeopleImageDiv2">
             <img src={image2} alt="Avatar" className="ocPeopleImage" />
           </div>
-          <div className="nameDivContactUs">
+          <div className="nameDivContactUs text-neutral-50 font-pfont tracking-wide text-lg">
             <p>
-              <b>Ms. Oshani Wickramasinghe</b>
+              Ms. Oshani Wickramasinghe
             </p>
           </div>
           <div className="roleDivContactUs">
@@ -55,18 +55,18 @@ const ContactUs = () => {
             </p>
           </div>
           <div className="emailDiv">
-            <p>
+          <p className="tracking-widest font-pfont">
               <b className="fas fa-envelope">oewickramasingha@gmail.com</b>
             </p>
           </div>
         </div>
         <div className="contactUsColumn">
-          <div className="ocPeopleImageDiv3">
+          <div className="ocPeopleImageDiv2">
             <img src={image3} alt="Avatar" className="ocPeopleImage" />
           </div>
-          <div className="nameDivContactUs">
+          <div className="nameDivContactUs text-neutral-50 font-pfont tracking-wide text-lg">
             <p>
-              <b>Ms. Dilanga Harshani</b>
+              Ms. Dilanga Harshani
             </p>
           </div>
           <div className="roleDivContactUs">
@@ -74,28 +74,22 @@ const ContactUs = () => {
           </div>
           <div className="phoneNumberDiv">
             <p>
-              <i className="fas fa-phone-alt"></i> +94 70 1 665 087
+              <i className="fas fa-phone-alt"></i> +94 70 166 5087
             </p>
           </div>
           <div className="emailDiv">
-            <p>
-              <b className="fas fa-envelope">
-                Email: aadilangaharshani@ieee.org
-              </b>
+          <p className="tracking-widest font-pfont">
+              <b className="fas fa-envelope">aadilangaharshani@gmail.com</b>
             </p>
           </div>
         </div>
         <div className="contactUsColumn">
-          <div className="ocPeopleImageDiv4">
-            <img
-              src="https://www.w3schools.com/howto/img_avatar.png"
-              alt="Avatar"
-              className="ocPeopleImage"
-            />
+          <div className="ocPeopleImageDiv2">
+            <img src={image2} alt="Avatar" className="ocPeopleImage" />
           </div>
-          <div className="nameDivContactUs">
+          <div className="nameDivContactUs text-neutral-50 font-pfont tracking-wide text-lg">
             <p>
-              <b>Ms. Buddhi Yapa</b>
+              Ms. Buddhi Yapa
             </p>
           </div>
           <div className="roleDivContactUs">
@@ -107,8 +101,8 @@ const ContactUs = () => {
             </p>
           </div>
           <div className="emailDiv">
-            <p>
-              <b className="fas fa-envelope">buddhi_yapa@ieee.org</b>
+          <p className="tracking-widest font-pfont">
+              <b className="fas fa-envelope">oewickramasingha@gmail.com</b>
             </p>
           </div>
         </div>
