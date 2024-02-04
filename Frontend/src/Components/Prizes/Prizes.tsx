@@ -5,7 +5,7 @@ import img3 from "../../Assets/Prizes/3.png";
 
 const Prizes = () => {
   return (
-    <div className="prizeDiv">
+    <div className="prizeDiv" id ={"prize"}>
       <div className="prizeHead">
         <div className="shape">
           <h1>
