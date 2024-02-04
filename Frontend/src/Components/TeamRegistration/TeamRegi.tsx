@@ -12,7 +12,7 @@ export default function Registration() {
     reset,
   } = useForm();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  // const [teamMemberCount, setTeamMemberCount] = useState(2); // Default to 2 members
+  const [teamMemberCount, setTeamMemberCount] = useState(2); // Default to 2 members
   const [teamMembers, setTeamMembers] = useState<any[]>(["member1", "member2"]);
 
   const [slotsRemaining, setSlotsRemaining] = useState(0);
@@ -31,15 +31,14 @@ export default function Registration() {
     setUniversity(watchFields.university);
   }, [watchFields]);
 
-  // useEffect(() => {
-  //   if (teamMemberCount === 2) {
-  //     setTeamMembers(["member1"]);
-  //   } else if (teamMemberCount === 3) {
-  //     setTeamMembers(["member1", "member2"]);
-  //   }
-  // }, [teamMemberCount]);
+  useEffect(() => {
+    if (teamMemberCount === 2) {
+      setTeamMembers(["member1" , "member2"]);
+    } else if (teamMemberCount === 3) {
+      setTeamMembers(["member1", "member2"]);
+    }
+  }, [teamMemberCount]);
 
-  setTeamMembers(["member1", "member2"]);
 
   const onSubmit = async (data: any) => {
     try {
@@ -275,13 +274,13 @@ export default function Registration() {
                 {/* Member */}
 
                 <div className="col-md-12">
-                  <label
+                  {/* <label
                     htmlFor="team-member-count"
                     className="form-label"
                     style={{ fontSize: "1.5rem" }}
                   >
                     Number of Team Members
-                  </label>
+                  </label> */}
                   {/* <select
                     id="team-member-count"
                     className="form-control"
