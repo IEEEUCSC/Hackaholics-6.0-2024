@@ -5,25 +5,25 @@ import image3 from "../../Assets/Contact Us/Dilanga Harshani.png";
 
 const ContactUs = () => {
   return (
-    <div className="contactUsDiv">
+    <div className="contactUsDiv bg-secondary">
       <div className="contactUsHead">
         <div className="shape">
-          <h1>
+        <h1 className="font-sfont font-semibold tracking-wider">
             <span>Contact Us</span>
           </h1>
         </div>
       </div>
-      <div className="contactUsDivRow">
-        <div className="contactUsColumn">
+      <div className="contactUsDivRow text-neutral-100 font-pfont">
+        <div className="contactUsColumn ">
           <div className="ocPeopleImageDiv1">
             <img src={image1} alt="Avatar" className="ocPeopleImage" />
           </div>
-          <div className="nameDivContactUs">
+          <div className="nameDivContactUs text-neutral-50 font-pfont tracking-widest text-xl">
             <p>
-              <b>Ms. Uthpalani Jayasinghe</b>
+              Ms. Uthpalani Jayasinghe
             </p>
           </div>
-          <div className="roleDivContactUs">
+          <div className="roleDivContactU">
             <p>Chairperson</p>
           </div>
           <div className="phoneNumberDiv">
@@ -41,9 +41,9 @@ const ContactUs = () => {
           <div className="ocPeopleImageDiv2">
             <img src={image2} alt="Avatar" className="ocPeopleImage" />
           </div>
-          <div className="nameDivContactUs">
+          <div className="nameDivContactUs text-neutral-50 font-pfont tracking-wider text-xl">
             <p>
-              <b>Ms. Oshani Wickramasinghe</b>
+              Ms. Oshani Wickramasinghe
             </p>
           </div>
           <div className="roleDivContactUs">
@@ -64,9 +64,9 @@ const ContactUs = () => {
           <div className="ocPeopleImageDiv3">
             <img src={image3} alt="Avatar" className="ocPeopleImage" />
           </div>
-          <div className="nameDivContactUs">
+          <div className="nameDivContactUs text-neutral-50 font-pfont tracking-wider text-xl">
             <p>
-              <b>Ms. Dilanga Harshani</b>
+              Ms. Dilanga Harshani
             </p>
           </div>
           <div className="roleDivContactUs">
@@ -93,9 +93,9 @@ const ContactUs = () => {
               className="ocPeopleImage"
             />
           </div>
-          <div className="nameDivContactUs">
+          <div className="nameDivContactUs text-neutral-50 font-pfont tracking-widest text-xl">
             <p>
-              <b>Ms. Buddhi Yapa</b>
+              Ms. Buddhi Yapa
             </p>
           </div>
           <div className="roleDivContactUs">

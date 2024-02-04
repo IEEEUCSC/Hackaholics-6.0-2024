@@ -8,7 +8,7 @@ const Prizes = () => {
     <div className="prizeDiv" id ={"prize"}>
       <div className="prizeHead">
         <div className="shape">
-          <h1>
+        <h1 className="font-sfont font-semibold tracking-wider">
             <span>Awards for Winners</span>
           </h1>
         </div>

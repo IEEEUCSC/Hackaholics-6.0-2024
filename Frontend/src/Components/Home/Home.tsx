@@ -73,7 +73,7 @@ const Home = () => {
 
             <motion.div variants={buttonVariants} className="flex flex-col md:flex-row justify-center items-center">
 
-                <div className="mt-3 md:mt-1 lg:mt-10 md:mr-4 z-50">
+                <div className="mt-3 md:mt-1 lg:mt-10 md:mr-4">
                     <div className="hover:text-primary text-white font-bold">
                         <a
                             href="https://github.com/IEEEUCSC"

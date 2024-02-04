@@ -7,7 +7,7 @@ import ieeewiee2 from '../../Assets/Footer/ieee-wie2.png';
 
 const Footer = () => {
   return (
-    <main className='flex flex-row md:flex-col py-5 md:py-12 items-center content-center justify-center'>
+    <main className='flex flex-row md:flex-col py-5 md:py-12 items-center content-center justify-center bg-black'>
       <div>
         {/* Logos */}
         <div className='flex flex-row mt-3 space-x-14 md:flex-row items-center mb-6 md:justify-center md:gap-32 md:mb-16'>
