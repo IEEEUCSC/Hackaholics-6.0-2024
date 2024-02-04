@@ -12,7 +12,7 @@ export default function Registration() {
     reset,
   } = useForm();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [teamMemberCount, setTeamMemberCount] = useState(2); // Default to 2 members
+  const [teamMemberCount] = useState(2); // Default to 2 members
   const [teamMembers, setTeamMembers] = useState<any[]>(["member1", "member2"]);
 
   const [slotsRemaining, setSlotsRemaining] = useState(0);
