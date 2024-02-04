@@ -50,44 +50,36 @@ const Navbar: React.FC = () => {
                     </div>
                 </div>
                 <div className="">
-                    <div
-                        className={`md:flex flex-col md:flex-row md:space-y-0 space-y-1 text-xl  flex justify-end items-center absolute top- right-10 whitespace-nowrap ${isOpen
-                                ? "block box-border border-primary h-60 w-44  md:absolute md:items-center md:top-7 md:right-10 border-2 font-pfont rounded-lg"
-                                : "hidden"
-                            }`}
-                    >
-                        {[
-                            { label: "Home", link: "/#home" },
-                            { label: "Time Line", link: "/#time" },
-                            { label: "Prizes", link: "/#price" },
-                            { label: "Register Now", link: "https://github.com/IEEEUCSC" },
-                        ].map(
-                            (item, index) =>
-                                !(item.label === "Register Now" && !isOpen) && (
-                                    <a
-                                        key={index}
-                                        href={item.link}
-                                        className="group relative md:mr-9"
-                                    >
-                                        <div className="py-3 md:py-2 px-3 md:mt-2 z-30 indigo-950 text-white hover:text-purple-300 active:bg-indigo-600 active:text-white text-center">
-                                            {item.label}
-                                            <div className="absolute inset-x-0 bottom-0 h-0.5 bg-white transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 active:bg-indigo-600 active:text-white"></div>
-                                        </div>
-                                    </a>
-                                )
-                        )}
-                        {!isOpen && (
-                            <a
-                                href="/team"
-                                className="relative rounded pt-3  px-3 py-1 overflow-hidden group bg-secondary hover:bg-gradient-to-r hover:from-violet-700 hover:to-purple-900 text-white hover:ring-1 hover:ring-offset-1 hover:ring-white transition-all ease-out duration-500 md:align-middle md:items-center mx-auto" // Add mt-2 to move the button up
-                            >
-                                <span className="absolute right-0 -pb-2 w-8 h-32 transition-all duration-1000 transform translate-x-12 bg-tertiary opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                                <span className="relative text-center p-2 pb-3 tracking-widest">
-                                    Register Now
-                                </span>
+                <div
+                    className={`md:flex flex-col md:flex-row md:space-y-0 space-y-1 text-xl  flex justify-end items-center absolute top- right-10 whitespace-nowrap ${isOpen ? "block box-border border-primary h-60 w-44  md:absolute md:items-center md:top-7 md:right-10 border-2 font-pfont rounded-lg" : "hidden"
+                        }`}
+                >
+                    {[
+                        { label: "Home", link: "/#home" },
+                        { label: "Time Line", link: "/#time" },
+                        { label: "Prizes", link: "/#price" },
+                        { label: "Register Now", link: "https://github.com/IEEEUCSC" },
+                    ].map((item, index) => (
+
+                        !(item.label === "Register Now" && !isOpen) && (
+                            <a key={index} href={item.link} className="group relative md:mr-9">
+                                <div className="py-3 md:py-2 px-3 md:mt-2 z-30 indigo-950 text-white hover:text-purple-300 active:bg-indigo-600 active:text-white text-center">
+                                    {item.label}
+                                    <div className="absolute inset-x-0 bottom-0 h-0.5 bg-white transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 active:bg-indigo-600 active:text-white"></div>
+                                </div>
                             </a>
-                        )}
-                    </div>
+                        )
+                    ))}
+                    
+                    {/* Conditionally render Register Now button for non-mobile screens */}
+                    {!isOpen && (
+                    <HashLink smooth to="/team" className="relative rounded px-3 py-2 overflow-hidden group bg-secondary hover:bg-gradient-to-r hover:from-violet-700 hover:to-purple-900 text-white hover:ring-1 hover:ring-offset-1 hover:ring-white transition-all ease-out duration-500 md:align-middle md:items-center mx-auto">
+                        <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-tertiary opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+                        <span className="relative text-center">Register Now</span>
+                    </HashLink>
+
+                    )}
+            </div>
                 </div>
             </div>
         </div>
