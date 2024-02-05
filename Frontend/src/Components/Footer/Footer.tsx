@@ -10,7 +10,7 @@ const Footer = () => {
     <main className='flex flex-row md:flex-col py-5 md:py-12 items-center content-center justify-center bg-gradient-to-b from-secondary to-black'>
       <div>
         {/* Logos */}
-        <div className='flex flex-row mt-3 space-x-12 justify-center md:flex-row items-center mb-6 md:justify-center md:gap-32 md:mb-16'>
+        <div className='flex flex-row mt-3 space-x-12 justify-center  md:flex-row items-center mb-6 md:justify-center md:gap-32 md:mb-16'>
           {/* First Image */}
           <div>
             <img className="inline-block w-28 mb-2 md:w-32 md:mt-1 md:ml-0.5 md:mr-0.5" src={ieeewiee2} alt="wie-logo" />
@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
 
         {/* Socila Links */}
-        <div className='flex flex-col text-xl gap-y-2 mb-5 md:flex-row md:justify-center md:gap-14 text-white font-pfont tracking-widest md:text-2xl'>
+        <div className='flex flex-col text-xl gap-y-2 mb-5 md:flex-row md:justify-center md:gap-14 text-white font-pfont tracking-widest lg:text-2xl md:text-2xl'>
           <div className=''>
             <a href="https://github.com/IEEEUCSC">
               <div className="md:text-1xl md:p-1 hover:text-violet-400 text-white text-center transition-transform transform hover:scale-90 capitalize ">WebSite</div>

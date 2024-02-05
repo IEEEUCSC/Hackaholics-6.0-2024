@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
                     </a>
 
                     <a
-                        href="https://github.com/IEEEUCSC"
+                        href="https://hackaholics.ucscieee.lk/"
                         className="hidden md:block mt-1"
                     >
                         <img
@@ -53,23 +53,24 @@ const Navbar: React.FC = () => {
                 </div>
                 <div className="">
                 <div
-                    className={`md:flex flex-col md:flex-row font-sfont md:space-x-1 md:text-base md:space-y-0 space-y-2 md:ml text-base md:tracking-wide flex justify-end items-center absolute top- right-10 whitespace-nowrap ${isOpen ? "py-4 block box-border border-tertiary  bg-white bg-transparent shadow-xl text-white row-gap-1 md:absolute md:items-center  md:right-10 border-2 font-pfont rounded-lg" : "hidden"
+                    className={`md:flex flex-col md:flex-row font-sfont md:space-x-1 md:text-base md:space-y-0 space-y-2 md:ml text-base md:tracking-wide flex justify-end items-center absolute top- right-10 whitespace-nowrap ${isOpen ? "py-6 block box-border border-transparent bg-primary bg-opacity-20 shadow-2xl text-white font-bold row-gap-4 md:absolute md:items-center  md:right-10 border-2 font-pfont rounded-lg tracking-wider" : "hidden"
                         }`}
                 >
                     {[
+                 
                         
-                        { label: "HOME", link: "" },
-                        { label: "INTRO", link: "" },
-                        { label: "TIMELINE", link: "" },
-                        { label: "FAQ", link: "" },
-                        { label: "PRIZES", link: "" },
-                        { label: "MEMORIES", link: "" },
-                        { label: "CONTACT US", link: "" },
-                        { label: "REGISTER NOW", link: ""},
+                        { label: "Home", link: "/Frontend/src/Components/Home/Home.tsx" },
+                        { label: "Intro", link: "#intro" },
+                        { label: "Timeline", link: "#timeline" },
+                        { label: "Faq", link: "#faq" },
+                        { label: "Prizes", link: "#prize" },
+                        { label: "Memo", link: "#card" },
+                        { label: "Contact", link: "#contactus" },
+                        { label: "Register", link: ""},
                       
                     ].map((item, index) => (
 
-                        !(item.label === ("Register Now" && "REGISTER NOW") && !isOpen) && (
+                        !(item.label === ("Register" && "Register") && !isOpen) && (
                             <a key={index} href={item.link} className="group relative ">
                                 <div className="md:py-1 px-3 md:mt-2 z-100 indigo-950 md:text-white md:mb-2 hover:text-purple-300 active:bg-indigo-600 active:text-white text-center">
                                     {item.label}
@@ -83,7 +84,7 @@ const Navbar: React.FC = () => {
                     {!isOpen && (
                     <HashLink smooth to="/team" className="relative rounded px-3 py-2 overflow-hidden group bg-secondary hover:bg-gradient-to-r hover:from-violet-700 hover:to-purple-900 text-white hover:ring-1 hover:ring-offset-1 hover:ring-white transition-all ease-out duration-500 md:align-middle md:items-center mx-auto">
                         <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-tertiary opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                        <span className="relative text-center">REGISTER NOW</span>
+                        <span className="relative text-center">Register</span>
                     </HashLink>
 
                     )}
