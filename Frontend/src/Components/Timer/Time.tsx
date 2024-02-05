@@ -22,7 +22,7 @@ const Countdown: React.FC<{ targetDate: Date }> = ({ targetDate }) => {
         }, 1000);
 
         return () => clearInterval(timer);
-    }, [targetDate]);
+    }, [targetDate , calculateTimeRemaining]);
 
     return (
         <div className="flex flex-col md:flex-row items-center content-center justify-center h-screen">
