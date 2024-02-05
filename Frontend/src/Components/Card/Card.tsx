@@ -55,13 +55,13 @@ const Carousel: React.FC = (): ReactElement => {
 
   return (
     <div className="carouselDiv">
-        <div className="CarouselHead" data-aos="fade-right" data-aos-duration="1000">
-          <div className="shape">
-            <h1 className="font-sfont font-semibold tracking-wider">
-              <span>Hackaholics 5.0</span>
-            </h1>
-          </div>
+      <div className="CarouselHead" data-aos="fade-right" data-aos-duration="1000">
+        <div className="shape">
+          <h1 className="font-sfont font-semibold tracking-wider">
+            <span>Hackaholics 5.0</span>
+          </h1>
         </div>
+      </div>
       <div className="carouselArea">
         <div className="carousel bg-secondary pt-10 pb-24 p-2" id={"card"}>
           <div className="relative overflow-hidden">
@@ -110,33 +110,36 @@ const Carousel: React.FC = (): ReactElement => {
               </button>
             </div>
 
-        {/* carousel bar */}
-        <div
-          ref={carousel}
-          className="carousel-container relative h-96  ml-1 flex gap-2 rounded overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
-        >
-          
-            {Array.isArray(resources) && resources.map((resource: any, index: number) => {
-            return (
-              <div
-                key={index}
-                className="carousel-item text-center relative w-auto h-auto snap-start z-10"
-              >
-                <a
-                  href={resource.title}
-                  className="h-full w-full items-center aspect-video block bg-origin-padding bg-left-top rounded bg-cover bg-no-repeat z-1"
-                  style={{ backgroundImage: `url(${resource.imageUrl || ''})` }}
-                >
-                  <img
-                    src={resource.imageUrl || ''}
-                    alt={resource.title}
-                    className="w-full aspect-square hidden"
-                    style={{ width: '100%', height: '100%' }}
-                  />
-                </a>
-              </div>
-            );
-          })}
+            {/* carousel bar */}
+            <div
+              ref={carousel}
+              className="carousel-container relative h-96  ml-1 flex gap-2 rounded overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
+            >
+              {resources.map((resource: any, index: number) => {
+                return (
+                  <div
+                    key={index}
+                    className="carousel-item text-center relative w-auto h-auto snap-start z-10"
+                  >
+                    <a
+                      href={resource.title}
+                      className="h-full w-full items-center aspect-video block bg-origin-padding bg-left-top rounded bg-cover bg-no-repeat z-1"
+                      style={{
+                        backgroundImage: `url(${resource.imageUrl || ""})`,
+                      }}
+                    >
+                      <img
+                        src={resource.imageUrl || ""}
+                        alt={resource.title}
+                        className="w-full aspect-square hidden"
+                        style={{ width: "100%", height: "100%" }}
+                      />
+                    </a>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </div>
