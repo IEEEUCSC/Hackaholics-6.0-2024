@@ -1,14 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.c61e5e52.css",
-    "main.js": "/static/js/main.f0a89146.js",
+    "main.css": "/static/css/main.a34cef02.css",
+    "main.js": "/static/js/main.3a75af0f.js",
     "static/js/860.ba47935a.chunk.js": "/static/js/860.ba47935a.chunk.js",
     "static/media/3.png": "/static/media/3.aa16f9f7e6884b8e1b38.png",
     "static/media/1.png": "/static/media/1.8efb2b9e8ad2a52e7c23.png",
     "static/media/2.png": "/static/media/2.ca6e35a7de505b088034.png",
     "static/media/astronut 5.png": "/static/media/astronut 5.5c65e9b6d27a213cc704.png",
     "static/media/Dilanga Harshani.png": "/static/media/Dilanga Harshani.346cb289030fbd053ba9.png",
+    "static/media/7.jpg": "/static/media/7.7932354436bf8622c1d3.jpg",
+    "static/media/2.jpg": "/static/media/2.ed98469c8cc9afd7057c.jpg",
+    "static/media/6.jpg": "/static/media/6.d01d9a084e5744e81a87.jpg",
+    "static/media/5.jpg": "/static/media/5.0e9b59cf21bff933aec5.jpg",
+    "static/media/4.jpg": "/static/media/4.db3f973d30daab904dfe.jpg",
+    "static/media/8.jpg": "/static/media/8.6655329b218a99f9c328.jpg",
+    "static/media/Buddhi.png": "/static/media/Buddhi.a815b2b001af497bc9e6.png",
     "static/media/astronut 1.png": "/static/media/astronut 1.2a53e035010728c26fe4.png",
+    "static/media/OC.JPG": "/static/media/OC.d84bca54a557ebeccb08.JPG",
+    "static/media/3.jpg": "/static/media/3.c680c8613427632c8c5e.jpg",
+    "static/media/9.jpg": "/static/media/9.1cda7279383b1ce3b7dc.jpg",
     "static/media/Uthpalani Jayasinge.jpeg": "/static/media/Uthpalani Jayasinge.db91d3b1bca4b469f78f.jpeg",
     "static/media/wie-ucsc2.png": "/static/media/wie-ucsc2.421e97d855c6db957e0f.png",
     "static/media/astronut 8.png": "/static/media/astronut 8.fa3da04a1abfb9af8f97.png",
@@ -27,12 +37,12 @@
     "static/media/ibm-plex-mono-cyrillic-ext-400-normal.woff": "/static/media/ibm-plex-mono-cyrillic-ext-400-normal.18dd695e5b1103c22279.woff",
     "static/media/ibm-plex-mono-vietnamese-400-normal.woff": "/static/media/ibm-plex-mono-vietnamese-400-normal.442fb799b2a313edbc10.woff",
     "index.html": "/index.html",
-    "main.c61e5e52.css.map": "/static/css/main.c61e5e52.css.map",
-    "main.f0a89146.js.map": "/static/js/main.f0a89146.js.map",
+    "main.a34cef02.css.map": "/static/css/main.a34cef02.css.map",
+    "main.3a75af0f.js.map": "/static/js/main.3a75af0f.js.map",
     "860.ba47935a.chunk.js.map": "/static/js/860.ba47935a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c61e5e52.css",
-    "static/js/main.f0a89146.js"
+    "static/css/main.a34cef02.css",
+    "static/js/main.3a75af0f.js"
   ]
 }
