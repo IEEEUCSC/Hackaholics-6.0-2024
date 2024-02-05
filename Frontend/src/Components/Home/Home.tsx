@@ -57,7 +57,7 @@ const Home = () => {
 
       <motion.div variants={textVariants}>
         <div className="mt-8 md:mt-5">
-          <h1 className="text-white tracking-widest text-4xl md:text-8xl landing-8 font-pfont">
+          <h1 className="text-white tracking-widest text-4xl md:text-8xl landing-8 font-pfont" id="hackaholicsHeading">
             HACKAHOLICS
           </h1>
         </div>
