@@ -125,7 +125,7 @@ export default function Registration() {
           <div className="col-md-12 aos-init aos-animate" data-aos="fade-up">
             {/* form disable if no slots remaining , add class to disable */}
             {/* <form onSubmit={handleSubmit(onSubmit)}> */}
-            <form onSubmit={handleSubmit(onSubmit)} className={slotsRemaining <= 0 ? "disable-form" : "form"}>
+            <form onSubmit={handleSubmit(onSubmit)} className="form">
               {/* Team Information */}
               <div className="row form-group">
                 <div className="col-md-12">
@@ -305,14 +305,15 @@ export default function Registration() {
               )}
 
               <div className="row form-group">
-                <div className="col-md-12  text-center align-items-center">
+                <div className="col-md-12  text-left align-items-left">
                   <input
                     type="submit"
                     value={isSubmitting ? "Registering..." : "Register"}
                     className={`btn btn-primary py-2 px-4 text-white ${
                       isSubmitting ? "btn-loading" : ""
                     }`}
-                    disabled={isSubmitting || slotsRemaining <= 0}
+                    disabled={isSubmitting}
+                    id="btnSubmit"
                   />
                 </div>
               </div>
@@ -337,7 +338,6 @@ function renderMemberFields(prefix: string, register: any) {
       </div>
       <div className="col-md-6">
         <label htmlFor={`${prefix}-name`}>Name</label>
-        <label htmlFor={`${prefix}-name`}>Name</label>
         <input
           type="text"
           id={`${prefix}-name`}
@@ -346,7 +346,6 @@ function renderMemberFields(prefix: string, register: any) {
         />
       </div>
       <div className="col-md-6">
-        <label htmlFor={`${prefix}-year`}>Year of Study</label>
         <label htmlFor={`${prefix}-year`}>Year of Study</label>
         <select
           id={`${prefix}-year`}
