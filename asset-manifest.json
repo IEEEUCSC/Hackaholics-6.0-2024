@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ac73809.css",
-    "main.js": "/static/js/main.038697c6.js",
+    "main.css": "/static/css/main.c61e5e52.css",
+    "main.js": "/static/js/main.f0a89146.js",
     "static/js/860.ba47935a.chunk.js": "/static/js/860.ba47935a.chunk.js",
     "static/media/3.png": "/static/media/3.aa16f9f7e6884b8e1b38.png",
     "static/media/1.png": "/static/media/1.8efb2b9e8ad2a52e7c23.png",
@@ -13,8 +13,8 @@
     "static/media/wie-ucsc2.png": "/static/media/wie-ucsc2.421e97d855c6db957e0f.png",
     "static/media/astronut 8.png": "/static/media/astronut 8.fa3da04a1abfb9af8f97.png",
     "static/media/ieee-wie2.png": "/static/media/ieee-wie2.77cdd9d00560afa412fc.png",
+    "static/media/logo.png": "/static/media/logo.1e1c6daece0c7135082a.png",
     "static/media/oshani.jpeg": "/static/media/oshani.b2487231506685e017f6.jpeg",
-    "static/media/logo.png": "/static/media/logo.9798d78cfdaf08895dbd.png",
     "static/media/as-lpgp.png": "/static/media/as-lpgp.f5251dbbeffea9265157.png",
     "static/media/ibm-plex-mono-latin-400-normal.woff2": "/static/media/ibm-plex-mono-latin-400-normal.57685f70bce71bc2281d.woff2",
     "static/media/ibm-plex-mono-latin-ext-400-normal.woff2": "/static/media/ibm-plex-mono-latin-ext-400-normal.4eb454f797fc14173977.woff2",
@@ -27,12 +27,12 @@
     "static/media/ibm-plex-mono-cyrillic-ext-400-normal.woff": "/static/media/ibm-plex-mono-cyrillic-ext-400-normal.18dd695e5b1103c22279.woff",
     "static/media/ibm-plex-mono-vietnamese-400-normal.woff": "/static/media/ibm-plex-mono-vietnamese-400-normal.442fb799b2a313edbc10.woff",
     "index.html": "/index.html",
-    "main.4ac73809.css.map": "/static/css/main.4ac73809.css.map",
-    "main.038697c6.js.map": "/static/js/main.038697c6.js.map",
+    "main.c61e5e52.css.map": "/static/css/main.c61e5e52.css.map",
+    "main.f0a89146.js.map": "/static/js/main.f0a89146.js.map",
     "860.ba47935a.chunk.js.map": "/static/js/860.ba47935a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ac73809.css",
-    "static/js/main.038697c6.js"
+    "static/css/main.c61e5e52.css",
+    "static/js/main.f0a89146.js"
   ]
 }
