@@ -1,8 +1,10 @@
-import React, { useState, useRef, useEffect, ReactElement } from "react";
-import "./Card.css";
+import React, { useState, useRef, useEffect, ReactElement } from 'react';
+import './Card.css'
+import resources from './data';
+
 
 // Data
-import data from "./data.json";
+
 // import { WidthFull } from '@mui/icons-material';
 
 const Carousel: React.FC = (): ReactElement => {
@@ -53,13 +55,13 @@ const Carousel: React.FC = (): ReactElement => {
 
   return (
     <div className="carouselDiv">
-        <div className="CarouselHead" data-aos="fade-right" data-aos-duration="1000">
-          <div className="shape">
-            <h1 className="font-sfont font-semibold tracking-wider">
-              <span>Hackaholics 5.0</span>
-            </h1>
-          </div>
+      <div className="CarouselHead" data-aos="fade-right" data-aos-duration="1000">
+        <div className="shape">
+          <h1 className="font-sfont font-semibold tracking-wider">
+            <span>Hackaholics 5.0</span>
+          </h1>
         </div>
+      </div>
       <div className="carouselArea">
         <div className="carousel bg-secondary pt-10 pb-24 p-2" id={"card"}>
           <div className="relative overflow-hidden">
@@ -113,7 +115,7 @@ const Carousel: React.FC = (): ReactElement => {
               ref={carousel}
               className="carousel-container relative h-96  ml-1 flex gap-2 rounded overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
             >
-              {data.resources.map((resource, index) => {
+              {resources.map((resource: any, index: number) => {
                 return (
                   <div
                     key={index}
