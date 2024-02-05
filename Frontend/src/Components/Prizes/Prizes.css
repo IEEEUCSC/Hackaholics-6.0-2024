@@ -30,6 +30,7 @@
   cursor: pointer;
   background-attachment: fixed;
   background-position: center;
+  z-index: +19;
 }
 .prizeColTwo:hover {
   height: 65%;
@@ -49,6 +50,7 @@
   cursor: pointer;
   background-attachment: fixed;
   background-position: center;
+  z-index: +19;
 }
 .prizeColOne:hover {
   height: 65%;
@@ -68,6 +70,7 @@
   cursor: pointer;
   background-attachment: fixed;
   background-position: center;
+  z-index: +19;
 }
 .prizeColThree:hover {
   height: 65%;

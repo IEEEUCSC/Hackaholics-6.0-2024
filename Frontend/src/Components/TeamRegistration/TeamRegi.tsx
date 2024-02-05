@@ -88,7 +88,7 @@ export default function Registration() {
                 Register your Team For Hackaholics 6.0
               </h1>
               {/* display flex */}
-              <div className="col-md-3 text-center">
+              <div className="col-md-3 text-center" >
                 <div className="d-flex flex-column align-items-center">
                   <a href="/" target="_blank">
                     <button className="btn  btn-primary py-2 px-4 text-white">
@@ -305,13 +305,14 @@ export default function Registration() {
               )}
 
               <div className="row form-group">
-                <div className="col-md-12  text-center align-items-center">
+                <div className="col-md-12  text-left align-items-left">
                   <input
                     type="submit"
                     value={isSubmitting ? "Registering..." : "Register"}
                     className={`btn btn-primary py-2 px-4 text-white ${
                       isSubmitting ? "btn-loading" : ""
                     }`}
+                    id="btnSubmit"
                     disabled={isSubmitting || slotsRemaining <= 0}
                   />
                 </div>
@@ -337,7 +338,6 @@ function renderMemberFields(prefix: string, register: any) {
       </div>
       <div className="col-md-6">
         <label htmlFor={`${prefix}-name`}>Name</label>
-        <label htmlFor={`${prefix}-name`}>Name</label>
         <input
           type="text"
           id={`${prefix}-name`}
@@ -346,7 +346,6 @@ function renderMemberFields(prefix: string, register: any) {
         />
       </div>
       <div className="col-md-6">
-        <label htmlFor={`${prefix}-year`}>Year of Study</label>
         <label htmlFor={`${prefix}-year`}>Year of Study</label>
         <select
           id={`${prefix}-year`}

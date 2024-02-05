@@ -50,7 +50,7 @@
 }
 
 .reg-section {
-  background: linear-gradient(to bottom, #18113A, black);// Set the background color to black
+  background: linear-gradient(to bottom, #18113A, 18113A);// Set the background color to black
   color: white; // Set the text color to white or any contrasting color
   padding: 20px; // Add padding to the form to create space between the content and the edges
 }
@@ -166,4 +166,7 @@ $blue-grad-end: #02a8e1;
 }
 .eventTitle{
   color: #782a84 !important;
+}
+#btnSubmit{
+  background-color: #782a84;
 }

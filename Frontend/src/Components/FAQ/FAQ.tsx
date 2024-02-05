@@ -4,7 +4,7 @@ import img from "../../Assets/Astronaut/astronut 8.png";
 const FAQ = () => {
   return (
     <div className="faqDiv bg-secondary" id={"faq"}>
-      <div className="FAQHead">
+      <div className="FAQHead" data-aos="fade-right" data-aos-duration="1000">
         <div
           className="shape"
         >

@@ -7,9 +7,7 @@ export default function Intro() {
   return (
     <div className="Intro bg-secondary" id={"intro"}>
       <div className="IntroHead">
-        <div
-          className="shape"
-        >
+        <div className="shape" data-aos="fade-right" data-aos-duration="1000">
           <h1 className="font-sfont font-semibold tracking-wider">
             <span>What is Hackaholics 6.0 ?</span>
           </h1>
@@ -17,12 +15,14 @@ export default function Intro() {
       </div>
       <div className="introDetailsAndImageOne ">
         <div className="text">
-          <p className="text-neutral-50 tracking-wider landing-2 font-pfont font-thin">
-            <b className="tracking-widest text-white">Hackaholics 6.0</b> is an{" "}
-            <b className="tracking-wider text-white">Inter-University Girls’ Only Hackathon </b>
-            organized by the{" "}
-            <b className="tracking-widest text-white">IEEE WIE Student Branch Affinity Group of UCSC</b>, held for the
-            sixth consecutive year. This <b className="tracking-widest text-white">ideathon</b> empowers female
+          <p
+            className="text-neutral-50 tracking-wider landing-2 font-pfont font-thin"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Hackaholics 6.0 is an Inter-University Girls’ Only Hackathon
+            organized by the IEEE WIE Student Branch Affinity Group of UCSC,
+            held for the sixth consecutive year. This ideathon empowers female
             undergraduates to discuss and develop solutions to critical issues
             in our society through cooperation, collaboration, and coordination.
           </p>
@@ -44,17 +44,21 @@ export default function Intro() {
           />
         </div>
         <div className="text">
-        <p className="text-neutral-50 tracking-wider landing-2 font-pfont font-thin z-40">
-            The event commences with a <b className="tracking-widest text-white">virtual scholarship awareness session</b> for
-            undergraduates, followed by a <b className="tracking-widest text-white">proposal submission phase</b> for <b>teams of
-            three students</b> from the <b className="tracking-widest text-white">same university</b>, focusing on innovative
-            ideas within given topics. The <b className="tracking-widest text-white">top 10 teams</b> are advancing to the
-            next round where they prepare <b className="tracking-widest text-white">UI prototypes</b> and <b className="tracking-widest text-white">presentations</b>. The
-            <b className="tracking-widest text-white"> physical competition on March 2nd, 2024</b>, involves <b className="tracking-widest text-white">presenting
-            proposed ideas</b>, with the top five teams selected based on various
-            criteria. These <b className="tracking-widest text-white">finalists</b> then tackle a <b className="tracking-widest text-white">scenario challenge</b> presented
-            by judges, and <b className="tracking-widest text-white">winners</b> are determined by industry experts, receiving
-            <b className="tracking-widest text-white"> cash prizes</b>.
+          <p
+            className="text-neutral-50 tracking-wider landing-2 font-pfont font-thin z-40"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            The event commences with a virtual scholarship awareness session for
+            undergraduates, followed by a proposal submission phase for teams of
+            three students from the same university, focusing on innovative
+            ideas within given topics. The top 10 teams are advancing to the
+            next round where they prepare UI prototypes and presentations. The
+            physical competition on March 2nd, 2024, involves presenting
+            proposed ideas, with the top five teams selected based on various
+            criteria. These finalists then tackle a scenario challenge presented
+            by judges, and winners are determined by industry experts, receiving
+            cash prizes.
           </p>
         </div>
       </div>
