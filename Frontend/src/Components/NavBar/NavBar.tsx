@@ -5,8 +5,8 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import mobileLogo from "../../Assets/NavBar/as-lpgp.png";
 import { HashLink } from "react-router-hash-link";
-import { Link } from "react-scroll";
-import { ClassNames } from "@emotion/react";
+// import { Link } from "react-scroll";
+// import { ClassNames } from "@emotion/react";
 
 const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
                     </a>
 
                     <a
-                        href="https://github.com/IEEEUCSC"
+                        href="https://hackaholics.ucscieee.lk/"
                         className="hidden md:block mt-1"
                     >
                         <img
@@ -57,6 +57,7 @@ const Navbar: React.FC = () => {
                         }`}
                 >
                     {[
+                 
                         
                         { label: "HOME", link: "/Frontend/src/Components/Home/Home.tsx" },
                         { label: "INTRO", link: "#intro" },

@@ -55,7 +55,7 @@ const Carousel: React.FC = (): ReactElement => {
   return (
 
 
-    <div className="carousel bg-secondary pt-10 pb-24 p-2" id="card">
+  <div className="carousel bg-secondary pt-10 pb-24 p-2" id={"card"}>
       <div className="prizeHead">
         <div
           className="shape "

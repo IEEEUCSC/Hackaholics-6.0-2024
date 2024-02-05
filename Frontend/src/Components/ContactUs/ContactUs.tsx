@@ -5,7 +5,7 @@ import image3 from "../../Assets/Contact Us/Dilanga Harshani.png";
 
 const ContactUs = () => {
   return (
-    <div className="contactUsDiv bg-secondary" id="contactus">
+    <div className="contactUsDiv bg-secondary" id={"contactus"}>
       <div className="contactUsHead">
         <div className="shape">
         <h1 className="font-sfont font-semibold tracking-wider">
