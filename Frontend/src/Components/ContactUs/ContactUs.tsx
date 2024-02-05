@@ -6,9 +6,9 @@ import image3 from "../../Assets/Contact Us/Dilanga Harshani.png";
 const ContactUs = () => {
   return (
     <div className="contactUsDiv bg-secondary" id={"contactus"}>
-      <div className="contactUsHead">
+      <div className="prizeHead" data-aos="fade-left" data-aos-duration="1000">
         <div className="shape">
-        <h1 className="font-sfont font-semibold tracking-wider">
+          <h1 className="font-sfont font-semibold tracking-wider">
             <span>Contact Us</span>
           </h1>
         </div>
@@ -19,9 +19,7 @@ const ContactUs = () => {
             <img src={image1} alt="Avatar" className="ocPeopleImage" />
           </div>
           <div className="nameDivContactUs text-neutral-50 font-pfont tracking-wide text-xl">
-            <p>
-              Ms. Uthpalani Jayasinghe
-            </p>
+            <p>Ms. Uthpalani Jayasinghe</p>
           </div>
           <div className="roleDivContactU">
             <p>Chairperson</p>
@@ -42,9 +40,7 @@ const ContactUs = () => {
             <img src={image2} alt="Avatar" className="ocPeopleImage" />
           </div>
           <div className="nameDivContactUs text-neutral-50 font-pfont tracking-wide text-lg">
-            <p>
-              Ms. Oshani Wickramasinghe
-            </p>
+            <p>Ms. Oshani Wickramasinghe</p>
           </div>
           <div className="roleDivContactUs">
             <p>Vice Chairperson</p>
@@ -55,7 +51,7 @@ const ContactUs = () => {
             </p>
           </div>
           <div className="emailDiv">
-          <p className="tracking-widest font-pfont">
+            <p className="tracking-widest font-pfont">
               <b className="fas fa-envelope">oewickramasingha@gmail.com</b>
             </p>
           </div>
@@ -65,9 +61,7 @@ const ContactUs = () => {
             <img src={image3} alt="Avatar" className="ocPeopleImage" />
           </div>
           <div className="nameDivContactUs text-neutral-50 font-pfont tracking-wide text-lg">
-            <p>
-              Ms. Dilanga Harshani
-            </p>
+            <p>Ms. Dilanga Harshani</p>
           </div>
           <div className="roleDivContactUs">
             <p>Secretary</p>
@@ -78,7 +72,7 @@ const ContactUs = () => {
             </p>
           </div>
           <div className="emailDiv">
-          <p className="tracking-widest font-pfont">
+            <p className="tracking-widest font-pfont">
               <b className="fas fa-envelope">aadilangaharshani@gmail.com</b>
             </p>
           </div>
@@ -88,9 +82,7 @@ const ContactUs = () => {
             <img src={image2} alt="Avatar" className="ocPeopleImage" />
           </div>
           <div className="nameDivContactUs text-neutral-50 font-pfont tracking-wide text-lg">
-            <p>
-              Ms. Buddhi Yapa
-            </p>
+            <p>Ms. Buddhi Yapa</p>
           </div>
           <div className="roleDivContactUs">
             <p>Treasurer</p>
@@ -101,7 +93,7 @@ const ContactUs = () => {
             </p>
           </div>
           <div className="emailDiv">
-          <p className="tracking-widest font-pfont">
+            <p className="tracking-widest font-pfont">
               <b className="fas fa-envelope">oewickramasingha@gmail.com</b>
             </p>
           </div>
