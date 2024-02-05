@@ -7,7 +7,7 @@ import img3 from "../../Assets/Prizes/3.png";
 const Prizes = () => {
   return (
     <div className="prizeDiv" id ={"prize"}>
-      <div className="prizeHead">
+      <div className="prizeHead" data-aos="fade-left" data-aos-duration="1000">
         <div className="shape">
         <h1 className="font-sfont font-semibold tracking-wider">
             <span>Awards for Winners</span>

@@ -38,15 +38,23 @@
   justify-content: center;
 }
 .faqImageContainor {
-  width: 70%;
+  width: 100%;
   height: auto;
   margin: 50px;
+  z-index: +19;
+}
+.faqImageContainor img {
+  transition-duration: 0.6s!important;
+}
+.faqImageContainor img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.6s!important;
 }
 .FAQHead {
   width: 93%;
 }
 .shape {
-  height: 45px!important;
+  height: 45px !important;
   background: linear-gradient(to right, #782a84, #782a84);
 }
 
