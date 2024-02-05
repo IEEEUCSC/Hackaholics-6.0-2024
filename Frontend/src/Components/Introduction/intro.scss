@@ -42,19 +42,25 @@ body {
   width: 20%;
   height: auto;
   max-width: 100%;
+  cursor: pointer;
+  float: right;
+  z-index: +19;
+}
+.image img{
+  transition-duration: 0.6s;
+}
+.Image img:hover {
+  transform: scale(1.05) !important;
+  transition-duration: 0.6s;
 }
 
 .text {
   float: left;
   text-align: justify;
-  font-size: 20px;
+  font-size: 17px;
   color: #000000;
   width: 55%;
   font-family: "Source Sans 3", sans-serif;
-}
-
-.Image {
-  float: right;
 }
 
 .shape {

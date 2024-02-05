@@ -17,25 +17,26 @@ import "@fontsource/ibm-plex-mono"
 import Narbar2 from './Components/NavBar/Navabr2'
 
 
+
 function App() {
   return (
     <div className="content">
-       <Narbar2 />     
-        <Particles />  
+      <Narbar2 />
+      <Particles />
       <Routes>
         <Route path="/team" element={<Registration />} />
         <Route path="/*" element={
-          <div>     
-          <Home />
-          <Intro />
-        {/* <Sponsers /> */}
-        <Timeline/>
-        <FAQ /> 
-        <Prizes />
-        <Card />
-       <ContactUs />
+          <div>
+            <Home />
+            <Intro />
+            {/* <Sponsers /> */}
+            <Timeline />
+            <FAQ />
+            <Prizes />
+            <Card />
+            <ContactUs />
           </div>
-        } />     
+        } />
       </Routes>
 
 

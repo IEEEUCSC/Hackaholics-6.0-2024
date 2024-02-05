@@ -105,7 +105,7 @@ const Timeline: React.FC = () => {
       id={"timeline"}
     >
       <div className="container py-5" id="timeLineComponentContainor">
-        <div className="timelineHead">
+        <div className="timelineHead" data-aos="fade-left" data-aos-duration="1000">
           <div
             className="shape"
             id="timeLineComponentShape"
