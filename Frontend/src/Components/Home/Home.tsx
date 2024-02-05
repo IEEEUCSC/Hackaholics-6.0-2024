@@ -2,6 +2,7 @@
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import "./Home.css";
+import Countd from '../Timer/Time';
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -40,24 +41,25 @@ const Home = () => {
     controls.start("visible");
   }, [controls]);
 
-  return (
-    <motion.main
-      className="flex flex-col h-screen items-center justify-center text-slate-50 font-bold bg-secondary "
-      initial="hidden"
-      animate={controls}
-      variants={containerVariants}
-      id="homeComponent"
-    >
-      <motion.div variants={textVariants}>
-        <div className="text-white font-sfont text-xl md:text-2xl md:tracking-widest tracking-wide text-center hover:text-orange-100">
-          <p>IEEE WIE STUDENT BRANCH</p>
-          <p>AFFINITY GROUP OF UCSC</p>
-        </div>
-      </motion.div>
+    return (
+        
+        <motion.main
+            className="flex flex-col h-screen items-center justify-center text-slate-50 font-bold bg-secondary "
+            initial="hidden"
+            animate={controls}
+            variants={containerVariants}
+            id='homeComponent'
+        >
+            <motion.div variants={textVariants}>
+                <div className="text-white font-sfont text-xl md:text-2xl md:tracking-widest tracking-wide text-center hover:text-orange-100 mt-44">
+                    <p>IEEE WIE STUDENT BRANCH</p>
+                    <p>AFFINITY GROUP OF UCSC</p>
+                </div>
+            </motion.div>
 
       <motion.div variants={textVariants}>
         <div className="mt-8 md:mt-5">
-          <h1 className="text-white tracking-widest text-4xl md:text-8xl landing-8 font-pfont">
+          <h1 className="text-white tracking-widest text-4xl md:text-8xl landing-8 font-pfont" id="hackaholicsHeading">
             HACKAHOLICS
           </h1>
         </div>
@@ -107,6 +109,7 @@ const Home = () => {
           </div>
         </div>
       </motion.div>
+      <Countd targetDate={new Date('2024-03-31')}/>
     </motion.main>
   );
 };
