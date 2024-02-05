@@ -2,6 +2,7 @@ import "./ContactUs.css";
 import image1 from "../../Assets/Contact Us/Uthpalani Jayasinge.jpeg";
 import image2 from "../../Assets/Contact Us/oshani.jpeg";
 import image3 from "../../Assets/Contact Us/Dilanga Harshani.png";
+import image4 from "../../Assets/Contact Us/Buddhi.png";
 
 const ContactUs = () => {
   return (
@@ -79,7 +80,7 @@ const ContactUs = () => {
         </div>
         <div className="contactUsColumn">
           <div className="ocPeopleImageDiv2">
-            <img src={image2} alt="Avatar" className="ocPeopleImage" />
+            <img src={image4} alt="Avatar" className="ocPeopleImage" />
           </div>
           <div className="nameDivContactUs text-neutral-50 font-pfont tracking-wide text-lg">
             <p>Ms. Buddhi Yapa</p>
