@@ -125,7 +125,7 @@ export default function Registration() {
           <div className="col-md-12 aos-init aos-animate" data-aos="fade-up">
             {/* form disable if no slots remaining , add class to disable */}
             {/* <form onSubmit={handleSubmit(onSubmit)}> */}
-            <form onSubmit={handleSubmit(onSubmit)} className={slotsRemaining <= 0 ? "disable-form" : "form"}>
+            <form onSubmit={handleSubmit(onSubmit)} className="form">
               {/* Team Information */}
               <div className="row form-group">
                 <div className="col-md-12">
@@ -313,7 +313,7 @@ export default function Registration() {
                       isSubmitting ? "btn-loading" : ""
                     }`}
                     id="btnSubmit"
-                    disabled={isSubmitting || slotsRemaining <= 0}
+                    disabled={isSubmitting}
                   />
                 </div>
               </div>
