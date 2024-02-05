@@ -41,6 +41,7 @@ const Home = () => {
     }, [controls]);
 
     return (
+        
         <motion.main
             className="flex flex-col h-screen items-center justify-center text-slate-50 font-bold bg-secondary "
             initial="hidden"

@@ -3,6 +3,7 @@ import img1 from "../../Assets/Prizes/1.png";
 import img2 from "../../Assets/Prizes/2.png";
 import img3 from "../../Assets/Prizes/3.png";
 
+
 const Prizes = () => {
   return (
     <div className="prizeDiv" id ={"prize"}>

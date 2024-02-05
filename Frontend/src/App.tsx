@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Footer from './Components/Footer/Footer';
 import Prizes from './Components/Prizes/Prizes';
 import './App.css';
-import Navbar from './Components/NavBar/NavBar';
+// import Navbar from './Components/NavBar/NavBar';
 import Home from './Components/Home/Home';
 import FAQ from './Components/FAQ/FAQ';
 // import Sponsers from './Components/Sponsers/Sponsers';
@@ -14,18 +14,19 @@ import ContactUs from './Components/ContactUs/ContactUs';
 import Card from './Components/Card/Card';
 import Particles from './Components/Particles/ParticleDesign';
 import "@fontsource/ibm-plex-mono"
+import Narbar2 from './Components/NavBar/Navabr2'
 
 
 function App() {
   return (
     <div className="content">
-        <Navbar />       
+       <Narbar2 />     
+        <Particles />  
       <Routes>
         <Route path="/team" element={<Registration />} />
         <Route path="/*" element={
           <div>     
-            <Particles />     
-            <Home />
+          <Home />
           <Intro />
         {/* <Sponsers /> */}
         <Timeline/>

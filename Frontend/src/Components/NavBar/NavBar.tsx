@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
                     </a>
 
                     <a
-                        href="https://github.com/IEEEUCSC"
+                        href="https://hackaholics.ucscieee.lk/"
                         className="hidden md:block mt-1"
                     >
                         <img
@@ -53,18 +53,19 @@ const Navbar: React.FC = () => {
                 </div>
                 <div className="">
                 <div
-                    className={`md:flex flex-col md:flex-row font-sfont md:space-x-1 md:text-base md:space-y-0 space-y-2 md:ml text-base md:tracking-wide flex justify-end items-center absolute top- right-10 whitespace-nowrap ${isOpen ? "py-4 block box-border border-tertiary  bg-white bg-transparent shadow-xl text-white row-gap-1 md:absolute md:items-center  md:right-10 border-2 font-pfont rounded-lg" : "hidden"
+                    className={`md:flex flex-col md:flex-row font-sfont md:space-x-1 md:text-base md:space-y-0 space-y-2 md:ml text-base md:tracking-wide flex justify-end items-center absolute top- right-10 whitespace-nowrap ${isOpen ? "py-6 block box-border border-transparent bg-primary bg-opacity-20 shadow-2xl text-white font-bold row-gap-4 md:absolute md:items-center  md:right-10 border-2 font-pfont rounded-lg tracking-wider" : "hidden"
                         }`}
                 >
                     {[
+                 
                         
-                        { label: "HOME", link: "" },
-                        { label: "INTRO", link: "" },
-                        { label: "TIMELINE", link: "" },
-                        { label: "FAQ", link: "" },
-                        { label: "PRIZES", link: "" },
-                        { label: "MEMORIES", link: "" },
-                        { label: "CONTACT US", link: "" },
+                        { label: "HOME", link: "/Frontend/src/Components/Home/Home.tsx" },
+                        { label: "INTRO", link: "#intro" },
+                        { label: "TIMELINE", link: "#timeline" },
+                        { label: "FAQ", link: "#faq" },
+                        { label: "PRIZES", link: "#prize" },
+                        { label: "MEMORIES", link: "#card" },
+                        { label: "CONTACT US", link: "#contactus" },
                         { label: "REGISTER NOW", link: ""},
                       
                     ].map((item, index) => (
