@@ -17,7 +17,8 @@ const Navbar: React.FC = () => {
 
     return (
         <div
-            className={`fixed top-0  w-screen bg-secondary bg-opacity-15 z-20 ${isOpen ? "" : "overflow-hidden"
+            id="navbarDiv"
+            className={`fixed top-0  w-screen bg-secondary -15 z-20 ${isOpen ? "" : "overflow-hidden"
                 }`}
         >
             <div className="flex flex-col md:flex-row justify-between items-right ml-0 mt-2 mr-1 md:mr-1 mb-1 md:mb-1 px-2 md:px-9 py-5 md:pt-3 md:pb-10">
@@ -57,17 +58,17 @@ const Navbar: React.FC = () => {
                             }`}
                     >
                         {[
-                            { label: "HOME", link: "/#home" }, 
+                            { label: "Home", link: "/#home" }, 
                             // need to change this into https://hackaholics.ucscieee.lk/
-                            { label: "INTRO", link: "/#intro" },
-                            { label: "TIMELINE", link: "/#timeline" },
-                            { label: "FAQ", link: "/#faq" },
-                            { label: "PRIZES", link: "/#prize" },
-                            { label: "MEMORIES", link: "/#card" },
-                            { label: "CONTACT US", link: "/#contactus" },
-                            { label: "REGISTER NOW", link: "/team" },
+                            { label: "Intro", link: "/#intro" },
+                            { label: "Timeline", link: "/#timeline" },
+                            { label: "Faq", link: "/#faq" },
+                            { label: "Prizes", link: "/#prize" },
+                            { label: "Memo", link: "/#card" },
+                            { label: "Contact", link: "/#contactus" },
+                            { label: "Register", link: "/team" },
                         ].map((item, index) => (
-                            !(item.label === "REGISTER NOW" && !isOpen) && (
+                            !(item.label === "Register" && !isOpen) && (
                                 <HashLink key={index} smooth to={item.link} className="group relative ">
                                     <div className="md:py-1 px-3 md:mt-2 z-100 indigo-950 md:text-white md:mb-2 hover:text-purple-300 active:bg-indigo-600 active:text-white text-center">
                                         {item.label}
@@ -81,7 +82,7 @@ const Navbar: React.FC = () => {
                         {!isOpen && (
                             <HashLink smooth to="/team" className="relative rounded px-3 py-2 overflow-hidden group bg-secondary hover:bg-gradient-to-r hover:from-violet-700 hover:to-purple-900 text-white hover:ring-1 hover:ring-offset-1 hover:ring-white transition-all ease-out duration-500 md:align-middle md:items-center mx-auto">
                                 <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-tertiary opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                                <span className="relative text-center">REGISTER NOW</span>
+                                <span className="relative text-center">Register</span>
                             </HashLink>
                         )}
                     </div>
