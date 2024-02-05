@@ -62,7 +62,7 @@ const Navbar: React.FC = () => {
                             }`}
                     >
                         {[
-                            { label: "Home", link: "/#home" }, 
+                            { label: "Home", link: "/#" }, 
                             // need to change this into https://hackaholics.ucscieee.lk/
                             { label: "Intro", link: "/#intro" },
                             { label: "Timeline", link: "/#timeline" },
