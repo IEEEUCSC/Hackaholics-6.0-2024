@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
                 </div>
                 <div className="">
                 <div
-                    className={`md:flex flex-col md:flex-row font-sfont md:space-x-1 md:text-base md:space-y-0 space-y-2 md:ml text-base md:tracking-wide flex justify-end items-center absolute top- right-10 whitespace-nowrap ${isOpen ? "py-4 block box-border border-tertiary  bg-white bg-transparent shadow-xl text-white row-gap-1 md:absolute md:items-center  md:right-10 border-2 font-pfont rounded-lg" : "hidden"
+                    className={`md:flex flex-col md:flex-row font-sfont md:space-x-1 md:text-base md:space-y-0 space-y-2 md:ml text-base md:tracking-wide flex justify-end items-center absolute top- right-10 whitespace-nowrap ${isOpen ? "py-6 block box-border border-transparent bg-primary bg-opacity-20 shadow-2xl text-white font-bold row-gap-4 md:absolute md:items-center  md:right-10 border-2 font-pfont rounded-lg tracking-wider" : "hidden"
                         }`}
                 >
                     {[
