@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
 
         {/* Socila Links */}
-        <div className='flex flex-col text-xl gap-y-2 mb-5 md:flex-row md:justify-center md:gap-14 text-white font-pfont tracking-widest lg:text-2xl md:text-2xl'>
+        <div className='flex flex-col text-xl gap-y-2 mb-5 md:flex-row md:justify-center md:gap-14 text-white font-pfont tracking-widest lg:text-2xl md:text-sm'>
           <div className=''>
             <a href="https://github.com/IEEEUCSC">
               <div className="md:text-1xl md:p-1 hover:text-violet-400 text-white text-center transition-transform transform hover:scale-90 capitalize ">WebSite</div>
