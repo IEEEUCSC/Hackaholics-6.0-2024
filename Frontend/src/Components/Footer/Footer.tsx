@@ -48,29 +48,29 @@ const Footer = () => {
 
         {/* Socila Links */}
         <div className="flex flex-col text-xl gap-y-2 mb-5 md:flex-row md:justify-center md:gap-14 text-white font-pfont tracking-widest lg:text-2xl md:text-2xl">
-          <div className="">
+          {/* <div className="">
             <a href="https://github.com/IEEEUCSC" id="footerLink">
               <div className="md:text-1xl md:p-1 hover:text-violet-400 text-white text-center transition-transform transform hover:scale-80 capitalize ">
                 WebSite
               </div>
             </a>
-          </div>
+          </div> */}
           <div>
-            <a href="https://github.com/IEEEUCSC" id="footerLink">
+            <a href="https://www.linkedin.com/company/ieee-wie-student-branch-affinity-group-of-ucsc/" id="footerLink">
               <div className="md:text-2xl md:p-1 hover:text-violet-400 text-white text-center transition-transform transform hover:scale-80 capitalize ">
                 LinkedIn
               </div>
             </a>
           </div>
           <div>
-            <a href="https://github.com/IEEEUCSC" id="footerLink">
+            <a href="https://www.instagram.com/ucsc.wie?igsh=OHBzd25kZXByazJn" id="footerLink">
               <div className="md:text-2xl md:p-1 hover:text-violet-400 text-white text-center transition-transform transform hover:scale-80 capitalize ">
                 Instagram
               </div>
             </a>
           </div>
           <div>
-            <a href="https://github.com/IEEEUCSC" id="footerLink">
+            <a href="https://www.facebook.com/profile.php?id=100064681930483&mibextid=ZbWKwL" id="footerLink">
               <div className="md:text-2xl md:p-1 hover:text-violet-400 text-white text-center transition-transform transform hover:scale-80 capitalize ">
                 FaceBook
               </div>

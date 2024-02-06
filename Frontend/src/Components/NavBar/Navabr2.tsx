@@ -24,22 +24,26 @@ const Navbar: React.FC = () => {
             <div className="flex flex-col md:flex-row justify-between items-right ml-0 mt-2 mr-1 md:mr-1 mb-1 md:mb-1 px-2 md:px-9 py-5 md:pt-3 md:pb-10">
                 <div className="flex items-center">
                     <a href="/" className="block md:hidden">
+                        <HashLink smooth to="/#">
                         <img
                             className="relative inline-block h-15 w-9 ml-8 mt-0"
                             src={mobileLogo}
                             alt="mobile-logo"
-                        />
+                            />
+                        </HashLink>
                     </a>
 
                     <a
-                        href="https://hackaholics.ucscieee.lk/"
+                        href="/"
                         className="hidden md:block mt-1"
                     >
+                        <HashLink smooth to="/#">
                         <img
                             className="absolute inline-block h-14 ml-0 mt-0 "
                             src={logo}
                             alt="wie-logo"
                         />
+                        </HashLink>
                     </a>
 
                     <div className="md:hidden mt-2 flex justify-end items-end absolute top-5 right-10">
@@ -58,7 +62,7 @@ const Navbar: React.FC = () => {
                             }`}
                     >
                         {[
-                            { label: "Home", link: "/#home" }, 
+                            { label: "Home", link: "/#" }, 
                             // need to change this into https://hackaholics.ucscieee.lk/
                             { label: "Intro", link: "/#intro" },
                             { label: "Timeline", link: "/#timeline" },

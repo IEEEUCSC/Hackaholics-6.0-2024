@@ -1,8 +1,7 @@
-// Countdown.tsx
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 
 const Countdown: React.FC<{ targetDate: Date }> = ({ targetDate }) => {
-    const calculateTimeRemaining = () => {
+    const calculateTimeRemaining = useCallback(() => {
         const currentTime = new Date();
         const difference = targetDate.getTime() - currentTime.getTime();
 
@@ -12,7 +11,7 @@ const Countdown: React.FC<{ targetDate: Date }> = ({ targetDate }) => {
         const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
         return { days, hours, minutes, seconds };
-    };
+    }, [targetDate]);
 
     const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining);
 
@@ -22,7 +21,7 @@ const Countdown: React.FC<{ targetDate: Date }> = ({ targetDate }) => {
         }, 1000);
 
         return () => clearInterval(timer);
-    }, [targetDate]);
+    }, [targetDate, calculateTimeRemaining]);
 
     return (
         <div className="flex flex-col md:flex-row items-center content-center justify-center h-screen">
@@ -45,7 +44,6 @@ const Countdown: React.FC<{ targetDate: Date }> = ({ targetDate }) => {
                 </div>
                 {/* <div className="grid grid-row-1 font-bold font-pfont text-white">Team Registrations are open in</div> */}
             </div>
-
         </div>
     );
 };

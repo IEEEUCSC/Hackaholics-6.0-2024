@@ -15,7 +15,8 @@ export default function Registration() {
   const [teamMemberCount] = useState(2); // Default to 2 members
   const [teamMembers, setTeamMembers] = useState<any[]>(["member1", "member2"]);
 
-  const [slotsRemaining, setSlotsRemaining] = useState(0);
+  // const [slotsRemaining, setSlotsRemaining] = useState(0);
+
 
   // get from the form
   const [university, setUniversity] = useState(
@@ -52,7 +53,7 @@ export default function Registration() {
         background: "#232631",
         color: "#fff",
         footer:
-          '<a href="" target="_blank"> Join our whatsapp group <br> <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"/></a>',
+          '<a href="https://chat.whatsapp.com/FDJrwVqW4lJ9yjekeYM1jT" target="_blank"> Join our whatsapp group <br> <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"/></a>',
       });
       if (response.success) {
         reset();
@@ -65,15 +66,15 @@ export default function Registration() {
   };
 
   // get team count Network.shared.getTeamCount()
-    useEffect(() => {
-        const fetchData = async () => {
-            const result = await Network.shared.getTeamCount();
-            console.log(result);
-            setSlotsRemaining(result);
-        }
-        fetchData();
-    }
-    , []);
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         const result = await Network.shared.getTeamCount();
+    //         console.log(result);
+    //         setSlotsRemaining(result);
+    //     }
+    //     fetchData();
+    // }
+    // , []);
 
   return (
     <div className="site-section local-bootstrap reg-section">
@@ -88,7 +89,7 @@ export default function Registration() {
                 Register your Team For Hackaholics 6.0
               </h1>
               {/* display flex */}
-              <div className="col-md-3 text-center" >
+              <div className="col-md-3 text-center">
                 <div className="d-flex flex-column align-items-center">
                   <a href="/" target="_blank">
                     <button className="btn  btn-primary py-2 px-4 text-white">
@@ -125,7 +126,7 @@ export default function Registration() {
           <div className="col-md-12 aos-init aos-animate" data-aos="fade-up">
             {/* form disable if no slots remaining , add class to disable */}
             {/* <form onSubmit={handleSubmit(onSubmit)}> */}
-            <form onSubmit={handleSubmit(onSubmit)} className={slotsRemaining <= 0 ? "disable-form" : "form"}>
+            <form onSubmit={handleSubmit(onSubmit)} className="form">
               {/* Team Information */}
               <div className="row form-group">
                 <div className="col-md-12">
@@ -312,8 +313,8 @@ export default function Registration() {
                     className={`btn btn-primary py-2 px-4 text-white ${
                       isSubmitting ? "btn-loading" : ""
                     }`}
+                    disabled={isSubmitting}
                     id="btnSubmit"
-                    disabled={isSubmitting || slotsRemaining <= 0}
                   />
                 </div>
               </div>
