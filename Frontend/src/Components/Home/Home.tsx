@@ -109,7 +109,8 @@ const Home = () => {
           </div>
         </div>
       </motion.div>
-      <Countd targetDate={new Date('2024-03-31')}/>
+      <Countd targetDate={new Date('2024-02-07T00:00:00')}/> 
+      {/* Deadline time and Date */}
     </motion.main>
   );
 };
