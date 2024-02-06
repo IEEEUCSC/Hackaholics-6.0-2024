@@ -63,7 +63,7 @@ const Footer = () => {
             </a>
           </div>
           <div>
-            <a href="https://github.com/IEEEUCSC" id="footerLink">
+            <a href="https://www.instagram.com/ucsc.wie?igsh=OHBzd25kZXByazJn" id="footerLink">
               <div className="md:text-2xl md:p-1 hover:text-violet-400 text-white text-center transition-transform transform hover:scale-80 capitalize ">
                 Instagram
               </div>
