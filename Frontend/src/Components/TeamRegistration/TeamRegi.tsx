@@ -15,7 +15,8 @@ export default function Registration() {
   const [teamMemberCount] = useState(2); // Default to 2 members
   const [teamMembers, setTeamMembers] = useState<any[]>(["member1", "member2"]);
 
-  const [slotsRemaining, setSlotsRemaining] = useState(0);
+  // const [slotsRemaining, setSlotsRemaining] = useState(0);
+
 
   // get from the form
   const [university, setUniversity] = useState(
@@ -65,15 +66,15 @@ export default function Registration() {
   };
 
   // get team count Network.shared.getTeamCount()
-    useEffect(() => {
-        const fetchData = async () => {
-            const result = await Network.shared.getTeamCount();
-            console.log(result);
-            setSlotsRemaining(result);
-        }
-        fetchData();
-    }
-    , []);
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         const result = await Network.shared.getTeamCount();
+    //         console.log(result);
+    //         setSlotsRemaining(result);
+    //     }
+    //     fetchData();
+    // }
+    // , []);
 
   return (
     <div className="site-section local-bootstrap reg-section">
