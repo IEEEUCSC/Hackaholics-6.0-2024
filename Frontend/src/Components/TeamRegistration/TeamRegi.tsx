@@ -52,7 +52,7 @@ export default function Registration() {
         background: "#232631",
         color: "#fff",
         footer:
-          '<a href="" target="_blank"> Join our whatsapp group <br> <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"/></a>',
+          '<a href="https://chat.whatsapp.com/FDJrwVqW4lJ9yjekeYM1jT" target="_blank"> Join our whatsapp group <br> <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"/></a>',
       });
       if (response.success) {
         reset();
