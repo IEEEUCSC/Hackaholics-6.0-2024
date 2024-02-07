@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
     return (
         <div
             id="navbarDiv"
-            className={`fixed top-0  w-screen bg-secondary -15 z-20 ${isOpen ? "" : "overflow-hidden"
+            className={`fixed top-0 w-screen bg-secondary -15 z-20 ${isOpen ? "" : "overflow-hidden"
                 }`}
         >
             <div className="flex flex-col md:flex-row justify-between items-right ml-0 mt-2 mr-1 md:mr-1 mb-1 md:mb-1 px-2 md:px-9 py-5 md:pt-3 md:pb-10">
@@ -74,7 +74,7 @@ const Navbar: React.FC = () => {
                         ].map((item, index) => (
                             !(item.label === "Register" && !isOpen) && (
                                 <HashLink key={index} smooth to={item.link} className="group relative ">
-                                    <div className="md:py-1 px-3 md:mt-2 z-100 indigo-950 md:text-white md:mb-2 hover:text-purple-300 active:bg-indigo-600 active:text-white text-center">
+                                    <div className="md:py-1 px-3 md:mt-2 z-100 indigo-950 md:text-white md:mb-2 hover:text-purple-300 active:bg-indigo-600 active:text-ye text-center">
                                         {item.label}
                                         <div className="absolute inset-x-0 z-100 bottom-0 h-0.5 bg-white transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 active:bg-indigo-600 active:text-white"></div>
                                     </div>

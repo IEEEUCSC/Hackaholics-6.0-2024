@@ -57,7 +57,7 @@ const Timeline: React.FC = () => {
       date: "Feb 15th",
       event: "Closing Registrations",
       description: "",
-      state: "Onsite",
+      state: "",
     },
     {
       date: "Feb 22nd",
