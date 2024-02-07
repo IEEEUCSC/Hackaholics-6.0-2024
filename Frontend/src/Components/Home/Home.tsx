@@ -63,7 +63,7 @@ const Home = () => {
             className="text-white tracking-widest text-4xl md:text-8xl landing-8 font-pfont"
             id="hackaholicsHeading"
           >
-            HACKAHOLICS 6.0
+            HACKAHOLICS
           </h1>
         </div>
       </motion.div>
