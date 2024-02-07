@@ -51,7 +51,7 @@ const Home = () => {
       id="homeComponent"
     >
       <motion.div variants={textVariants}>
-        <div className="text-white font-sfont text-xl md:text-2xl md:tracking-widest tracking-wide text-center hover:text-orange-100 mt-44">
+        <div className="text-white font-sfont text-xl md:text-2xl md:tracking-widest tracking-wide text-center mt-44">
           <p>IEEE WIE STUDENT BRANCH</p>
           <p>AFFINITY GROUP OF UCSC</p>
         </div>
