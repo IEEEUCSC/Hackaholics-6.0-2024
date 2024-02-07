@@ -15,7 +15,7 @@ const Footer = () => {
         {/* Logos */}
         <div className="flex flex-row mt-3 space-x-12 justify-center  md:flex-row items-center mb-6 md:justify-center md:gap-32 md:mb-16">
           {/* First Image */}
-          <div>
+          <div id="WIElogo">
             <a
               href="https://wie.ieee.org/"
               target="_blank"
@@ -40,6 +40,7 @@ const Footer = () => {
           <div>
             <img
               className="inline-block w-24 md:w-32 md:mt-1 md:ml-0.5 md:mr-0.5"
+              id="ucscWIElogo"
               src={ucscwie2}
               alt="wie-logo"
             />
@@ -56,21 +57,33 @@ const Footer = () => {
             </a>
           </div> */}
           <div>
-            <a href="https://www.linkedin.com/company/ieee-wie-student-branch-affinity-group-of-ucsc/" id="footerLink">
+            <a
+              href="https://www.linkedin.com/company/ieee-wie-student-branch-affinity-group-of-ucsc/"
+              id="footerLink"
+              target="_blank"
+            >
               <div className="md:text-2xl md:p-1 hover:text-violet-400 text-white text-center transition-transform transform hover:scale-80 capitalize ">
                 LinkedIn
               </div>
             </a>
           </div>
           <div>
-            <a href="https://www.instagram.com/ucsc.wie?igsh=OHBzd25kZXByazJn" id="footerLink">
+            <a
+              href="https://www.instagram.com/ucsc.wie?igsh=OHBzd25kZXByazJn"
+              id="footerLink"
+              target="_blank"
+            >
               <div className="md:text-2xl md:p-1 hover:text-violet-400 text-white text-center transition-transform transform hover:scale-80 capitalize ">
                 Instagram
               </div>
             </a>
           </div>
           <div>
-            <a href="https://www.facebook.com/profile.php?id=100064681930483&mibextid=ZbWKwL" id="footerLink">
+            <a
+              href="https://www.facebook.com/profile.php?id=100064681930483&mibextid=ZbWKwL"
+              id="footerLink"
+              target="_blank"
+            >
               <div className="md:text-2xl md:p-1 hover:text-violet-400 text-white text-center transition-transform transform hover:scale-80 capitalize ">
                 FaceBook
               </div>

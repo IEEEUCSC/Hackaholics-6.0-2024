@@ -95,7 +95,7 @@ const ContactUs = () => {
           </div>
           <div className="emailDiv">
             <p className="tracking-widest font-pfont">
-              <b className="fas fa-envelope">oewickramasingha@gmail.com</b>
+              <b className="fas fa-envelope">buddhi_yapa@ieee.org</b>
             </p>
           </div>
         </div>
