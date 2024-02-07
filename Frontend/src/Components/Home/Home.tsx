@@ -2,7 +2,7 @@
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import "./Home.css";
-import Countd from "../Timer/Time";
+import Countd from '../Timer/Time';
 import { HashLink } from "react-router-hash-link";
 
 const containerVariants = {
@@ -43,15 +43,16 @@ const Home = () => {
   }, [controls]);
 
   return (
+
     <motion.main
-      className="relative flex flex-col h-screen w-screen min-w-screen items-center justify-center text-slate-50 font-bold bg-secondary "
+      className="flex flex-col h-screen items-center justify-center text-slate-50 font-bold bg-secondary "
       initial="hidden"
       animate={controls}
       variants={containerVariants}
-      id="homeComponent"
+      id='homeComponent'
     >
       <motion.div variants={textVariants}>
-        <div className="text-white font-sfont text-xl md:text-2xl md:tracking-widest tracking-wide text-center mt-44">
+        <div className="text-white font-sfont text-xl md:text-2xl md:tracking-widest tracking-wide text-center hover:text-orange-100 mt-44">
           <p>IEEE WIE STUDENT BRANCH</p>
           <p>AFFINITY GROUP OF UCSC</p>
         </div>
@@ -59,10 +60,7 @@ const Home = () => {
 
       <motion.div variants={textVariants}>
         <div className="mt-8 md:mt-5">
-          <h1
-            className="text-white tracking-widest text-4xl md:text-8xl landing-8 font-pfont"
-            id="hackaholicsHeading"
-          >
+          <h1 className="text-white tracking-widest text-4xl md:text-8xl landing-8 font-pfont" id="hackaholicsHeading">
             HACKAHOLICS
           </h1>
         </div>
@@ -85,7 +83,7 @@ const Home = () => {
             <a
               href="https://drive.google.com/file/d/1aMsU3lKo7J8cgbkKQpbs1GwqPJA8Ynag/view?usp=sharing"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener"
               className="relative items-center justify-start inline-block p-6 px-6 py-3 overflow-hidden font-medium rounded-full group"
             >
               <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg- opacity-[3%]"></span>
@@ -115,10 +113,8 @@ const Home = () => {
           </div>
         </div>
       </motion.div>
-      <div className="flex flex-row md:mt-10 mt-8 md:mb-5 mb-4 tracking-wider font-sfont font-medium">
-        Team Registration ends in
-      </div>
-      <Countd targetDate={new Date("2024-02-16T00:00:00")} />
+      <div className="flex flex-row md:mt-10 mt-8 md:mb-5 mb-4 tracking-wider font-sfont font-medium">Team Registration ends in</div>
+      <Countd targetDate={new Date('2024-02-16T00:00:00')} />
     </motion.main>
   );
 };
