@@ -91,7 +91,7 @@ export default function Registration() {
               {/* display flex */}
               <div className="col-md-3 text-center">
                 <div className="d-flex flex-column align-items-center">
-                  <a href="/" target="_blank">
+                  <a href="https://drive.google.com/file/d/1aMsU3lKo7J8cgbkKQpbs1GwqPJA8Ynag/view" target="_blank">
                     <button className="btn  btn-primary py-2 px-4 text-white">
                       Delegate Book
                     </button>

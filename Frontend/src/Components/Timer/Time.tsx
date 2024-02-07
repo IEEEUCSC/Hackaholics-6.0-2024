@@ -24,7 +24,7 @@ const Countdown: React.FC<{ targetDate: Date }> = ({ targetDate }) => {
     }, [targetDate, calculateTimeRemaining]);
 
     return (
-        <div className="flex flex-col md:flex-row items-center content-center justify-center h-screen">
+        <div className="flex flex-col md:flex-row items-center content-center justify-center">
             <div className="grid grid-cols-4 md:gap-4 gap-2 font-bold font-pfont m-2">
                 <div className="border border-violet-950 py-3 rounded-lg bg-secondary bg-opacity-90 tracking-widest text-white text-center md:text-3xl text-xl items-center content-center justify-center shadow-lg shadow-indigo-950">
                     {timeRemaining.days}

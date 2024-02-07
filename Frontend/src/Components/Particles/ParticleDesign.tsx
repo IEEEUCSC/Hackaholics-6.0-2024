@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import type { Container, Engine } from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
-
+// import "./Particles.css";
 const ParticleDesign = () => {
     const particlesInit = useCallback(async (engine: Engine) => {
         console.log(engine);
@@ -13,7 +13,7 @@ const ParticleDesign = () => {
         await console.log(container);
     }, []);
     return (
-        <div className="-z-20">
+        <div className="-z-20" id="partclesContainor">
             <Particles
                 id="tsparticles"
                 init={particlesInit}
