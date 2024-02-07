@@ -26,7 +26,7 @@ function App() {
         <Route
           path="/*"
           element={
-            <div className="homepageComponents">
+            <div>
               <Home />
               <Intro />
               {/* <Sponsers /> */}
