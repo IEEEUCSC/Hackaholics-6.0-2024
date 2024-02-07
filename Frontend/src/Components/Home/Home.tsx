@@ -114,7 +114,9 @@ const Home = () => {
           </div>
         </div>
       </motion.div>
-      <div className="flex flex-row md:mt-10">Team Registration ends in</div>
+      <div className="flex flex-row md:mt-10 mt-8 md:mb-5 mb-4 tracking-wider font-sfont font-medium">
+        Team Registration ends in
+      </div>
       <Countd targetDate={new Date("2024-02-16T00:00:00")} />
     </motion.main>
   );
