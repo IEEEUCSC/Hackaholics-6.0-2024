@@ -83,7 +83,7 @@ const Home = () => {
             <a
               href="https://drive.google.com/file/d/1aMsU3lKo7J8cgbkKQpbs1GwqPJA8Ynag/view?usp=sharing"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="relative items-center justify-start inline-block p-6 px-6 py-3 overflow-hidden font-medium rounded-full group"
             >
               <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg- opacity-[3%]"></span>
