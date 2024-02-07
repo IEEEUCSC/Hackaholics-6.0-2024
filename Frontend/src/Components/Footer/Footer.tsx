@@ -61,6 +61,7 @@ const Footer = () => {
               href="https://www.linkedin.com/company/ieee-wie-student-branch-affinity-group-of-ucsc/"
               id="footerLink"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="md:text-2xl md:p-1 hover:text-violet-400 text-white text-center transition-transform transform hover:scale-80 capitalize ">
                 LinkedIn
@@ -72,6 +73,7 @@ const Footer = () => {
               href="https://www.instagram.com/ucsc.wie?igsh=OHBzd25kZXByazJn"
               id="footerLink"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="md:text-2xl md:p-1 hover:text-violet-400 text-white text-center transition-transform transform hover:scale-80 capitalize ">
                 Instagram
@@ -83,6 +85,7 @@ const Footer = () => {
               href="https://www.facebook.com/profile.php?id=100064681930483&mibextid=ZbWKwL"
               id="footerLink"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="md:text-2xl md:p-1 hover:text-violet-400 text-white text-center transition-transform transform hover:scale-80 capitalize ">
                 FaceBook
