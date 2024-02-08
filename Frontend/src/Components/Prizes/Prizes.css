@@ -116,15 +116,18 @@
 }
 .prizeHead {
   width: 93%;
+  white-space: nowrap;
+  min-width: 20vw;
   display: flex;
   align-items: center;
   justify-content: right;
   margin-bottom: 50px;
 }
-.shape {
+.prizeDiv .shapePrize {
   width: 20%;
+  /* width: auto !important; */
   height: 45px;
-  background: linear-gradient(to right, #782a84,#575254);
+  background: linear-gradient(to right, #782a84,#782a84);
   padding: 20px;
   text-align: center;
   color: #ffffff;
