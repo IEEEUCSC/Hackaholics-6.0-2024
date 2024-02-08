@@ -4,4 +4,6 @@
 
 .content{
   background-color: #18113A;
+  overflow: hidden;
+  max-width: 100vw;
 }

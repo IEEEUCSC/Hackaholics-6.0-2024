@@ -8,7 +8,7 @@ const Prizes = () => {
   return (
     <div className="prizeDiv" id ={"prize"}>
       <div className="prizeHead" data-aos="fade-left" data-aos-duration="1000">
-        <div className="shape">
+        <div className="shapePrize">
         <h1 className="font-sfont font-semibold tracking-wider">
             <span>Awards for Winners</span>
           </h1>
