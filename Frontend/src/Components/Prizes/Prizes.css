@@ -165,10 +165,11 @@
     height: 40%;
     margin: 10px;
   }
-  .shape {
-    width: 85%;
+  .shapePrize {
+    width: 80%!important;
   }
   .prizeHead {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
