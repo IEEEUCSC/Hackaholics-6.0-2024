@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a80087b.css",
+    "main.css": "/static/css/main.7acad5de.css",
     "main.js": "/static/js/main.77b37d1a.js",
     "static/js/860.ba47935a.chunk.js": "/static/js/860.ba47935a.chunk.js",
     "static/media/3.png": "/static/media/3.aa16f9f7e6884b8e1b38.png",
@@ -37,12 +37,12 @@
     "static/media/ibm-plex-mono-cyrillic-ext-400-normal.woff": "/static/media/ibm-plex-mono-cyrillic-ext-400-normal.18dd695e5b1103c22279.woff",
     "static/media/ibm-plex-mono-vietnamese-400-normal.woff": "/static/media/ibm-plex-mono-vietnamese-400-normal.442fb799b2a313edbc10.woff",
     "index.html": "/index.html",
-    "main.0a80087b.css.map": "/static/css/main.0a80087b.css.map",
+    "main.7acad5de.css.map": "/static/css/main.7acad5de.css.map",
     "main.77b37d1a.js.map": "/static/js/main.77b37d1a.js.map",
     "860.ba47935a.chunk.js.map": "/static/js/860.ba47935a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a80087b.css",
+    "static/css/main.7acad5de.css",
     "static/js/main.77b37d1a.js"
   ]
 }
