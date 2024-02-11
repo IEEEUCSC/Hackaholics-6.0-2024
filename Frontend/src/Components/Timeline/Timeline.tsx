@@ -55,7 +55,7 @@ const Timeline: React.FC = () => {
     },
     {
       date: "Feb 15th",
-      event: "Closing Registrations",
+      event: "Closing Registrations + Proposal Submissions Ending",
       description: "",
       state: "",
     },
@@ -85,7 +85,11 @@ const Timeline: React.FC = () => {
         className={`timeline-4 ${index % 2 === 0 ? "left" : "right"}-4`}
         key={index}
       >
-        <div className={` opacity-90 rounded card gradient-custom${index % 2 === 0 ? "-4" : ""}`}>
+        <div
+          className={` opacity-90 rounded card gradient-custom${
+            index % 2 === 0 ? "-4" : ""
+          }`}
+        >
           <div className="card-body p-4">
             <i className="fas fa-brain fa-2x mb-3"></i>
             <b>
@@ -105,11 +109,12 @@ const Timeline: React.FC = () => {
       id={"timeline"}
     >
       <div className="container py-5" id="timeLineComponentContainor">
-        <div className="timelineHead" data-aos="fade-left" data-aos-duration="1000">
-          <div
-            className="shape"
-            id="timeLineComponentShape"
-          >
+        <div
+          className="timelineHead"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <div className="shape" id="timeLineComponentShape">
             <h1 className="font-sfont font-semibold tracking-wider">
               <span>Hackaholics 6.0 Timeline</span>
             </h1>
