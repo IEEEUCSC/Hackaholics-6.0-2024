@@ -99,11 +99,11 @@ export default function Registration() {
                   <div>
                     <br></br>
                   </div>
-                  <a  target="_blank">
-                      <button className="btn btn-primary py-2 px-4 text-red">
+                  {/* <a  href="/" target="_blank"> */}
+                      <div className="btn btn-primary py-2 px-4 text-red">
                       Registration close
-                      </button>
-                  </a> 
+                      </div>
+                  {/* </a>  */}
                 </div>
               </div>
             </div>
