@@ -99,18 +99,11 @@ export default function Registration() {
                   <div>
                     <br></br>
                   </div>
-                  {/* <a  target="_blank">
-                      Delegate Book
-                    </button>
-                  </a>
-                  <div>
-                    <br></br>
-                  </div>
-                  {/* <a  target="_blank">
-                                    <button className="btn btn-primary py-2 px-4 text-red">
-                                    Registration close
-                                    </button>
-                                </a> */}
+                  <a  target="_blank">
+                      <button className="btn btn-primary py-2 px-4 text-red">
+                      Registration close
+                      </button>
+                  </a> 
                 </div>
               </div>
             </div>
@@ -126,7 +119,7 @@ export default function Registration() {
           <div className="col-md-12 aos-init aos-animate" data-aos="fade-up">
             {/* form disable if no slots remaining , add class to disable */}
             {/* <form onSubmit={handleSubmit(onSubmit)}> */}
-            <form onSubmit={handleSubmit(onSubmit)} className="form">
+            <form onSubmit={handleSubmit(onSubmit)} className=" disable-form">
               {/* Team Information */}
               <div className="row form-group">
                 <div className="col-md-12">
