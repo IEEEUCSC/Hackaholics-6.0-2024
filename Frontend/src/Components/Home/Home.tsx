@@ -2,7 +2,7 @@
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import "./Home.css";
-// import Countd from '../Timer/Time';
+import Countd from '../Timer/Time';
 import { HashLink } from "react-router-hash-link";
 
 const containerVariants = {
