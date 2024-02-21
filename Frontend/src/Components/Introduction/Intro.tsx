@@ -54,8 +54,7 @@ export default function Intro() {
             three students from the same university, focusing on innovative
             ideas within given topics. The top 10 teams are advancing to the
             next round where they prepare UI prototypes and presentations. The
-            physical competition on March 2nd, 2024, involves presenting
-            proposed ideas, with the top five teams selected based on various
+            physical competition involves presenting proposed ideas, with the top five teams selected based on various
             criteria. These finalists then tackle a scenario challenge presented
             by judges, and winners are determined by industry experts, receiving
             cash prizes.

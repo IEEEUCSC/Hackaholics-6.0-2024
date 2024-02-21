@@ -2,7 +2,7 @@
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import "./Home.css";
-import Countd from '../Timer/Time';
+// import Countd from '../Timer/Time';
 import { HashLink } from "react-router-hash-link";
 
 const containerVariants = {
@@ -113,8 +113,8 @@ const Home = () => {
           </div>
         </div>
       </motion.div>
-      <div className="flex flex-row md:mt-10 mt-8 md:mb-5 mb-4 tracking-wider font-sfont font-medium">Proposal Submission Ends In</div>
-      <Countd targetDate={new Date('2024-02-19T00:00:00')} />
+      <div className="flex flex-row md:mt-10 mt-8 md:mb-5 mb-4 tracking-wider font-sfont font-medium">Upcoming Events Will Be Announced Soon</div>
+      {/* <Countd targetDate={new Date('2024-02-19T00:00:00')} /> */}
     </motion.main>
   );
 };
